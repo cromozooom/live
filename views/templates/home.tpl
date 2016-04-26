@@ -7,7 +7,6 @@
   <div class="container">
       {include file="layout/partial/nav/nav.tpl"}
   </div>
-
 </nav>
 
 {/block}
