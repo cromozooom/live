@@ -24,6 +24,7 @@ $container['view'] = function ($container) {
     $view->registerPlugin('function', 'path_for', [$smartyPlugins, 'pathFor']);
     $view->registerPlugin('function', 'base_url', [$smartyPlugins, 'baseUrl']);
 
+    
     return $view;
 };
 
