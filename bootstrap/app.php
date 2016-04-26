@@ -24,10 +24,14 @@ $container['view'] = function ($container) {
     $view->registerPlugin('function', 'path_for', [$smartyPlugins, 'pathFor']);
     $view->registerPlugin('function', 'base_url', [$smartyPlugins, 'baseUrl']);
 
-    
+
     return $view;
 };
 
+//Controllers 
+$container['HomeController'] = function ($container) {
+    return new \App\Controllers\HomeController($container);
+};
 
 
 require __DIR__.'/../app/routes.php';
