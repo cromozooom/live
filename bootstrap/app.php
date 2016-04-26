@@ -15,7 +15,7 @@ $container = $app->getContainer();
 // Register Smarty View helper
 $container['view'] = function ($container) {
     $view = new \Slim\Views\Smarty(__DIR__.'/../views/templates', [
-        'cacheDir' => __DIR__.'/../views/cache',
+        'cacheDir' => false,
         'compileDir' => __DIR__.'/../views/templates_c',
     ]);
 
