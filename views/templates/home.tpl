@@ -8,5 +8,9 @@
       {include file="layout/partial/nav/nav.tpl"}
   </div>
 </nav>
+{if $old}
+  {$old}
+{/if}
+
 
 {/block}

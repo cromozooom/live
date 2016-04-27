@@ -8,7 +8,7 @@ class Odds
     protected $EventType;
     protected $OddsStyle;
 
-    public function __construct($branchid , $EventType, $OddsStyle )
+    public function __construct($BranchId , $EventType , $OddsStyle)
     {
       $this->BranchId = $BranchId;
       $this->EventType = $EventType;
@@ -26,8 +26,8 @@ class Odds
       return $this->OddsStyle;
     }
     public function getXmlUrl(){
-      	$url="http://netbetxml.sbtech.com/lines.aspx?branchid=".$this->BranchId."&EventType=".$this->EventType."&OddsStyle=".$this->OddsStyle;
 
+      	$url="http://netbetxml.sbtech.com/lines.aspx?branchid=".$this->BranchId."&EventType=".$this->EventType."&OddsStyle=".$this->OddsStyle;
         return $url;
     }
 
