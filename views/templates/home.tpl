@@ -12,70 +12,76 @@
   <div class="container">
     <form>
       <div class="row">
-          <!-- Split button -->
-          <div class="btn-group">
-            <button type="button" class="btn btn-primary">Brand</button>
-            <button type="button" class="btn btn-primary dropdown-toggle btn-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu">
-              {foreach from=$brand item=brandName}
-                  <li><a href="#">{$brandName}</a></li>
-              {/foreach}
-            </ul>
+        <div class="col-sm-6">
+          <div class="input-group">
+            <div class="input-group-btn">
+              <button type="button" class="btn btn-primary">Language</button>
+              <button type="button" class="btn btn-primary dropdown-toggle btn-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="caret"></span>
+                        </button>
+                  <ul class="dropdown-menu">
+                    {foreach from=$brand item=brandName}
+                      <li><a href="#">{$brandName}</a></li>
+                    {/foreach}
+                  </ul>
+            </div>
+            <input type="text" class="form-control" aria-label="...">
           </div>
+        </div>
 
+        <div class="col-sm-6">
+          <div class="input-group">
+            <div class="input-group-btn">
+              <button type="button" class="btn btn-primary">Language</button>
+              <button type="button" class="btn btn-primary dropdown-toggle btn-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="caret"></span>
+                        </button>
+                  <ul class="dropdown-menu">
+                    {foreach from=$brand item=brandName}
+                      <li><a href="#">{$brandName}</a></li>
+                    {/foreach}
+                  </ul>
+            </div>
+            <input type="text" class="form-control" aria-label="...">
+          </div>
+        </div>
         </div>
         {* End of Brand dropdown button  *}
-        <div class="row">
-            <!-- Split button -->
-            <div class="btn-group">
-              <button type="button" class="btn btn-primary">Product</button>
-              <button type="button" class="btn btn-primary dropdown-toggle btn-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a href="#">Brand</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-              </ul>
-            </div>
 
-          </div>
-          {* End of Brand dropdown button  *}
+
           <div class="row">
             <div class="col-sm-6">
-              <!-- Split button -->
-              <div class="btn-group">
-                <button type="button" class="btn btn-primary">Language</button>
-                <button type="button" class="btn btn-primary dropdown-toggle btn-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu">
-                  {foreach from=$brand item=brandName}
-                      <li><a href="#">{$brandName}</a></li>
-                  {/foreach}
-                </ul>
+              <div class="input-group">
+                <div class="input-group-btn">
+                  <button type="button" class="btn btn-primary">Language</button>
+                  <button type="button" class="btn btn-primary dropdown-toggle btn-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="caret"></span>
+                            </button>
+                      <ul class="dropdown-menu">
+                        {foreach from=$brand item=brandName}
+                          <li><a href="#">{$brandName}</a></li>
+                        {/foreach}
+                      </ul>
+                </div>
+                <input type="text" class="form-control" aria-label="...">
               </div>
             </div>
 
             <div class="col-sm-6">
               <div class="input-group">
-              <div class="input-group-btn">
-                <button type="button" class="btn btn-primary">Language</button>
-                <button type="button" class="btn btn-primary dropdown-toggle btn-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu">
-                  {foreach from=$brand item=brandName}
-                      <li><a href="#">{$brandName}</a></li>
-                  {/foreach}
-                </ul>
+                <div class="input-group-btn">
+                  <button type="button" class="btn btn-primary">Language</button>
+                  <button type="button" class="btn btn-primary dropdown-toggle btn-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="caret"></span>
+                            </button>
+                      <ul class="dropdown-menu">
+                        {foreach from=$brand item=brandName}
+                          <li><a href="#">{$brandName}</a></li>
+                        {/foreach}
+                      </ul>
+                </div>
+                <input type="text" class="form-control" aria-label="...">
               </div>
-              <input type="text" class="form-control" aria-label="...">
-            </div>
             </div>
 
             </div>
