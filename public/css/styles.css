@@ -15,7 +15,7 @@ nav{
 	background-image: url('../img/bg.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover; 
+	background-size: cover;
 }
 .offer h1{
 	font-size: 5em;
@@ -26,6 +26,9 @@ nav{
   margin-bottom: auto;
   margin:0;
 }
+.btn-dropdown{
+	padding: 14px 12px;
+}
 
  /*==========  Non-Mobile First Method  ==========*/
 /* Large Devices, Wide Screens */
@@ -35,7 +38,7 @@ nav{
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-   
+
  }
 
  /* Small Devices, Tablets */
@@ -43,12 +46,12 @@ nav{
 
 }
 
-/* Extra Small Devices, Phones */ 
+/* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
     }
 
-/* Custom, iPhone Retina */ 
+/* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-        
+
 }
