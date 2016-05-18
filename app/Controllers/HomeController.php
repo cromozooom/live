@@ -10,6 +10,7 @@ class HomeController extends Controller
     {
         $old = new odds(6,0,'DECIMAL');
         $brand = array('betfirst', 'netbet');
+
         $this->container->view->getSmarty()->assign('old');
         $this->container->view->getSmarty()->assign('brand', $brand);
         return $this->container->view->render($response, 'home.tpl');
