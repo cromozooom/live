@@ -22,33 +22,33 @@
              <div class="input-group">
                <div class="input-group-btn">
                  <button type="button" class="btn btn-primary">Brand</button>
-                 <button type="button" class="btn btn-primary dropdown-toggle btn-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 <select class="btn btn-defalult" style="width: 80%;">
+
+                     {foreach from=$brand item=brandName}
+                         <option value="{$brandName}">{$brandName}</option>
+                     {/foreach}
+
                    <span class="caret"></span>
-                 </button>
-                 <ul class="dropdown-menu">
-                   {foreach from=$brand item=brandName}
-                       <li><a href="#">{$brandName}</a></li>
-                   {/foreach}
-                 </ul>
+
+                 </select>
+
                </div>
-               <input type="text" class="form-control" aria-label="{$brandName}" placeholder="{$brandName}">
+
              </div>
            </div>
 
            <div class="col-sm-4">
              <div class="input-group">
                <div class="input-group-btn">
+                
                  <button type="button" class="btn btn-primary">Product</button>
-                 <button type="button" class="btn btn-primary dropdown-toggle btn-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                   <span class="caret"></span>
-                 </button>
-                 <ul class="dropdown-menu">
+                 <select class="btn btn-defalult" style="width: 80%;">
                    {foreach from=$products item=productName}
-                       <li><a href="{$productName}">{$productName}</a></li>
+                       <option value="{$productName}">{$productName}</option>
                    {/foreach}
-                 </ul>
+                 </select>
                </div>
-               <input type="text" class="form-control" aria-label="..." placeholder="{$productName}">
+
              </div>
            </div>
 
@@ -56,16 +56,14 @@
              <div class="input-group">
                <div class="input-group-btn">
                  <button type="button" class="btn btn-primary">Language</button>
-                 <button type="button" class="btn btn-primary dropdown-toggle btn-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                   <span class="caret"></span>
-                 </button>
-                 <ul class="dropdown-menu">
+                 <select class="btn btn-defalult">
                    {foreach from=$languages item=lang}
-                       <li><a href="#">{$lang}</a></li>
+                      <option value="{$lang}">{$lang}</option>
                    {/foreach}
-                 </ul>
+                 </select>
+
                </div>
-               <input type="text" class="form-control" aria-label="..." placeholder="{$lang}">
+
              </div>
            </div>
 
@@ -84,9 +82,17 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="{base_url}/js/bootstrap.min.js"></script>
-<script type="text/javascript">
 
-
+<script>
+$( ".brand-select" )
+  .change(function () {
+    var str = "";
+    $( ".brand-select li:selected" ).each(function() {
+      str += $( this ).text() + " ";
+    });
+    $( ".brand-input" ).text( str );
+  })
+  .change();
 </script>
 
 {/block}

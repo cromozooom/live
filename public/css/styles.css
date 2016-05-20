@@ -26,12 +26,15 @@ nav{
   margin-bottom: auto;
   margin:0;
 }
-.btn-dropdown{
-	padding: 14px 12px;
-}
+
 
 .selected{
 	margin-bottom: 20px;
+}
+
+.input-group-btn:first-child>.btn{
+	border-top-right-radius: 4px !important;
+	border-bottom-right-radius: 4px !important;
 }
  /*==========  Non-Mobile First Method  ==========*/
 /* Large Devices, Wide Screens */
