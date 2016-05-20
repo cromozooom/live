@@ -31,7 +31,7 @@
                    {/foreach}
                  </ul>
                </div>
-               <input type="text" class="form-control" aria-label="...">
+               <input type="text" class="form-control" aria-label="{$brandName}" placeholder="{$brandName}">
              </div>
            </div>
 
@@ -48,7 +48,7 @@
                    {/foreach}
                  </ul>
                </div>
-               <input type="text" class="form-control" aria-label="...">
+               <input type="text" class="form-control" aria-label="..." placeholder="{$productName}">
              </div>
            </div>
 
@@ -65,7 +65,7 @@
                    {/foreach}
                  </ul>
                </div>
-               <input type="text" class="form-control" aria-label="...">
+               <input type="text" class="form-control" aria-label="..." placeholder="{$lang}">
              </div>
            </div>
 

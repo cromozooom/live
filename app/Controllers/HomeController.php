@@ -16,15 +16,15 @@ class HomeController extends Controller
         $smarty = $this->container->view->getSmarty();
 
         foreach($brands as $i => $value){
-          $brand[] = $i;
+          $allBrand[] = $i;
           $product[] = $value;
         }
         $language = $brand->getAllLanguages();
         foreach($language as  $value){
-          $languages = $value;
+          $languages[] = $value;
         }
-      
-        $smarty->assign('brand', $brand);
+
+        $smarty->assign('brand', $allBrand);
         $smarty->assign('products', $product[0]);
         $smarty->assign('languages', $languages);
         return $this->container->view->render($response, 'home.tpl');
