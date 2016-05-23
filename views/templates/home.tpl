@@ -9,74 +9,81 @@
   </div>
 </nav>
 <section class="form">
-  <div class="container jumbotron">
-    <div class="page-header">
-      <h4>GENERATE LIVE ODDS LANDING PAGE </h4>
-    </div>
+  <div class="container">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        GENERATE LIVE ODDS LANDING PAGE
+      </div>
+      <div class="panel-body">
+        <form>
+           <div class="selected">
+             <div  class="row">
 
-    <form>
-       <div class="selected">
-         <div c lass="row">
+               <div class="col-sm-4">
+                 <div class="input-group">
+                   <div class="input-group-btn">
 
-           <div class="col-sm-4">
-             <div class="input-group">
-               <div class="input-group-btn">
-                 <button type="button" class="btn btn-primary">Brand</button>
-                 <select class="btn btn-defalult" style="width: 80%;">
-
-                     {foreach from=$brand item=brandName}
-                         <option value="{$brandName}">{$brandName}</option>
-                     {/foreach}
-
+                         <button type="button" class="btn btn-primary">Brand</button>
+                   </div>
+                   <select class="form-control" >
+                       {foreach from=$brand item=brandName}
+                           <option value="{$brandName}">{$brandName}</option>
+                       {/foreach}
                    <span class="caret"></span>
 
-                 </select>
-
+                   </select>
+                 </div>
                </div>
 
-             </div>
-           </div>
+               <div class="col-sm-4">
+                 <div class="input-group">
+                   <div class="input-group-btn">
 
-           <div class="col-sm-4">
-             <div class="input-group">
-               <div class="input-group-btn">
-                
-                 <button type="button" class="btn btn-primary">Product</button>
-                 <select class="btn btn-defalult" style="width: 80%;">
-                   {foreach from=$products item=productName}
-                       <option value="{$productName}">{$productName}</option>
-                   {/foreach}
-                 </select>
+                     <button type="button" class="btn btn-primary">Product</button>
+
+                   </div>
+                   <select class="form-control" >
+
+                     {foreach from=$products item=productName}
+                         <option value="{$productName}">{$productName}</option>
+                     {/foreach}
+                   </select>
+                 </div>
                </div>
 
-             </div>
-           </div>
+               <div class="col-sm-4">
+                 <div class="input-group">
+                   <div class="input-group-btn">
+                     <button type="button" class="btn btn-primary">Language</button>
 
-           <div class="col-sm-4">
-             <div class="input-group">
-               <div class="input-group-btn">
-                 <button type="button" class="btn btn-primary">Language</button>
-                 <select class="btn btn-defalult">
-                   {foreach from=$languages item=lang}
-                      <option value="{$lang}">{$lang}</option>
-                   {/foreach}
-                 </select>
 
+                   </div>
+                   <select class="form-control">
+                     {foreach from=$languages item=lang}
+                        <option value="{$lang}">{$lang}</option>
+                     {/foreach}
+                   </select>
+                 </div>
                </div>
 
-             </div>
+               </div>
+               {* End of Brand dropdown button  *}
            </div>
+           <input class="btn btn-default" type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
 
-           </div>
-           {* End of Brand dropdown button  *}
-       </div>
 
-
-
-      <button type="submit" class="btn btn-default">Submit</button>
-    </form>
   </div>
 </section>
+{foreach from=$brandsWithProducts key=k item=bp}
+   <h3>{$k}</h3>
+   {foreach from=$bp item=bp1}
+     <h4>{$bp1}</h4>
+      <h4>{$bp1}</h4>
+   {/foreach}
+{/foreach}
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -84,15 +91,18 @@
 <script src="{base_url}/js/bootstrap.min.js"></script>
 
 <script>
-$( ".brand-select" )
-  .change(function () {
-    var str = "";
-    $( ".brand-select li:selected" ).each(function() {
-      str += $( this ).text() + " ";
-    });
-    $( ".brand-input" ).text( str );
-  })
-  .change();
+  var brand = [];
+  {foreach from=$brandsWithProducts key=k item=bp}
+
+     {foreach from=$bp key=k1 item=bp1}
+        brand[{$k}][{$k1}] ='{$bp1}';
+     {/foreach}
+  {/foreach}
+
+
+
+
+
 </script>
 
 {/block}
