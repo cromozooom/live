@@ -25,7 +25,7 @@
 
                          <button type="button" class="btn btn-primary">Brand</button>
                    </div>
-                   <select class="form-control" >
+                   <select class="form-control" id="brandName" >
                        {foreach from=$brand item=brandName}
                            <option value="{$brandName}">{$brandName}</option>
                        {/foreach}
@@ -55,8 +55,6 @@
                  <div class="input-group">
                    <div class="input-group-btn">
                      <button type="button" class="btn btn-primary">Language</button>
-
-
                    </div>
                    <select class="form-control">
                      {foreach from=$languages item=lang}
@@ -73,17 +71,9 @@
         </form>
       </div>
     </div>
-
-
   </div>
 </section>
-{foreach from=$brandsWithProducts key=k item=bp}
-   <h3>{$k}</h3>
-   {foreach from=$bp item=bp1}
-     <h4>{$bp1}</h4>
-      <h4>{$bp1}</h4>
-   {/foreach}
-{/foreach}
+
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -91,14 +81,26 @@
 <script src="{base_url}/js/bootstrap.min.js"></script>
 
 <script>
-  var brand = [];
+  var brand = [[],[]];
   {foreach from=$brandsWithProducts key=k item=bp}
 
-     {foreach from=$bp key=k1 item=bp1}
-        brand[{$k}][{$k1}] ='{$bp1}';
+     {foreach from=$bp  item=bp1}
+
+        brand['{$k}']['{$bp1}'] ='{$bp1}';
+
      {/foreach}
   {/foreach}
 
+
+$( "#brandName" )
+  .change(function () {
+    var str = "";
+    $("#brandName option:selected").each(function() {
+      str += $( this ).text() + " ";
+    });
+    console.log(str);
+  })
+  .change();
 
 
 

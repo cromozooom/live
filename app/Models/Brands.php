@@ -7,9 +7,28 @@ namespace App\Models;
  */
 class Brands
 {
-  protected $Brands;
+  protected $Brands = [
+            'NetbetIT' => ['Sport','Casino'],
+            'NetbetFR' => ['Sport'],
+            ];
   protected $Products;
-  protected $Languages;
+  protected $Languages = [
+              'German',
+              'Greek',
+              'English (Canada)',
+              'English (United Kingdom)',
+              'Spanish',
+              'French',
+              'French (Canada)',
+              'Iralian',
+              'Japanese',
+              'Dutch',
+              'Portuguese',
+              'Romanian',
+              'Russian',
+              'Turkish',
+              'Chinese',
+            ];
 
   public function __construct()
   {
@@ -17,37 +36,15 @@ class Brands
   }
 
   public function getAllBrands(){
-    $Brands = array(
-                'Netbet IT' => array(
-                        'Sport',
-                        'Casino',
-                ),
-                'Netbet FR' => array(
-                        'Sport'
-                ),
-              );
-    return $Brands;
-  }
 
+    return $this->Brands;
+  }
+  public function getProduct(){
+
+  }
   public function getAllLanguages(){
-    $languages = array(
-                'German',
-                'Greek',
-                'English (Canada)',
-                'English (United Kingdom)',
-                'Spanish',
-                'French',
-                'French (Canada)',
-                'Iralian',
-                'Japanese',
-                'Dutch',
-                'Portuguese',
-                'Romanian',
-                'Russian',
-                'Turkish',
-                'Chinese',
-              );
-    return $languages;
+
+    return $this->Languages;
   }
   public function getNetbet(){
     $Brands = getAllBrands();

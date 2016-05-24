@@ -14,14 +14,14 @@ class HomeController extends Controller
 
         foreach($brands as $i => $value){
           $allBrand[] = $i;
-          $product[] = $value;
+          $products[] = $value;
         }
         $language = $brand->getAllLanguages();
 
 
         return $this->container->view->render($response, 'home.tpl',[
           'brand' => $allBrand,
-          'products'=>  $product[0],
+          'products'=>  $products[0],
           'languages'=> $language,
           'brandsWithProducts' => $brands,
         ]);
