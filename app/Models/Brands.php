@@ -8,8 +8,8 @@ namespace App\Models;
 class Brands
 {
   protected $Brands = [
-            'NetbetIT' => ['Sport','Casino'],
-            'NetbetFR' => ['Sport'],
+            'Netbet IT' => ['Sport','Casino'],
+            'Netbet FR' => ['Sport'],
             ];
   protected $Products;
   protected $Languages = [

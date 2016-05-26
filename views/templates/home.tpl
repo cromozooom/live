@@ -15,7 +15,7 @@
         GENERATE LIVE ODDS LANDING PAGE
       </div>
       <div class="panel-body">
-        <form>
+        <form action="{path_for name="home"}" method="post">
            <div class="selected">
              <div  class="row">
 
@@ -25,24 +25,20 @@
 
                          <button type="button" class="btn btn-primary">Brand</button>
                    </div>
-                   <select class="form-control" id="brandName" >
+                   <select class="form-control" id="brandName" name="brand" >
                        {foreach from=$brand item=brandName}
                            <option value="{$brandName}">{$brandName}</option>
                        {/foreach}
-                   <span class="caret"></span>
-
+                    <span class="caret"></span>
                    </select>
                  </div>
                </div>
-
                <div class="col-sm-4">
                  <div class="input-group">
                    <div class="input-group-btn">
-
                      <button type="button" class="btn btn-primary">Product</button>
-
                    </div>
-                   <select class="form-control" >
+                   <select class="form-control" name="product">
 
                      {foreach from=$products item=productName}
                          <option value="{$productName}">{$productName}</option>
@@ -56,7 +52,7 @@
                    <div class="input-group-btn">
                      <button type="button" class="btn btn-primary">Language</button>
                    </div>
-                   <select class="form-control">
+                   <select class="form-control" name="language">
                      {foreach from=$languages item=lang}
                         <option value="{$lang}">{$lang}</option>
                      {/foreach}
@@ -81,15 +77,15 @@
 <script src="{base_url}/js/bootstrap.min.js"></script>
 
 <script>
-  var brand = [[],[]];
-  {foreach from=$brandsWithProducts key=k item=bp}
-
-     {foreach from=$bp  item=bp1}
-
-        brand['{$k}']['{$bp1}'] ='{$bp1}';
-
-     {/foreach}
-  {/foreach}
+  // var brand = [[],[]];
+  // {foreach from=$brandsWithProducts key=k item=bp}
+  //
+  //    {foreach from=$bp  item=bp1}
+  //
+  //       brand['{$k}']['{$bp1}'] ='{$bp1}';
+  //
+  //    {/foreach}
+  // {/foreach}
 
 
 $( "#brandName" )
@@ -101,10 +97,6 @@ $( "#brandName" )
     console.log(str);
   })
   .change();
-
-
-
-
 </script>
 
 {/block}

@@ -29,6 +29,19 @@ class HomeController extends Controller
 
     public function postIndex($request, $response)
     {
+      $brand = new brands;
+      $brands = $brand->getAllBrands();
 
+      foreach($brands as $i => $value){
+        $allBrand[] = $i;
+      }
+
+      $language = $brand->getAllLanguages();
+      return $this->container->view->render($response, 'home.tpl',[
+        'brand' => $allBrand,
+        'products'=>  $brands[$request->getParam('brand')],
+        'languages'=> $language,
+        'brandsWithProducts' => $brands,
+      ]);
     }
 }
