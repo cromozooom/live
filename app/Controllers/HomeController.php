@@ -10,6 +10,7 @@ class HomeController extends Controller
     public function index($request, $response)
     {
         $brand = new brands;
+        $odds = new odds(1,1,'DECIMAL');
         $brands = $brand->getAllBrands();
 
         foreach($brands as $i => $value){
@@ -24,6 +25,7 @@ class HomeController extends Controller
           'products'=>  $products[0],
           'languages'=> $language,
           'brandsWithProducts' => $brands,
+          'xml' => $odds->getXmlUrl(),
         ]);
     }
 
@@ -43,5 +45,9 @@ class HomeController extends Controller
         'languages'=> $language,
         'brandsWithProducts' => $brands,
       ]);
+    }
+
+    public function getXmlObject($brandId){
+      echo $brandId;
     }
 }

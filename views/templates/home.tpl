@@ -65,6 +65,7 @@
            </div>
            <input class="btn btn-default" type="submit" value="Submit">
         </form>
+
       </div>
     </div>
   </div>
@@ -91,9 +92,20 @@
 $( "#brandName" )
   .change(function () {
     var str = "";
-    $("#brandName option:selected").each(function() {
-      str += $( this ).text() + " ";
-    });
+
+     $("#brandName option:selected").each(function() {
+       str += $( this ).val() + " ";
+
+      $.ajax({
+            dataType: 'json',
+            type: 'POST',
+            url: "{base_url}" +'/getXmlObject/1',
+            success: function (response) {
+                console.log(response);
+            }
+        });
+
+     });
     console.log(str);
   })
   .change();

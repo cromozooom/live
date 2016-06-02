@@ -27,7 +27,7 @@ class Odds
     }
     public function getXmlUrl(){
 
-      	$url="http://netbetxml.sbtech.com/lines.aspx?branchid=".$this->BranchId."&EventType=".$this->EventType."&OddsStyle=".$this->OddsStyle;
+      	$url="http://netbetxml.sbtech.com/lines.aspx?BranchID=".$this->BranchId."&EventType=".$this->EventType."&OddsStyle=".$this->OddsStyle;
         return $url;
     }
 
