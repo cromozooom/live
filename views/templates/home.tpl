@@ -15,7 +15,7 @@
         GENERATE LIVE ODDS LANDING PAGE
       </div>
       <div class="panel-body">
-        <form action="{path_for name="home"}" method="post">
+        <form action="{path_for name='home'}" method="post" id="form-select">
            <div class="selected">
              <div  class="row">
 
@@ -25,9 +25,9 @@
 
                          <button type="button" class="btn btn-primary">Brand</button>
                    </div>
-                   <select class="form-control" id="brandName" name="brand" >
+                   <select class="form-control" id="brandName" name="brand"  >
                        {foreach from=$brand item=brandName}
-                           <option value="{$brandName}">{$brandName}</option>
+                           <option value="{$brandName}" {if $brandName == $old.brand}selected{/if} >{$brandName}</option>
                        {/foreach}
                     <span class="caret"></span>
                    </select>
@@ -38,10 +38,10 @@
                    <div class="input-group-btn">
                      <button type="button" class="btn btn-primary">Product</button>
                    </div>
-                   <select class="form-control" name="product">
+                   <select class="form-control" id="productName" name="product">
 
                      {foreach from=$products item=productName}
-                         <option value="{$productName}">{$productName}</option>
+                         <option value="{$productName}" {if $productName == $old.product}selected{/if}>{$productName}</option>
                      {/foreach}
                    </select>
                  </div>
@@ -63,7 +63,7 @@
                </div>
                {* End of Brand dropdown button  *}
            </div>
-           <input class="btn btn-default" type="submit" value="Submit">
+
         </form>
 
       </div>
@@ -78,37 +78,12 @@
 <script src="{base_url}/js/bootstrap.min.js"></script>
 
 <script>
-  // var brand = [[],[]];
-  // {foreach from=$brandsWithProducts key=k item=bp}
-  //
-  //    {foreach from=$bp  item=bp1}
-  //
-  //       brand['{$k}']['{$bp1}'] ='{$bp1}';
-  //
-  //    {/foreach}
-  // {/foreach}
-
-
-$( "#brandName" )
-  .change(function () {
-    var str = "";
-
-     $("#brandName option:selected").each(function() {
-       str += $( this ).val() + " ";
-
-      $.ajax({
-            dataType: 'json',
-            type: 'POST',
-            url: "{base_url}" +'/getXmlObject/1',
-            success: function (response) {
-                console.log(response);
-            }
-        });
-
-     });
-    console.log(str);
-  })
-  .change();
+$("#brandName").change(function(){
+          this.form.submit();
+});
+$("#productName").change(function(){
+          this.form.submit();
+});
 </script>
 
 {/block}

@@ -26,10 +26,14 @@ $container['view'] = function ($container) {
     return $view;
 };
 
+//Middleware
+$app->add(new \App\Middleware\OldInputMiddleware($container));
+
 //Controllers
 $container['HomeController'] = function ($container) {
     return new \App\Controllers\HomeController($container);
 };
+
 
 
 require __DIR__.'/../app/routes.php';

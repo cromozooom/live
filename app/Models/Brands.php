@@ -10,6 +10,7 @@ class Brands
   protected $Brands = [
             'Netbet IT' => ['Sport','Casino'],
             'Netbet FR' => ['Sport'],
+            '777 BE' => ['Sport', 'Casino'],
             ];
   protected $Products;
   protected $Languages = [
