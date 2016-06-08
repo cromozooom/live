@@ -10,8 +10,15 @@ class HomeController extends Controller
     public function index($request, $response)
     {
         $brand = new brands;
-        $odds = new odds(1,1,'DECIMAL');
+        $odds = new odds;
         $brands = $brand->getAllBrands();
+
+        $xmlContent = $odds->getXmlUrl();
+        var_dump($xmlContent);
+        die();
+    		$xml1 = $odds->getXmlObject($xmlContent);
+
+        $xml = simplexml_load_string($xml1);
 
         foreach($brands as $i => $value){
           $allBrand[] = $i;

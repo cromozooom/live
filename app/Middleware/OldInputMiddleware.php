@@ -1,19 +1,23 @@
 <?php
 
 namespace App\Middleware;
+use App\Models\Brands as brands;
 
   class OldInputMiddleware extends Middleware
   {
     public function __invoke($request, $response, $next)
     {
-        $smarty = $this->container->view->getSmarty();
 
-        if ($_SESSION) {
+
+        $smarty = $this->container->view->getSmarty();
+        $_SESSION['old'] = $request->getParams();
+
+        if (!empty($_SESSION['old'])) {
           $smarty->assign('old', $_SESSION['old']);
-          $_SESSION['old'] = $request->getParams();
+        }else {
+          $smarty->assign('old',  ['brand' =>'' , 'product' => '' ]);
         }
 
-        $smarty->assign('old',$_SESSION['old']);
 
         $response = $next($request, $response);
         return $response;

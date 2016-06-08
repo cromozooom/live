@@ -105,7 +105,7 @@ class Smarty_Internal_Method_ClearCompiledTemplate
                         $unlink = true;
                     }
                 }
-
+                
                 if ($unlink && @unlink($_filepath)) {
                     $_count ++;
                     if (function_exists('opcache_invalidate')) {

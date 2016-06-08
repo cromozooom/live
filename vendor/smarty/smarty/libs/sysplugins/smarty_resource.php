@@ -187,7 +187,7 @@ abstract class Smarty_Resource
             return $smarty->_cache['resource_handlers'][$type] = new Smarty_Internal_Resource_Stream();
         }
 
-        // TODO: try default_(template|config)_handler
+        // TODO:10 try default_(template|config)_handler
 
         // give up
         throw new SmartyException("Unknown resource type '{$type}'");
@@ -228,7 +228,7 @@ abstract class Smarty_Resource
     {
         $smarty = $obj->_objType == 2 ? $obj->smarty : $obj;
         list($name, $type) = self::parseResourceName($template_resource, $smarty->default_resource_type);
-        // TODO: optimize for Smarty's internal resource types
+        // TODO:0 optimize for Smarty's internal resource types
         $resource = Smarty_Resource::load($smarty, $type);
         // go relative to a given template?
         $_file_is_dotted = $name[0] == '.' && ($name[1] == '.' || $name[1] == '/');
