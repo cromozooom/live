@@ -10,15 +10,12 @@ class HomeController extends Controller
     public function index($request, $response)
     {
         $brand = new brands;
-        $odds = new odds;
+
         $brands = $brand->getAllBrands();
 
-        $xmlContent = $odds->getXmlUrl();
-        var_dump($xmlContent);
-        die();
-    		$xml1 = $odds->getXmlObject($xmlContent);
+        $xmlFile = 'xmlFeeds/xml-football.xml';
 
-        $xml = simplexml_load_string($xml1);
+        $xml = simplexml_load_file($xmlFile);
 
         foreach($brands as $i => $value){
           $allBrand[] = $i;
@@ -32,7 +29,7 @@ class HomeController extends Controller
           'products'=>  $products[0],
           'languages'=> $language,
           'brandsWithProducts' => $brands,
-          'xml' => $odds->getXmlUrl(),
+          'xmlFeeds'=> $xml,
         ]);
     }
 

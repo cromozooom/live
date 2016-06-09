@@ -21,7 +21,7 @@
 function smarty_modifiercompiler_to_charset($params)
 {
     if (!Smarty::$_MBSTRING) {
-        // FIXME:30 (rodneyrehm) shouldn't this throw an error?
+        // FIXME:40 (rodneyrehm) shouldn't this throw an error?
         return $params[0];
     }
 

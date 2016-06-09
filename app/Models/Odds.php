@@ -27,7 +27,7 @@ class Odds
       return $this->OddsStyle;
     }
     public function getXmlUrl(){
-      // FIXME: Make $url display notthing when empty
+      // FIXME:0 Make $url display notthing when empty
         $BranchIdText = "&BranchID=".$this->BranchId;
         $EventTypeText = "&EventType=".$this->EventType;
         $OddsStyleText = "&OddsStyle=".$this->OddsStyle;

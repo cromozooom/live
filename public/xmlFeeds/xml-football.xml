@@ -1,0 +1,2244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 0 FT-->
+<Events>
+  <Event DateTimeGMT="28/05/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="England - Championship" LeagueID="22624" ID="14185540" IsOption="1" EventType="0" MEID="5700070">
+    <Participants>
+      <Participant1 Name="Hull City" Home_Visiting="Home" />
+      <Participant2 Name="Sheffield Wed" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.13" Home_Points="-0.5" Away_Points="0.5" Away_Odds="1.66" />
+    <Total Points="2" Over="1.71" Under="2" />
+  </Event>
+  <Event DateTimeGMT="28/05/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="England - Championship" LeagueID="22624" ID="14185540" IsOption="0" EventType="0" MEID="5700070">
+    <Participants>
+      <Participant1 Name="Hull City" Home_Visiting="Home" />
+      <Participant2 Name="Sheffield Wed" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.2" Draw="3.15" Away="3.4" />
+    <Spread Home_Odds="1.88" Home_Points="-0.25" Away_Points="0.25" Away_Odds="1.9" />
+    <Total Points="2.25" Over="1.98" Under="1.76" />
+  </Event>
+  <Event DateTimeGMT="15/06/2016 13:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12786136" IsOption="0" EventType="0" MEID="5246215">
+    <Participants>
+      <Participant1 Name="Russia" Home_Visiting="Home" />
+      <Participant2 Name="Slovakia" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.8" Draw="3.45" Away="4.85" />
+  </Event>
+  <Event DateTimeGMT="15/06/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12786137" IsOption="0" EventType="0" MEID="5246216">
+    <Participants>
+      <Participant1 Name="Romania" Home_Visiting="Home" />
+      <Participant2 Name="Switzerland" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="4.05" Draw="3.45" Away="1.95" />
+  </Event>
+  <Event DateTimeGMT="15/06/2016 19:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12786138" IsOption="0" EventType="0" MEID="5246217">
+    <Participants>
+      <Participant1 Name="France" Home_Visiting="Home" />
+      <Participant2 Name="Albania" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.21" Draw="6.4" Away="13.75" />
+  </Event>
+  <Event DateTimeGMT="16/06/2016 13:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12786139" IsOption="0" EventType="0" MEID="5246218">
+    <Participants>
+      <Participant1 Name="England" Home_Visiting="Home" />
+      <Participant2 Name="Wales" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.8" Draw="3.45" Away="4.55" />
+  </Event>
+  <Event DateTimeGMT="16/06/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12786140" IsOption="0" EventType="0" MEID="5246219">
+    <Participants>
+      <Participant1 Name="Ukraine" Home_Visiting="Home" />
+      <Participant2 Name="Northern Ireland" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.95" Draw="3.35" Away="3.95" />
+  </Event>
+  <Event DateTimeGMT="16/06/2016 19:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12786141" IsOption="0" EventType="0" MEID="5246220">
+    <Participants>
+      <Participant1 Name="Germany" Home_Visiting="Home" />
+      <Participant2 Name="Poland" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.61" Draw="3.8" Away="5.55" />
+  </Event>
+  <Event DateTimeGMT="17/06/2016 13:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12786142" IsOption="0" EventType="0" MEID="5246221">
+    <Participants>
+      <Participant1 Name="Italy" Home_Visiting="Home" />
+      <Participant2 Name="Sweden" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2" Draw="3.25" Away="3.9" />
+  </Event>
+  <Event DateTimeGMT="17/06/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12786143" IsOption="0" EventType="0" MEID="5246222">
+    <Participants>
+      <Participant1 Name="Czech Republic" Home_Visiting="Home" />
+      <Participant2 Name="Croatia" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="3.2" Draw="3.2" Away="2.25" />
+  </Event>
+  <Event DateTimeGMT="17/06/2016 19:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12786144" IsOption="0" EventType="0" MEID="5246223">
+    <Participants>
+      <Participant1 Name="Spain" Home_Visiting="Home" />
+      <Participant2 Name="Turkey" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.65" Draw="3.65" Away="5.5" />
+  </Event>
+  <Event DateTimeGMT="18/06/2016 13:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12786145" IsOption="0" EventType="0" MEID="5246224">
+    <Participants>
+      <Participant1 Name="Belgium" Home_Visiting="Home" />
+      <Participant2 Name="Ireland" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.59" Draw="3.95" Away="5.65" />
+  </Event>
+  <Event DateTimeGMT="18/06/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12786146" IsOption="0" EventType="0" MEID="5246225">
+    <Participants>
+      <Participant1 Name="Iceland" Home_Visiting="Home" />
+      <Participant2 Name="Hungary" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.3" Draw="3.2" Away="3.2" />
+  </Event>
+  <Event DateTimeGMT="18/06/2016 19:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12786147" IsOption="0" EventType="0" MEID="5246226">
+    <Participants>
+      <Participant1 Name="Portugal" Home_Visiting="Home" />
+      <Participant2 Name="Austria" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.25" Draw="3.2" Away="3.2" />
+  </Event>
+  <Event DateTimeGMT="19/06/2016 19:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12786148" IsOption="0" EventType="0" MEID="5246227">
+    <Participants>
+      <Participant1 Name="Romania" Home_Visiting="Home" />
+      <Participant2 Name="Albania" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2" Draw="3.25" Away="4" />
+  </Event>
+  <Event DateTimeGMT="19/06/2016 19:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12786149" IsOption="0" EventType="0" MEID="5246228">
+    <Participants>
+      <Participant1 Name="Switzerland" Home_Visiting="Home" />
+      <Participant2 Name="France" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="4.7" Draw="3.45" Away="1.77" />
+  </Event>
+  <Event DateTimeGMT="20/06/2016 19:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12786150" IsOption="0" EventType="0" MEID="5246229">
+    <Participants>
+      <Participant1 Name="Slovakia" Home_Visiting="Home" />
+      <Participant2 Name="England" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="6.05" Draw="4" Away="1.54" />
+  </Event>
+  <Event DateTimeGMT="20/06/2016 19:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12786151" IsOption="0" EventType="0" MEID="5246230">
+    <Participants>
+      <Participant1 Name="Russia" Home_Visiting="Home" />
+      <Participant2 Name="Wales" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.2" Draw="3.2" Away="3.35" />
+  </Event>
+  <Event DateTimeGMT="21/06/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12786152" IsOption="0" EventType="0" MEID="5246231">
+    <Participants>
+      <Participant1 Name="Northern Ireland" Home_Visiting="Home" />
+      <Participant2 Name="Germany" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="11.75" Draw="6.2" Away="1.22" />
+  </Event>
+  <Event DateTimeGMT="21/06/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12786153" IsOption="0" EventType="0" MEID="5246232">
+    <Participants>
+      <Participant1 Name="Ukraine" Home_Visiting="Home" />
+      <Participant2 Name="Poland" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.85" Draw="3.2" Away="2.5" />
+  </Event>
+  <Event DateTimeGMT="21/06/2016 19:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12786154" IsOption="0" EventType="0" MEID="5246233">
+    <Participants>
+      <Participant1 Name="Czech Republic" Home_Visiting="Home" />
+      <Participant2 Name="Turkey" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.6" Draw="3.1" Away="2.85" />
+  </Event>
+  <Event DateTimeGMT="21/06/2016 19:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12786155" IsOption="0" EventType="0" MEID="5246234">
+    <Participants>
+      <Participant1 Name="Croatia" Home_Visiting="Home" />
+      <Participant2 Name="Spain" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="3.85" Draw="3.2" Away="2.05" />
+  </Event>
+  <Event DateTimeGMT="22/06/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12786156" IsOption="0" EventType="0" MEID="5246235">
+    <Participants>
+      <Participant1 Name="Hungary" Home_Visiting="Home" />
+      <Participant2 Name="Portugal" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="5.9" Draw="3.9" Away="1.57" />
+  </Event>
+  <Event DateTimeGMT="22/06/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12786157" IsOption="0" EventType="0" MEID="5246236">
+    <Participants>
+      <Participant1 Name="Iceland" Home_Visiting="Home" />
+      <Participant2 Name="Austria" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="3.7" Draw="3.25" Away="2.05" />
+  </Event>
+  <Event DateTimeGMT="22/06/2016 19:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12786158" IsOption="0" EventType="0" MEID="5246237">
+    <Participants>
+      <Participant1 Name="Sweden" Home_Visiting="Home" />
+      <Participant2 Name="Belgium" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="5.2" Draw="3.55" Away="1.69" />
+  </Event>
+  <Event DateTimeGMT="22/06/2016 19:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12786159" IsOption="0" EventType="0" MEID="5246238">
+    <Participants>
+      <Participant1 Name="Italy" Home_Visiting="Home" />
+      <Participant2 Name="Ireland" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.74" Draw="3.55" Away="4.95" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 10:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Australia - Victorian Premier" LeagueID="34017" ID="14190994" IsOption="0" EventType="0" MEID="5702192">
+    <Participants>
+      <Participant1 Name="FC Bulleen Lions" Home_Visiting="Home" />
+      <Participant2 Name="Hume City" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="4.95" Draw="3.95" Away="1.63" />
+    <Spread Home_Odds="2.08" Home_Points="0.75" Away_Points="-0.75" Away_Odds="1.75" />
+    <Total Points="2.75" Over="1.71" Under="2.09" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Superettan" LeagueID="29302" ID="14148003" IsOption="1" EventType="0" MEID="5687767">
+    <Participants>
+      <Participant1 Name="Atvidaberg" Home_Visiting="Home" />
+      <Participant2 Name="AFC United" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.09" Home_Points="0" Away_Points="0" Away_Odds="1.71" />
+    <Total Points="2.5" Over="2.02" Under="1.72" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Superettan" LeagueID="29302" ID="14148003" IsOption="1" EventType="0" MEID="5687767">
+    <Participants>
+      <Participant1 Name="Atvidaberg" Home_Visiting="Home" />
+      <Participant2 Name="AFC United" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="1.55" Home_Points="0.5" Away_Points="-0.5" Away_Odds="2.4" />
+    <Total Points="2" Over="1.53" Under="2.38" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Superettan" LeagueID="29302" ID="14148003" IsOption="0" EventType="0" MEID="5687767">
+    <Participants>
+      <Participant1 Name="Atvidaberg" Home_Visiting="Home" />
+      <Participant2 Name="AFC United" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.9" Draw="3.2" Away="2.35" />
+    <Spread Home_Odds="1.82" Home_Points="0.25" Away_Points="-0.25" Away_Odds="1.99" />
+    <Total Points="2.25" Over="1.81" Under="1.98" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Superettan" LeagueID="29302" ID="14148004" IsOption="1" EventType="0" MEID="5687768">
+    <Participants>
+      <Participant1 Name="Halmstads" Home_Visiting="Home" />
+      <Participant2 Name="Dalkurd FF" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.16" Home_Points="-0.5" Away_Points="0.5" Away_Odds="1.67" />
+    <Total Points="2.5" Over="2.11" Under="1.67" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Superettan" LeagueID="29302" ID="14148004" IsOption="1" EventType="0" MEID="5687768">
+    <Participants>
+      <Participant1 Name="Halmstads" Home_Visiting="Home" />
+      <Participant2 Name="Dalkurd FF" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="1.61" Home_Points="0" Away_Points="0" Away_Odds="2.27" />
+    <Total Points="2.75" Over="2.42" Under="1.51" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Superettan" LeagueID="29302" ID="14148004" IsOption="0" EventType="0" MEID="5687768">
+    <Participants>
+      <Participant1 Name="Halmstads" Home_Visiting="Home" />
+      <Participant2 Name="Dalkurd FF" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.15" Draw="3.25" Away="3.25" />
+    <Spread Home_Odds="1.9" Home_Points="-0.25" Away_Points="0.25" Away_Odds="1.91" />
+    <Total Points="2.25" Over="1.85" Under="1.93" />
+  </Event>
+  <Event DateTimeGMT="25/05/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="AFC Champions League" LeagueID="20369" ID="14227666" IsOption="0" EventType="0" MEID="5714592">
+    <Participants>
+      <Participant1 Name="El Jaish [QAT]" Home_Visiting="Home" />
+      <Participant2 Name="Lekhwiya Doha" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.2" Draw="3.4" Away="3" />
+  </Event>
+  <Event DateTimeGMT="25/05/2016 16:15:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="AFC Champions League" LeagueID="20369" ID="14227667" IsOption="0" EventType="0" MEID="5714593">
+    <Participants>
+      <Participant1 Name="Zob Ahan" Home_Visiting="Home" />
+      <Participant2 Name="Al Ain [UAE]" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.7" Draw="3.3" Away="2.45" />
+  </Event>
+  <Event DateTimeGMT="25/05/2016 10:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="AFC Champions League" LeagueID="20369" ID="14227668" IsOption="0" EventType="0" MEID="5714594">
+    <Participants>
+      <Participant1 Name="FC Seoul" Home_Visiting="Home" />
+      <Participant2 Name="Urawa Red Diamond" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.05" Draw="3.55" Away="3.25" />
+  </Event>
+  <Event DateTimeGMT="06/09/2016 19:45:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="World Cup Europe Qualify" LeagueID="24341" ID="12786233" IsOption="0" EventType="0" MEID="5246312">
+    <Participants>
+      <Participant1 Name="Sweden" Home_Visiting="Home" />
+      <Participant2 Name="Netherlands" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="3.15" Draw="3.35" Away="2.15" />
+  </Event>
+  <Event DateTimeGMT="28/05/2016 14:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Allsvenskan" LeagueID="29303" ID="14208557" IsOption="0" EventType="0" MEID="5708496">
+    <Participants>
+      <Participant1 Name="AIK Solna" Home_Visiting="Home" />
+      <Participant2 Name="Orebro" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.83" Draw="3.55" Away="4.1" />
+  </Event>
+  <Event DateTimeGMT="28/05/2016 14:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Allsvenskan" LeagueID="29303" ID="14208558" IsOption="0" EventType="0" MEID="5708497">
+    <Participants>
+      <Participant1 Name="Jonkopings Sodra" Home_Visiting="Home" />
+      <Participant2 Name="Sundsvall" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.91" Draw="3.4" Away="3.8" />
+  </Event>
+  <Event DateTimeGMT="28/05/2016 14:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Allsvenskan" LeagueID="29303" ID="14208559" IsOption="0" EventType="0" MEID="5708498">
+    <Participants>
+      <Participant1 Name="Ostersund" Home_Visiting="Home" />
+      <Participant2 Name="Malmo" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="3.45" Draw="3.4" Away="2.05" />
+  </Event>
+  <Event DateTimeGMT="29/05/2016 13:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Allsvenskan" LeagueID="29303" ID="14208560" IsOption="0" EventType="0" MEID="5708499">
+    <Participants>
+      <Participant1 Name="Hammarby" Home_Visiting="Home" />
+      <Participant2 Name="Gefle" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.51" Draw="4.1" Away="5.45" />
+  </Event>
+  <Event DateTimeGMT="30/05/2016 14:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="England - League Two" LeagueID="22611" ID="14197382" IsOption="0" EventType="0" MEID="5704394">
+    <Participants>
+      <Participant1 Name="AFC Wimbledon" Home_Visiting="Home" />
+      <Participant2 Name="Plymouth" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.85" Draw="3.05" Away="2.45" />
+    <Spread Home_Odds="2.01" Home_Points="0" Away_Points="0" Away_Odds="1.73" />
+    <Total Points="2.25" Over="1.96" Under="1.74" />
+  </Event>
+  <Event DateTimeGMT="25/05/2016 15:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Finland - Veikkausliiga" LeagueID="29304" ID="14222000" IsOption="0" EventType="0" MEID="5712683">
+    <Participants>
+      <Participant1 Name="Mariehamn" Home_Visiting="Home" />
+      <Participant2 Name="KuPS Kuopio" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.74" Draw="3.4" Away="5" />
+    <Spread Home_Odds="1.97" Home_Points="-0.75" Away_Points="0.75" Away_Odds="1.85" />
+    <Total Points="2" Over="1.78" Under="2" />
+  </Event>
+  <Event DateTimeGMT="25/05/2016 15:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Finland - Veikkausliiga" LeagueID="29304" ID="14222000" IsOption="1" EventType="0" MEID="5712683">
+    <Participants>
+      <Participant1 Name="Mariehamn" Home_Visiting="Home" />
+      <Participant2 Name="KuPS Kuopio" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="1.72" Home_Points="-0.5" Away_Points="0.5" Away_Odds="2.07" />
+    <Total Points="2.25" Over="1.99" Under="1.75" />
+  </Event>
+  <Event DateTimeGMT="25/05/2016 15:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Finland - Veikkausliiga" LeagueID="29304" ID="14222001" IsOption="0" EventType="0" MEID="5712684">
+    <Participants>
+      <Participant1 Name="Ilves Tampere" Home_Visiting="Home" />
+      <Participant2 Name="Lahti" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.6" Draw="3.1" Away="2.75" />
+    <Spread Home_Odds="1.86" Home_Points="0" Away_Points="0" Away_Odds="1.95" />
+    <Total Points="2" Over="1.76" Under="2.01" />
+  </Event>
+  <Event DateTimeGMT="25/05/2016 15:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Finland - Veikkausliiga" LeagueID="29304" ID="14222001" IsOption="1" EventType="0" MEID="5712684">
+    <Participants>
+      <Participant1 Name="Ilves Tampere" Home_Visiting="Home" />
+      <Participant2 Name="Lahti" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.16" Home_Points="-0.25" Away_Points="0.25" Away_Odds="1.67" />
+    <Total Points="2.25" Over="2.03" Under="1.72" />
+  </Event>
+  <Event DateTimeGMT="25/05/2016 15:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Finland - Veikkausliiga" LeagueID="29304" ID="14222002" IsOption="0" EventType="0" MEID="5712685">
+    <Participants>
+      <Participant1 Name="PK-35 Vantaa" Home_Visiting="Home" />
+      <Participant2 Name="Inter Turku" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.3" Draw="3.2" Away="3.15" />
+    <Spread Home_Odds="1.99" Home_Points="-0.25" Away_Points="0.25" Away_Odds="1.82" />
+    <Total Points="2.25" Over="1.88" Under="1.89" />
+  </Event>
+  <Event DateTimeGMT="25/05/2016 15:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Finland - Veikkausliiga" LeagueID="29304" ID="14222002" IsOption="1" EventType="0" MEID="5712685">
+    <Participants>
+      <Participant1 Name="PK-35 Vantaa" Home_Visiting="Home" />
+      <Participant2 Name="Inter Turku" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="1.66" Home_Points="0" Away_Points="0" Away_Odds="2.18" />
+    <Total Points="2" Over="1.6" Under="2.23" />
+  </Event>
+  <Event DateTimeGMT="25/05/2016 15:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Finland - Veikkausliiga" LeagueID="29304" ID="14222003" IsOption="0" EventType="0" MEID="5712686">
+    <Participants>
+      <Participant1 Name="Seinajoen JK" Home_Visiting="Home" />
+      <Participant2 Name="Vaasa" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.69" Draw="3.45" Away="5.6" />
+    <Spread Home_Odds="1.91" Home_Points="-0.75" Away_Points="0.75" Away_Odds="1.9" />
+    <Total Points="2" Over="1.83" Under="1.94" />
+  </Event>
+  <Event DateTimeGMT="25/05/2016 15:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Finland - Veikkausliiga" LeagueID="29304" ID="14222003" IsOption="1" EventType="0" MEID="5712686">
+    <Participants>
+      <Participant1 Name="Seinajoen JK" Home_Visiting="Home" />
+      <Participant2 Name="Vaasa" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="1.69" Home_Points="-0.5" Away_Points="0.5" Away_Odds="2.12" />
+    <Total Points="2.25" Over="2.09" Under="1.68" />
+  </Event>
+  <Event DateTimeGMT="26/05/2016 15:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Finland - Veikkausliiga" LeagueID="29304" ID="14222004" IsOption="0" EventType="0" MEID="5712687">
+    <Participants>
+      <Participant1 Name="Helsinki" Home_Visiting="Home" />
+      <Participant2 Name="HIFK Helsinki" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.53" Draw="4" Away="5.9" />
+    <Spread Home_Odds="1.92" Home_Points="-1" Away_Points="1" Away_Odds="1.85" />
+    <Total Points="2.5" Over="1.84" Under="1.9" />
+  </Event>
+  <Event DateTimeGMT="26/05/2016 15:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Finland - Veikkausliiga" LeagueID="29304" ID="14222004" IsOption="1" EventType="0" MEID="5712687">
+    <Participants>
+      <Participant1 Name="Helsinki" Home_Visiting="Home" />
+      <Participant2 Name="HIFK Helsinki" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.16" Home_Points="-1.25" Away_Points="1.25" Away_Odds="1.64" />
+    <Total Points="2.25" Over="1.66" Under="2.07" />
+  </Event>
+  <Event DateTimeGMT="25/05/2016 23:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="USA - MLS" LeagueID="31803" ID="14234170" IsOption="0" EventType="0" MEID="5716824">
+    <Participants>
+      <Participant1 Name="Orlando City" Home_Visiting="Home" />
+      <Participant2 Name="Philadelphia Union" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2" Draw="3.45" Away="3.65" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway 4th - Halogaland 2" LeagueID="36838" ID="14191460" IsOption="0" EventType="0" MEID="5702398">
+    <Participants>
+      <Participant1 Name="Kabelvag" Home_Visiting="Home" />
+      <Participant2 Name="Leknes" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="8" Draw="6.45" Away="1.2" />
+  </Event>
+  <Event DateTimeGMT="26/05/2016 18:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Turkey Cup" LeagueID="25135" ID="14191472" IsOption="1" EventType="0" MEID="5702410">
+    <Participants>
+      <Participant1 Name="Galatasaray" Home_Visiting="Home" />
+      <Participant2 Name="Fenerbahce" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.11" Home_Points="0.25" Away_Points="-0.25" Away_Odds="1.67" />
+    <Total Points="2.75" Over="1.98" Under="1.72" />
+  </Event>
+  <Event DateTimeGMT="26/05/2016 18:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Turkey Cup" LeagueID="25135" ID="14191472" IsOption="0" EventType="0" MEID="5702410">
+    <Participants>
+      <Participant1 Name="Galatasaray" Home_Visiting="Home" />
+      <Participant2 Name="Fenerbahce" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="3.75" Draw="3.35" Away="1.95" />
+    <Spread Home_Odds="1.83" Home_Points="0.5" Away_Points="-0.5" Away_Odds="1.95" />
+    <Total Points="2.5" Over="1.81" Under="1.93" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Allsvenskan" LeagueID="29303" ID="14186532" IsOption="0" EventType="0" MEID="5700355">
+    <Participants>
+      <Participant1 Name="Gefle" Home_Visiting="Home" />
+      <Participant2 Name="AIK Solna" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="4.85" Draw="3.95" Away="1.65" />
+    <Spread Home_Odds="1.96" Home_Points="0.75" Away_Points="-0.75" Away_Odds="1.85" />
+    <Total Points="2.75" Over="1.93" Under="1.85" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Allsvenskan" LeagueID="29303" ID="14186532" IsOption="1" EventType="0" MEID="5700355">
+    <Participants>
+      <Participant1 Name="Gefle" Home_Visiting="Home" />
+      <Participant2 Name="AIK Solna" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="1.68" Home_Points="1" Away_Points="-1" Away_Odds="2.14" />
+    <Total Points="2.5" Over="1.7" Under="2.06" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Allsvenskan" LeagueID="29303" ID="14186532" IsOption="1" EventType="0" MEID="5700355">
+    <Participants>
+      <Participant1 Name="Gefle" Home_Visiting="Home" />
+      <Participant2 Name="AIK Solna" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.2" Home_Points="0.5" Away_Points="-0.5" Away_Odds="1.65" />
+    <Total Points="3" Over="2.18" Under="1.63" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Allsvenskan" LeagueID="29303" ID="14186533" IsOption="0" EventType="0" MEID="5700356">
+    <Participants>
+      <Participant1 Name="IFK Goteborg" Home_Visiting="Home" />
+      <Participant2 Name="Hammarby" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.71" Draw="3.85" Away="4.6" />
+    <Spread Home_Odds="1.93" Home_Points="-0.75" Away_Points="0.75" Away_Odds="1.88" />
+    <Total Points="2.75" Over="1.88" Under="1.89" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Allsvenskan" LeagueID="29303" ID="14186533" IsOption="1" EventType="0" MEID="5700356">
+    <Participants>
+      <Participant1 Name="IFK Goteborg" Home_Visiting="Home" />
+      <Participant2 Name="Hammarby" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="1.7" Home_Points="-0.5" Away_Points="0.5" Away_Odds="2.1" />
+    <Total Points="2.5" Over="1.68" Under="2.09" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Allsvenskan" LeagueID="29303" ID="14186533" IsOption="1" EventType="0" MEID="5700356">
+    <Participants>
+      <Participant1 Name="IFK Goteborg" Home_Visiting="Home" />
+      <Participant2 Name="Hammarby" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.22" Home_Points="-1" Away_Points="1" Away_Odds="1.64" />
+    <Total Points="3" Over="2.13" Under="1.66" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Allsvenskan" LeagueID="29303" ID="14186534" IsOption="0" EventType="0" MEID="5700357">
+    <Participants>
+      <Participant1 Name="Malmo" Home_Visiting="Home" />
+      <Participant2 Name="Falkenbergs" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.16" Draw="7.25" Away="16" />
+    <Spread Home_Odds="1.88" Home_Points="-2" Away_Points="2" Away_Odds="1.93" />
+    <Total Points="3.25" Over="1.88" Under="1.89" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Allsvenskan" LeagueID="29303" ID="14186534" IsOption="1" EventType="0" MEID="5700357">
+    <Participants>
+      <Participant1 Name="Malmo" Home_Visiting="Home" />
+      <Participant2 Name="Falkenbergs" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.11" Home_Points="-2.25" Away_Points="2.25" Away_Odds="1.69" />
+    <Total Points="3.5" Over="2.03" Under="1.71" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Allsvenskan" LeagueID="29303" ID="14186534" IsOption="1" EventType="0" MEID="5700357">
+    <Participants>
+      <Participant1 Name="Malmo" Home_Visiting="Home" />
+      <Participant2 Name="Falkenbergs" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="1.69" Home_Points="-1.75" Away_Points="1.75" Away_Odds="2.12" />
+    <Total Points="3" Over="1.65" Under="2.15" />
+  </Event>
+  <Event DateTimeGMT="26/05/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Champions League Women" LeagueID="24886" ID="14234281" IsOption="0" EventType="0" MEID="5716869">
+    <Participants>
+      <Participant1 Name="Wolfsburg [W]" Home_Visiting="Home" />
+      <Participant2 Name="Lyon [W]" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="3.8" Draw="3.35" Away="1.8" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 14:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Friendly Intl U16" LeagueID="24282" ID="14234328" IsOption="0" EventType="0" MEID="5716888">
+    <Participants>
+      <Participant1 Name="India U16" Home_Visiting="Home" />
+      <Participant2 Name="South Korea U16" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="1.94" Home_Points="2.5" Away_Points="-2.5" Away_Odds="1.79" />
+    <Total Points="3.75" Over="1.74" Under="1.96" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 10:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Friendly Intl U16" LeagueID="24282" ID="14234329" IsOption="0" EventType="0" MEID="5716889">
+    <Participants>
+      <Participant1 Name="Malaysia U16" Home_Visiting="Home" />
+      <Participant2 Name="USA U16" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.05" Home_Points="2.75" Away_Points="-2.75" Away_Odds="1.71" />
+    <Total Points="3.75" Over="1.65" Under="2.1" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 22:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Argentina - Primera Div" LeagueID="15231" ID="14186608" IsOption="0" EventType="0" MEID="5700396">
+    <Participants>
+      <Participant1 Name="Belgrano" Home_Visiting="Home" />
+      <Participant2 Name="Rosario" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.45" Draw="3.15" Away="3" />
+    <Spread Home_Odds="2.02" Home_Points="-0.25" Away_Points="0.25" Away_Odds="1.79" />
+    <Total Points="2" Over="1.83" Under="1.95" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden 5th - Orebro" LeagueID="40288" ID="14234355" IsOption="0" EventType="0" MEID="5716903">
+    <Participants>
+      <Participant1 Name="Ostansjo IF" Home_Visiting="Home" />
+      <Participant2 Name="Ervalla SK" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.3" Draw="4.5" Away="2.2" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 10:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Australia - Victorian Div 1" LeagueID="34274" ID="14234373" IsOption="0" EventType="0" MEID="5716912">
+    <Participants>
+      <Participant1 Name="Kingston" Home_Visiting="Home" />
+      <Participant2 Name="Brunswick City SC" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.33" Draw="4.7" Away="6.9" />
+    <Spread Home_Odds="1.63" Home_Points="-1.25" Away_Points="1.25" Away_Odds="2.19" />
+    <Total Points="3.25" Over="1.61" Under="2.15" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 10:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Friendly Intl U16" LeagueID="24282" ID="14234375" IsOption="0" EventType="0" MEID="5716913">
+    <Participants>
+      <Participant1 Name="USA U16" Home_Visiting="Home" />
+      <Participant2 Name="Malaysia U16" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="1.69" Home_Points="-2.75" Away_Points="2.75" Away_Odds="2.07" />
+    <Total Points="3.75" Over="1.64" Under="2.11" />
+  </Event>
+  <Event DateTimeGMT="24/05/2016 17:10:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Germany - 2.Bundesliga" LeagueID="22984" ID="14216889" IsOption="1" EventType="0" MEID="5710748">
+    <Participants>
+      <Participant1 Name="Duisburg" Home_Visiting="Home" />
+      <Participant2 Name="Wurzburger Kickers" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.18" Home_Points="-0.5" Away_Points="0.5" Away_Odds="1.66" />
+    <Total Points="2.5" Over="2.1" Under="1.68" />
+  </Event>
+  <Event DateTimeGMT="24/05/2016 17:10:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Germany - 2.Bundesliga" LeagueID="22984" ID="14216889" IsOption="0" EventType="0" MEID="5710748">
+    <Participants>
+      <Participant1 Name="Duisburg" Home_Visiting="Home" />
+      <Participant2 Name="Wurzburger Kickers" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.25" Draw="3.3" Away="3.2" />
+    <Spread Home_Odds="1.94" Home_Points="-0.25" Away_Points="0.25" Away_Odds="1.87" />
+    <Total Points="2.25" Over="1.85" Under="1.93" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Friendly Intl U21" LeagueID="15664" ID="14234542" IsOption="0" EventType="0" MEID="5716978">
+    <Participants>
+      <Participant1 Name="Albania U21" Home_Visiting="Home" />
+      <Participant2 Name="Czech Republic U21" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="6.75" Draw="4.3" Away="1.42" />
+    <Spread Home_Odds="1.98" Home_Points="1" Away_Points="-1" Away_Odds="1.81" />
+    <Total Points="2.75" Over="1.91" Under="1.79" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Friendly Intl U21" LeagueID="15664" ID="14234542" IsOption="1" EventType="0" MEID="5716978">
+    <Participants>
+      <Participant1 Name="Albania U21" Home_Visiting="Home" />
+      <Participant2 Name="Czech Republic U21" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="1.74" Home_Points="1.25" Away_Points="-1.25" Away_Odds="2" />
+    <Total Points="2.5" Over="1.66" Under="2.07" />
+  </Event>
+  <Event DateTimeGMT="26/05/2016 18:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Denmark - Superligaen" LeagueID="22971" ID="14234590" IsOption="0" EventType="0" MEID="5716998">
+    <Participants>
+      <Participant1 Name="AaB Aalborg" Home_Visiting="Home" />
+      <Participant2 Name="Midtjylland" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="3" Draw="3.4" Away="2.2" />
+  </Event>
+  <Event DateTimeGMT="26/05/2016 18:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Denmark - Superligaen" LeagueID="22971" ID="14234591" IsOption="0" EventType="0" MEID="5716999">
+    <Participants>
+      <Participant1 Name="Esbjerg" Home_Visiting="Home" />
+      <Participant2 Name="Copenhagen" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="4.65" Draw="3.8" Away="1.67" />
+  </Event>
+  <Event DateTimeGMT="26/05/2016 18:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Denmark - Superligaen" LeagueID="22971" ID="14234592" IsOption="0" EventType="0" MEID="5717000">
+    <Participants>
+      <Participant1 Name="SonderjyskE" Home_Visiting="Home" />
+      <Participant2 Name="Randers FC" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.95" Draw="3.45" Away="3.65" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Greece - Super League" LeagueID="24279" ID="14168175" IsOption="0" EventType="0" MEID="5694312">
+    <Participants>
+      <Participant1 Name="Panathinaikos" Home_Visiting="Home" />
+      <Participant2 Name="AEK Athens" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.05" Draw="3.1" Away="3.6" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway 2nd - Group 4" LeagueID="30451" ID="14234626" IsOption="0" EventType="0" MEID="5717014">
+    <Participants>
+      <Participant1 Name="Baerum" Home_Visiting="Home" />
+      <Participant2 Name="Stromsgodset B" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.48" Draw="4.6" Away="4.65" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 18:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway 3rd - Avdeling 3" LeagueID="30440" ID="14234627" IsOption="0" EventType="0" MEID="5717015">
+    <Participants>
+      <Participant1 Name="Kongsvinger 2" Home_Visiting="Home" />
+      <Participant2 Name="Sander" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.67" Draw="5.3" Away="3.1" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 14:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Belarus - Premier" LeagueID="23833" ID="14209263" IsOption="0" EventType="0" MEID="5708765">
+    <Participants>
+      <Participant1 Name="Naftan Novopolotsk" Home_Visiting="Home" />
+      <Participant2 Name="Granit Mikashevichi" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.25" Draw="2.95" Away="3.05" />
+    <Spread Home_Odds="1.63" Home_Points="0" Away_Points="0" Away_Odds="2.12" />
+    <Total Points="2" Over="1.88" Under="1.81" />
+  </Event>
+  <Event DateTimeGMT="24/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway Division 2 Women" LeagueID="40255" ID="14229120" IsOption="0" EventType="0" MEID="5715002">
+    <Participants>
+      <Participant1 Name="Bardufoss [W]" Home_Visiting="Home" />
+      <Participant2 Name="Tromsdalen [W]" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="7.25" Draw="7.25" Away="1.19" />
+  </Event>
+  <Event DateTimeGMT="29/05/2016 14:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="England - League One" LeagueID="22609" ID="14217180" IsOption="0" EventType="0" MEID="5710900">
+    <Participants>
+      <Participant1 Name="Barnsley" Home_Visiting="Home" />
+      <Participant2 Name="Millwall" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.6" Draw="3.05" Away="2.65" />
+    <Spread Home_Odds="1.85" Home_Points="0" Away_Points="0" Away_Odds="1.88" />
+    <Total Points="2.25" Over="1.91" Under="1.78" />
+  </Event>
+  <Event DateTimeGMT="28/05/2016 13:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway - Tippeligaen" LeagueID="30456" ID="14217184" IsOption="0" EventType="0" MEID="5710904">
+    <Participants>
+      <Participant1 Name="Tromso" Home_Visiting="Home" />
+      <Participant2 Name="Sarpsborg 08" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.45" Draw="3.35" Away="2.75" />
+  </Event>
+  <Event DateTimeGMT="28/05/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway - Tippeligaen" LeagueID="30456" ID="14217185" IsOption="0" EventType="0" MEID="5710905">
+    <Participants>
+      <Participant1 Name="Rosenborg" Home_Visiting="Home" />
+      <Participant2 Name="Molde" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.77" Draw="3.6" Away="4.2" />
+  </Event>
+  <Event DateTimeGMT="29/05/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway - Tippeligaen" LeagueID="30456" ID="14217186" IsOption="0" EventType="0" MEID="5710906">
+    <Participants>
+      <Participant1 Name="Brann Bergen" Home_Visiting="Home" />
+      <Participant2 Name="Haugesund FK" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.15" Draw="3.3" Away="3.1" />
+  </Event>
+  <Event DateTimeGMT="29/05/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway - Tippeligaen" LeagueID="30456" ID="14217187" IsOption="0" EventType="0" MEID="5710907">
+    <Participants>
+      <Participant1 Name="Start Krd" Home_Visiting="Home" />
+      <Participant2 Name="Stabaek IF" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.35" Draw="3.3" Away="2.75" />
+  </Event>
+  <Event DateTimeGMT="29/05/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway - Tippeligaen" LeagueID="30456" ID="14217188" IsOption="0" EventType="0" MEID="5710908">
+    <Participants>
+      <Participant1 Name="Viking" Home_Visiting="Home" />
+      <Participant2 Name="Bodo Glimt" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.95" Draw="3.35" Away="3.6" />
+  </Event>
+  <Event DateTimeGMT="29/05/2016 18:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway - Tippeligaen" LeagueID="30456" ID="14217189" IsOption="0" EventType="0" MEID="5710909">
+    <Participants>
+      <Participant1 Name="Aalesund" Home_Visiting="Home" />
+      <Participant2 Name="Valerenga" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.05" Draw="3.3" Away="3.4" />
+  </Event>
+  <Event DateTimeGMT="24/05/2016 00:15:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Argentina - Primera Div" LeagueID="15231" ID="14187130" IsOption="0" EventType="0" MEID="5700617">
+    <Participants>
+      <Participant1 Name="Gimnasia La Plata" Home_Visiting="Home" />
+      <Participant2 Name="Colon de Santa" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.87" Draw="3.25" Away="4.4" />
+    <Spread Home_Odds="1.88" Home_Points="-0.5" Away_Points="0.5" Away_Odds="1.93" />
+    <Total Points="2" Over="1.79" Under="1.99" />
+  </Event>
+  <Event DateTimeGMT="27/05/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Friendly International" LeagueID="19186" ID="14234913" IsOption="0" EventType="0" MEID="5717124">
+    <Participants>
+      <Participant1 Name="Czech Republic" Home_Visiting="Home" />
+      <Participant2 Name="Malta" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.09" Draw="8.75" Away="20.25" />
+    <Spread Home_Odds="1.93" Home_Points="-2.75" Away_Points="2.75" Away_Odds="1.85" />
+    <Total Points="3.5" Over="2.1" Under="1.68" />
+  </Event>
+  <Event DateTimeGMT="29/05/2016 13:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Allsvenskan" LeagueID="29303" ID="14209578" IsOption="0" EventType="0" MEID="5708887">
+    <Participants>
+      <Participant1 Name="Falkenbergs" Home_Visiting="Home" />
+      <Participant2 Name="Kalmar" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.75" Draw="3.2" Away="2.4" />
+  </Event>
+  <Event DateTimeGMT="28/05/2016 14:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Superettan" LeagueID="29302" ID="14174282" IsOption="0" EventType="0" MEID="5696509">
+    <Participants>
+      <Participant1 Name="Dalkurd FF" Home_Visiting="Home" />
+      <Participant2 Name="Frej" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.43" Draw="4.25" Away="6.05" />
+  </Event>
+  <Event DateTimeGMT="28/05/2016 14:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Superettan" LeagueID="29302" ID="14174283" IsOption="0" EventType="0" MEID="5696510">
+    <Participants>
+      <Participant1 Name="Degerfors IF" Home_Visiting="Home" />
+      <Participant2 Name="Assyriska FF" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.95" Draw="3.35" Away="3.45" />
+  </Event>
+  <Event DateTimeGMT="28/05/2016 14:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Superettan" LeagueID="29302" ID="14174284" IsOption="0" EventType="0" MEID="5696511">
+    <Participants>
+      <Participant1 Name="Ljungskile SK" Home_Visiting="Home" />
+      <Participant2 Name="Angelholms FF" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.48" Draw="4.2" Away="5.5" />
+  </Event>
+  <Event DateTimeGMT="29/05/2016 13:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Allsvenskan" LeagueID="29303" ID="14209581" IsOption="0" EventType="0" MEID="5708890">
+    <Participants>
+      <Participant1 Name="Helsingborg" Home_Visiting="Home" />
+      <Participant2 Name="IFK Goteborg" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="3.25" Draw="3.35" Away="2.05" />
+  </Event>
+  <Event DateTimeGMT="28/05/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Superettan" LeagueID="29302" ID="14174285" IsOption="0" EventType="0" MEID="5696512">
+    <Participants>
+      <Participant1 Name="Varbergs BoIS" Home_Visiting="Home" />
+      <Participant2 Name="Sirius" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="3.1" Draw="3.25" Away="2.1" />
+  </Event>
+  <Event DateTimeGMT="29/05/2016 15:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Allsvenskan" LeagueID="29303" ID="14209582" IsOption="0" EventType="0" MEID="5708891">
+    <Participants>
+      <Participant1 Name="BK Hacken" Home_Visiting="Home" />
+      <Participant2 Name="Djurgardens" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.15" Draw="3.3" Away="3.1" />
+  </Event>
+  <Event DateTimeGMT="29/05/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Superettan" LeagueID="29302" ID="14174286" IsOption="0" EventType="0" MEID="5696513">
+    <Participants>
+      <Participant1 Name="Trelleborgs" Home_Visiting="Home" />
+      <Participant2 Name="GAIS Goteborg" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.4" Draw="3.2" Away="2.7" />
+  </Event>
+  <Event DateTimeGMT="29/05/2016 15:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Allsvenskan" LeagueID="29303" ID="14209583" IsOption="0" EventType="0" MEID="5708892">
+    <Participants>
+      <Participant1 Name="IFK Norrkoping" Home_Visiting="Home" />
+      <Participant2 Name="Elfsborg" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.91" Draw="3.35" Away="3.8" />
+  </Event>
+  <Event DateTimeGMT="29/05/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Superettan" LeagueID="29302" ID="14174387" IsOption="0" EventType="0" MEID="5696550">
+    <Participants>
+      <Participant1 Name="Syrianska FC" Home_Visiting="Home" />
+      <Participant2 Name="AFC United" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.55" Draw="3.2" Away="2.55" />
+  </Event>
+  <Event DateTimeGMT="30/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Superettan" LeagueID="29302" ID="14174388" IsOption="0" EventType="0" MEID="5696551">
+    <Participants>
+      <Participant1 Name="Atvidaberg" Home_Visiting="Home" />
+      <Participant2 Name="Varnamo IFK" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2" Draw="3.3" Away="3.3" />
+  </Event>
+  <Event DateTimeGMT="30/05/2016 17:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Superettan" LeagueID="29302" ID="14174389" IsOption="0" EventType="0" MEID="5696552">
+    <Participants>
+      <Participant1 Name="Orgryte" Home_Visiting="Home" />
+      <Participant2 Name="Halmstads" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.6" Draw="3.2" Away="2.5" />
+  </Event>
+  <Event DateTimeGMT="04/06/2016 01:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Copa America" LeagueID="31823" ID="13140826" IsOption="1" EventType="0" MEID="5360285">
+    <Participants>
+      <Participant1 Name="USA" Home_Visiting="Home" />
+      <Participant2 Name="Colombia" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.17" Home_Points="-0.25" Away_Points="0.25" Away_Odds="1.61" />
+    <Total Points="2.5" Over="2.13" Under="1.6" />
+  </Event>
+  <Event DateTimeGMT="04/06/2016 01:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Copa America" LeagueID="31823" ID="13140826" IsOption="0" EventType="0" MEID="5360285">
+    <Participants>
+      <Participant1 Name="USA" Home_Visiting="Home" />
+      <Participant2 Name="Colombia" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.65" Draw="3.1" Away="2.65" />
+    <Spread Home_Odds="1.87" Home_Points="0" Away_Points="0" Away_Odds="1.86" />
+    <Total Points="2.25" Over="1.89" Under="1.81" />
+  </Event>
+  <Event DateTimeGMT="05/06/2016 02:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Copa America" LeagueID="31823" ID="13140827" IsOption="1" EventType="0" MEID="5360286">
+    <Participants>
+      <Participant1 Name="Brazil" Home_Visiting="Home" />
+      <Participant2 Name="Ecuador" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.29" Home_Points="-1" Away_Points="1" Away_Odds="1.54" />
+    <Total Points="2.5" Over="1.99" Under="1.68" />
+  </Event>
+  <Event DateTimeGMT="05/06/2016 02:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Copa America" LeagueID="31823" ID="13140827" IsOption="0" EventType="0" MEID="5360286">
+    <Participants>
+      <Participant1 Name="Brazil" Home_Visiting="Home" />
+      <Participant2 Name="Ecuador" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.67" Draw="3.55" Away="5.5" />
+    <Spread Home_Odds="1.92" Home_Points="-0.75" Away_Points="0.75" Away_Odds="1.83" />
+    <Total Points="2.25" Over="1.83" Under="1.87" />
+  </Event>
+  <Event DateTimeGMT="04/06/2016 21:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Copa America" LeagueID="31823" ID="13140828" IsOption="1" EventType="0" MEID="5360287">
+    <Participants>
+      <Participant1 Name="Costa Rica" Home_Visiting="Home" />
+      <Participant2 Name="Paraguay" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.21" Home_Points="-0.25" Away_Points="0.25" Away_Odds="1.58" />
+    <Total Points="2.25" Over="2.11" Under="1.61" />
+  </Event>
+  <Event DateTimeGMT="04/06/2016 21:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Copa America" LeagueID="31823" ID="13140828" IsOption="0" EventType="0" MEID="5360287">
+    <Participants>
+      <Participant1 Name="Costa Rica" Home_Visiting="Home" />
+      <Participant2 Name="Paraguay" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.7" Draw="2.95" Away="2.7" />
+    <Spread Home_Odds="1.86" Home_Points="0" Away_Points="0" Away_Odds="1.87" />
+    <Total Points="2" Over="1.89" Under="1.81" />
+  </Event>
+  <Event DateTimeGMT="04/06/2016 23:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Copa America" LeagueID="31823" ID="13140829" IsOption="1" EventType="0" MEID="5360288">
+    <Participants>
+      <Participant1 Name="Peru" Home_Visiting="Home" />
+      <Participant2 Name="Haiti" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.15" Home_Points="-1.5" Away_Points="1.5" Away_Odds="1.61" />
+    <Total Points="2.5" Over="2.1" Under="1.61" />
+  </Event>
+  <Event DateTimeGMT="04/06/2016 23:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Copa America" LeagueID="31823" ID="13140829" IsOption="0" EventType="0" MEID="5360288">
+    <Participants>
+      <Participant1 Name="Peru" Home_Visiting="Home" />
+      <Participant2 Name="Haiti" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.36" Draw="4.2" Away="9.5" />
+    <Spread Home_Odds="1.93" Home_Points="-1.25" Away_Points="1.25" Away_Odds="1.81" />
+    <Total Points="2.25" Over="1.85" Under="1.85" />
+  </Event>
+  <Event DateTimeGMT="06/06/2016 00:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Copa America" LeagueID="31823" ID="13140830" IsOption="1" EventType="0" MEID="5360289">
+    <Participants>
+      <Participant1 Name="Uruguay" Home_Visiting="Home" />
+      <Participant2 Name="Mexico" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.1" Home_Points="-0.25" Away_Points="0.25" Away_Odds="1.64" />
+    <Total Points="2" Over="1.68" Under="1.98" />
+  </Event>
+  <Event DateTimeGMT="06/06/2016 00:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Copa America" LeagueID="31823" ID="13140830" IsOption="0" EventType="0" MEID="5360289">
+    <Participants>
+      <Participant1 Name="Uruguay" Home_Visiting="Home" />
+      <Participant2 Name="Mexico" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.65" Draw="3.1" Away="2.65" />
+    <Spread Home_Odds="1.86" Home_Points="0" Away_Points="0" Away_Odds="1.87" />
+    <Total Points="2.25" Over="1.94" Under="1.76" />
+  </Event>
+  <Event DateTimeGMT="05/06/2016 21:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Copa America" LeagueID="31823" ID="13140831" IsOption="0" EventType="0" MEID="5360290">
+    <Participants>
+      <Participant1 Name="Venezuela" Home_Visiting="Home" />
+      <Participant2 Name="Jamaica" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.4" Draw="3" Away="3.05" />
+    <Spread Home_Odds="1.7" Home_Points="0" Away_Points="0" Away_Odds="2.05" />
+    <Total Points="2" Over="1.85" Under="1.85" />
+  </Event>
+  <Event DateTimeGMT="05/06/2016 21:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Copa America" LeagueID="31823" ID="13140831" IsOption="1" EventType="0" MEID="5360290">
+    <Participants>
+      <Participant1 Name="Venezuela" Home_Visiting="Home" />
+      <Participant2 Name="Jamaica" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.04" Home_Points="-0.25" Away_Points="0.25" Away_Odds="1.68" />
+    <Total Points="2.25" Over="2.04" Under="1.65" />
+  </Event>
+  <Event DateTimeGMT="07/06/2016 02:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Copa America" LeagueID="31823" ID="13140832" IsOption="1" EventType="0" MEID="5360291">
+    <Participants>
+      <Participant1 Name="Argentina" Home_Visiting="Home" />
+      <Participant2 Name="Chile" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.03" Home_Points="-0.75" Away_Points="0.75" Away_Odds="1.69" />
+    <Total Points="2.5" Over="2.03" Under="1.66" />
+  </Event>
+  <Event DateTimeGMT="07/06/2016 02:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Copa America" LeagueID="31823" ID="13140832" IsOption="0" EventType="0" MEID="5360291">
+    <Participants>
+      <Participant1 Name="Argentina" Home_Visiting="Home" />
+      <Participant2 Name="Chile" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.8" Draw="3.4" Away="4.35" />
+    <Spread Home_Odds="1.78" Home_Points="-0.5" Away_Points="0.5" Away_Odds="1.96" />
+    <Total Points="2.25" Over="1.78" Under="1.91" />
+  </Event>
+  <Event DateTimeGMT="06/06/2016 23:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Copa America" LeagueID="31823" ID="13140833" IsOption="0" EventType="0" MEID="5360292">
+    <Participants>
+      <Participant1 Name="Panama" Home_Visiting="Home" />
+      <Participant2 Name="Bolivia" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.25" Draw="3.05" Away="3.25" />
+    <Spread Home_Odds="1.94" Home_Points="-0.25" Away_Points="0.25" Away_Odds="1.79" />
+    <Total Points="2" Over="1.83" Under="1.87" />
+  </Event>
+  <Event DateTimeGMT="06/06/2016 23:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Copa America" LeagueID="31823" ID="13140833" IsOption="1" EventType="0" MEID="5360292">
+    <Participants>
+      <Participant1 Name="Panama" Home_Visiting="Home" />
+      <Participant2 Name="Bolivia" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="1.61" Home_Points="0" Away_Points="0" Away_Odds="2.17" />
+    <Total Points="2.25" Over="2.05" Under="1.64" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 18:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Germany - 1.Bundesliga" LeagueID="22798" ID="14204369" IsOption="0" EventType="0" MEID="5706894">
+    <Participants>
+      <Participant1 Name="Nurnberg" Home_Visiting="Home" />
+      <Participant2 Name="Eintracht Frankfurt" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.6" Draw="3.3" Away="2.7" />
+    <Spread Home_Odds="1.89" Home_Points="0" Away_Points="0" Away_Odds="1.96" />
+    <Total Points="2.25" Over="1.86" Under="1.95" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 18:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Germany - 1.Bundesliga" LeagueID="22798" ID="14204369" IsOption="1" EventType="0" MEID="5706894">
+    <Participants>
+      <Participant1 Name="Nurnberg" Home_Visiting="Home" />
+      <Participant2 Name="Eintracht Frankfurt" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="1.63" Home_Points="0.25" Away_Points="-0.25" Away_Odds="2.28" />
+    <Total Points="2.75" Over="2.31" Under="1.59" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 18:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Germany - 1.Bundesliga" LeagueID="22798" ID="14204369" IsOption="1" EventType="0" MEID="5706894">
+    <Participants>
+      <Participant1 Name="Nurnberg" Home_Visiting="Home" />
+      <Participant2 Name="Eintracht Frankfurt" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.19" Home_Points="-0.25" Away_Points="0.25" Away_Odds="1.68" />
+    <Total Points="2.5" Over="2.06" Under="1.74" />
+  </Event>
+  <Event DateTimeGMT="25/05/2016 10:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="AFC Champions League" LeagueID="20369" ID="14229655" IsOption="0" EventType="0" MEID="5715153">
+    <Participants>
+      <Participant1 Name="Sydney FC" Home_Visiting="Home" />
+      <Participant2 Name="Shandong Luneng" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.35" Draw="3.25" Away="2.9" />
+  </Event>
+  <Event DateTimeGMT="24/05/2016 00:45:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Colombia - Primera B" LeagueID="23854" ID="14235535" IsOption="0" EventType="0" MEID="5717218">
+    <Participants>
+      <Participant1 Name="America de Cali" Home_Visiting="Home" />
+      <Participant2 Name="Union Magdalena" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.57" Draw="3.65" Away="5" />
+    <Spread Home_Odds="1.75" Home_Points="-0.75" Away_Points="0.75" Away_Odds="1.95" />
+    <Total Points="2.5" Over="1.93" Under="1.77" />
+  </Event>
+  <Event DateTimeGMT="24/05/2016 17:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Romania Liga 1 - Play Out" LeagueID="34859" ID="14235640" IsOption="0" EventType="0" MEID="5717239">
+    <Participants>
+      <Participant1 Name="Petrolul Ploiesti" Home_Visiting="Home" />
+      <Participant2 Name="Concordia Chiajna" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="3.65" Draw="3" Away="2.1" />
+  </Event>
+  <Event DateTimeGMT="25/05/2016 15:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Romania Liga 1 - Play Out" LeagueID="34859" ID="14235641" IsOption="0" EventType="0" MEID="5717240">
+    <Participants>
+      <Participant1 Name="Voluntari" Home_Visiting="Home" />
+      <Participant2 Name="Timisoara" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.8" Draw="3.3" Away="4.3" />
+  </Event>
+  <Event DateTimeGMT="26/05/2016 15:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Romania Liga 1 - Play Out" LeagueID="34859" ID="14235642" IsOption="0" EventType="0" MEID="5717241">
+    <Participants>
+      <Participant1 Name="CSMS Iasi" Home_Visiting="Home" />
+      <Participant2 Name="Botosani" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.15" Draw="2.9" Away="3.45" />
+  </Event>
+  <Event DateTimeGMT="26/05/2016 17:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Romania Liga 1 - Play Out" LeagueID="34859" ID="14235643" IsOption="0" EventType="0" MEID="5717242">
+    <Participants>
+      <Participant1 Name="CFR Ecomax Cluj" Home_Visiting="Home" />
+      <Participant2 Name="CS Universitatea Craiova" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.15" Draw="2.9" Away="3.45" />
+  </Event>
+  <Event DateTimeGMT="26/05/2016 18:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Denmark - Superligaen" LeagueID="22971" ID="14235644" IsOption="0" EventType="0" MEID="5717243">
+    <Participants>
+      <Participant1 Name="Hobro" Home_Visiting="Home" />
+      <Participant2 Name="Brondby" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="5.35" Draw="3.85" Away="1.59" />
+  </Event>
+  <Event DateTimeGMT="26/05/2016 18:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Denmark - Superligaen" LeagueID="22971" ID="14235645" IsOption="0" EventType="0" MEID="5717244">
+    <Participants>
+      <Participant1 Name="Nordsjaelland" Home_Visiting="Home" />
+      <Participant2 Name="Viborg" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.1" Draw="3.45" Away="3.2" />
+  </Event>
+  <Event DateTimeGMT="28/05/2016 13:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Finland - Veikkausliiga" LeagueID="29304" ID="14235646" IsOption="0" EventType="0" MEID="5717245">
+    <Participants>
+      <Participant1 Name="RoPS" Home_Visiting="Home" />
+      <Participant2 Name="Seinajoen JK" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.3" Draw="3.6" Away="2.75" />
+  </Event>
+  <Event DateTimeGMT="28/05/2016 13:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Finland - Veikkausliiga" LeagueID="29304" ID="14235647" IsOption="0" EventType="0" MEID="5717246">
+    <Participants>
+      <Participant1 Name="Lahti" Home_Visiting="Home" />
+      <Participant2 Name="PK-35 Vantaa" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.95" Draw="3.35" Away="3.85" />
+  </Event>
+  <Event DateTimeGMT="28/05/2016 15:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Finland - Veikkausliiga" LeagueID="29304" ID="14235648" IsOption="0" EventType="0" MEID="5717247">
+    <Participants>
+      <Participant1 Name="Inter Turku" Home_Visiting="Home" />
+      <Participant2 Name="PS Kemi" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.4" Draw="3.55" Away="2.6" />
+  </Event>
+  <Event DateTimeGMT="29/05/2016 15:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Finland - Veikkausliiga" LeagueID="29304" ID="14235649" IsOption="0" EventType="0" MEID="5717248">
+    <Participants>
+      <Participant1 Name="HIFK Helsinki" Home_Visiting="Home" />
+      <Participant2 Name="Ilves Tampere" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.2" Draw="3.55" Away="2.85" />
+  </Event>
+  <Event DateTimeGMT="29/05/2016 15:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Finland - Veikkausliiga" LeagueID="29304" ID="14235650" IsOption="0" EventType="0" MEID="5717249">
+    <Participants>
+      <Participant1 Name="KuPS Kuopio" Home_Visiting="Home" />
+      <Participant2 Name="Helsinki" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="3.1" Draw="3.35" Away="2.15" />
+  </Event>
+  <Event DateTimeGMT="29/05/2016 15:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Finland - Veikkausliiga" LeagueID="29304" ID="14235651" IsOption="0" EventType="0" MEID="5717250">
+    <Participants>
+      <Participant1 Name="Mariehamn" Home_Visiting="Home" />
+      <Participant2 Name="Vaasa" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.61" Draw="3.55" Away="5.4" />
+  </Event>
+  <Event DateTimeGMT="24/05/2016 18:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Italy - Serie B" LeagueID="25435" ID="14229752" IsOption="1" EventType="0" MEID="5715193">
+    <Participants>
+      <Participant1 Name="Cesena" Home_Visiting="Home" />
+      <Participant2 Name="Spezia" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="1.61" Home_Points="0" Away_Points="0" Away_Odds="2.27" />
+    <Total Points="2" Over="1.72" Under="2.03" />
+  </Event>
+  <Event DateTimeGMT="24/05/2016 18:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Italy - Serie B" LeagueID="25435" ID="14229752" IsOption="0" EventType="0" MEID="5715193">
+    <Participants>
+      <Participant1 Name="Cesena" Home_Visiting="Home" />
+      <Participant2 Name="Spezia" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.3" Draw="3" Away="3.4" />
+    <Spread Home_Odds="1.96" Home_Points="-0.25" Away_Points="0.25" Away_Odds="1.85" />
+    <Total Points="2.25" Over="2" Under="1.78" />
+  </Event>
+  <Event DateTimeGMT="25/05/2016 18:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Italy - Serie B" LeagueID="25435" ID="14229753" IsOption="1" EventType="0" MEID="5715194">
+    <Participants>
+      <Participant1 Name="Bari" Home_Visiting="Home" />
+      <Participant2 Name="Novara" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.12" Home_Points="-0.5" Away_Points="0.5" Away_Odds="1.69" />
+    <Total Points="2" Over="1.72" Under="2.03" />
+  </Event>
+  <Event DateTimeGMT="25/05/2016 18:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Italy - Serie B" LeagueID="25435" ID="14229753" IsOption="0" EventType="0" MEID="5715194">
+    <Participants>
+      <Participant1 Name="Bari" Home_Visiting="Home" />
+      <Participant2 Name="Novara" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.15" Draw="3.1" Away="3.55" />
+    <Spread Home_Odds="1.85" Home_Points="-0.25" Away_Points="0.25" Away_Odds="1.96" />
+    <Total Points="2.25" Over="1.97" Under="1.81" />
+  </Event>
+  <Event DateTimeGMT="26/05/2016 18:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Denmark - Superligaen" LeagueID="22971" ID="14235665" IsOption="0" EventType="0" MEID="5717259">
+    <Participants>
+      <Participant1 Name="AGF Aarhus" Home_Visiting="Home" />
+      <Participant2 Name="OB Odense" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.2" Draw="3.35" Away="3.05" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 18:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Turkey - 1. Lig" LeagueID="24953" ID="14217685" IsOption="0" EventType="0" MEID="5711095">
+    <Participants>
+      <Participant1 Name="Adana Demirspor" Home_Visiting="Home" />
+      <Participant2 Name="Elazigspor" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.83" Draw="3.65" Away="3.7" />
+    <Spread Home_Odds="1.88" Home_Points="-0.5" Away_Points="0.5" Away_Odds="1.9" />
+    <Total Points="2.5" Over="1.66" Under="2.07" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 20:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Iceland - Urvalsdeild" LeagueID="38676" ID="14198566" IsOption="0" EventType="0" MEID="5704913">
+    <Participants>
+      <Participant1 Name="Stjarnan" Home_Visiting="Home" />
+      <Participant2 Name="Hafnarfjordur" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.95" Draw="3.3" Away="2.25" />
+    <Spread Home_Odds="1.78" Home_Points="0.25" Away_Points="-0.25" Away_Odds="1.99" />
+    <Total Points="2.5" Over="1.78" Under="1.92" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 20:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Iceland - Urvalsdeild" LeagueID="38676" ID="14198566" IsOption="1" EventType="0" MEID="5704913">
+    <Participants>
+      <Participant1 Name="Stjarnan" Home_Visiting="Home" />
+      <Participant2 Name="Hafnarfjordur" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.1" Home_Points="0" Away_Points="0" Away_Odds="1.67" />
+    <Total Points="2.75" Over="1.99" Under="1.71" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway 4th - Agder" LeagueID="36835" ID="14192512" IsOption="0" EventType="0" MEID="5702855">
+    <Participants>
+      <Participant1 Name="Giv Akt" Home_Visiting="Home" />
+      <Participant2 Name="Trauma" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.87" Draw="5.6" Away="2.5" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 23:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="AFC Cup" LeagueID="28369" ID="14235781" IsOption="0" EventType="0" MEID="5717312">
+    <Participants>
+      <Participant1 Name="Ceres FC" Home_Visiting="Home" />
+      <Participant2 Name="South China AA" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.3" Draw="3.15" Away="2.8" />
+  </Event>
+  <Event DateTimeGMT="24/05/2016 13:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="AFC Cup" LeagueID="28369" ID="14235782" IsOption="0" EventType="0" MEID="5717313">
+    <Participants>
+      <Participant1 Name="Al-Ahed" Home_Visiting="Home" />
+      <Participant2 Name="Al Wahda Damascus [SYR]" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2" Draw="3.15" Away="3.4" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway 5th - Ostfold 2" LeagueID="38201" ID="14235783" IsOption="0" EventType="0" MEID="5717314">
+    <Participants>
+      <Participant1 Name="Berg" Home_Visiting="Home" />
+      <Participant2 Name="NMBUI" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.4" Draw="5.5" Away="1.95" />
+  </Event>
+  <Event DateTimeGMT="24/05/2016 00:05:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Argentina - Nacional B" LeagueID="22054" ID="14229904" IsOption="0" EventType="0" MEID="5715252">
+    <Participants>
+      <Participant1 Name="Ferro Carril Oeste" Home_Visiting="Home" />
+      <Participant2 Name="Nueva Chicago" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.25" Draw="2.85" Away="3.15" />
+    <Spread Home_Odds="2.27" Home_Points="-0.5" Away_Points="0.5" Away_Odds="1.58" />
+    <Total Points="2" Over="1.94" Under="1.76" />
+  </Event>
+  <Event DateTimeGMT="10/06/2016 19:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12305235" IsOption="0" EventType="0" MEID="5083990">
+    <Participants>
+      <Participant1 Name="France" Home_Visiting="Home" />
+      <Participant2 Name="Romania" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.31" Draw="4.85" Away="12.5" />
+    <Spread Home_Odds="1.81" Home_Points="-1.25" Away_Points="1.25" Away_Odds="2" />
+    <Total Points="2.25" Over="1.93" Under="1.85" />
+  </Event>
+  <Event DateTimeGMT="10/06/2016 19:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12305235" IsOption="1" EventType="0" MEID="5083990">
+    <Participants>
+      <Participant1 Name="France" Home_Visiting="Home" />
+      <Participant2 Name="Romania" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.01" Home_Points="-1.5" Away_Points="1.5" Away_Odds="1.77" />
+    <Total Points="2.5" Over="2.15" Under="1.65" />
+  </Event>
+  <Event DateTimeGMT="11/06/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12305236" IsOption="0" EventType="0" MEID="5083991">
+    <Participants>
+      <Participant1 Name="Wales" Home_Visiting="Home" />
+      <Participant2 Name="Slovakia" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.6" Draw="2.95" Away="3.05" />
+    <Spread Home_Odds="1.79" Home_Points="0" Away_Points="0" Away_Odds="2.03" />
+    <Total Points="2" Over="2.02" Under="1.76" />
+  </Event>
+  <Event DateTimeGMT="11/06/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12305236" IsOption="1" EventType="0" MEID="5083991">
+    <Participants>
+      <Participant1 Name="Wales" Home_Visiting="Home" />
+      <Participant2 Name="Slovakia" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.15" Home_Points="-0.25" Away_Points="0.25" Away_Odds="1.67" />
+    <Total Points="1.75" Over="1.72" Under="2.03" />
+  </Event>
+  <Event DateTimeGMT="11/06/2016 19:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12305237" IsOption="0" EventType="0" MEID="5083992">
+    <Participants>
+      <Participant1 Name="England" Home_Visiting="Home" />
+      <Participant2 Name="Russia" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2" Draw="3.25" Away="4.15" />
+    <Spread Home_Odds="1.97" Home_Points="-0.5" Away_Points="0.5" Away_Odds="1.85" />
+    <Total Points="2" Over="1.82" Under="1.96" />
+  </Event>
+  <Event DateTimeGMT="11/06/2016 19:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12305237" IsOption="1" EventType="0" MEID="5083992">
+    <Participants>
+      <Participant1 Name="England" Home_Visiting="Home" />
+      <Participant2 Name="Russia" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="1.68" Home_Points="-0.25" Away_Points="0.25" Away_Odds="2.13" />
+    <Total Points="2.25" Over="2.09" Under="1.68" />
+  </Event>
+  <Event DateTimeGMT="12/06/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12305238" IsOption="0" EventType="0" MEID="5083993">
+    <Participants>
+      <Participant1 Name="Poland" Home_Visiting="Home" />
+      <Participant2 Name="Northern Ireland" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.71" Draw="3.55" Away="5.45" />
+    <Spread Home_Odds="1.92" Home_Points="-0.75" Away_Points="0.75" Away_Odds="1.89" />
+    <Total Points="2.25" Over="2" Under="1.78" />
+  </Event>
+  <Event DateTimeGMT="12/06/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12305238" IsOption="1" EventType="0" MEID="5083993">
+    <Participants>
+      <Participant1 Name="Poland" Home_Visiting="Home" />
+      <Participant2 Name="Northern Ireland" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="1.68" Home_Points="-0.5" Away_Points="0.5" Away_Odds="2.13" />
+    <Total Points="2" Over="1.75" Under="1.99" />
+  </Event>
+  <Event DateTimeGMT="12/06/2016 19:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12305239" IsOption="0" EventType="0" MEID="5083994">
+    <Participants>
+      <Participant1 Name="Germany" Home_Visiting="Home" />
+      <Participant2 Name="Ukraine" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.5" Draw="4.1" Away="7" />
+    <Spread Home_Odds="1.85" Home_Points="-1" Away_Points="1" Away_Odds="1.96" />
+    <Total Points="2.5" Over="1.93" Under="1.85" />
+  </Event>
+  <Event DateTimeGMT="12/06/2016 19:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12305239" IsOption="1" EventType="0" MEID="5083994">
+    <Participants>
+      <Participant1 Name="Germany" Home_Visiting="Home" />
+      <Participant2 Name="Ukraine" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.16" Home_Points="-1.25" Away_Points="1.25" Away_Odds="1.67" />
+    <Total Points="2.75" Over="2.15" Under="1.65" />
+  </Event>
+  <Event DateTimeGMT="13/06/2016 13:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12305240" IsOption="0" EventType="0" MEID="5083995">
+    <Participants>
+      <Participant1 Name="Spain" Home_Visiting="Home" />
+      <Participant2 Name="Czech Republic" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.51" Draw="4.05" Away="7" />
+    <Spread Home_Odds="1.86" Home_Points="-1" Away_Points="1" Away_Odds="1.95" />
+    <Total Points="2.5" Over="1.98" Under="1.79" />
+  </Event>
+  <Event DateTimeGMT="13/06/2016 13:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12305240" IsOption="1" EventType="0" MEID="5083995">
+    <Participants>
+      <Participant1 Name="Spain" Home_Visiting="Home" />
+      <Participant2 Name="Czech Republic" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="1.65" Home_Points="-0.75" Away_Points="0.75" Away_Odds="2.2" />
+    <Total Points="2.25" Over="1.7" Under="2.06" />
+  </Event>
+  <Event DateTimeGMT="13/06/2016 19:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12305241" IsOption="0" EventType="0" MEID="5083996">
+    <Participants>
+      <Participant1 Name="Belgium" Home_Visiting="Home" />
+      <Participant2 Name="Italy" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.45" Draw="3.1" Away="3.1" />
+    <Spread Home_Odds="2.07" Home_Points="-0.25" Away_Points="0.25" Away_Odds="1.76" />
+    <Total Points="2" Over="1.83" Under="1.94" />
+  </Event>
+  <Event DateTimeGMT="13/06/2016 19:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12305241" IsOption="1" EventType="0" MEID="5083996">
+    <Participants>
+      <Participant1 Name="Belgium" Home_Visiting="Home" />
+      <Participant2 Name="Italy" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="1.72" Home_Points="0" Away_Points="0" Away_Odds="2.08" />
+    <Total Points="2.25" Over="2.07" Under="1.69" />
+  </Event>
+  <Event DateTimeGMT="14/06/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12305242" IsOption="0" EventType="0" MEID="5083997">
+    <Participants>
+      <Participant1 Name="Austria" Home_Visiting="Home" />
+      <Participant2 Name="Hungary" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.8" Draw="3.45" Away="4.9" />
+    <Spread Home_Odds="1.79" Home_Points="-0.5" Away_Points="0.5" Away_Odds="2.02" />
+    <Total Points="2.25" Over="1.96" Under="1.82" />
+  </Event>
+  <Event DateTimeGMT="14/06/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12305242" IsOption="1" EventType="0" MEID="5083997">
+    <Participants>
+      <Participant1 Name="Austria" Home_Visiting="Home" />
+      <Participant2 Name="Hungary" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.03" Home_Points="-0.75" Away_Points="0.75" Away_Odds="1.75" />
+    <Total Points="2" Over="1.68" Under="2.09" />
+  </Event>
+  <Event DateTimeGMT="14/06/2016 19:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12305243" IsOption="0" EventType="0" MEID="5083998">
+    <Participants>
+      <Participant1 Name="Portugal" Home_Visiting="Home" />
+      <Participant2 Name="Iceland" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.63" Draw="3.65" Away="6.2" />
+    <Spread Home_Odds="1.81" Home_Points="-0.75" Away_Points="0.75" Away_Odds="2" />
+    <Total Points="2" Over="1.78" Under="1.99" />
+  </Event>
+  <Event DateTimeGMT="14/06/2016 19:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12305243" IsOption="1" EventType="0" MEID="5083998">
+    <Participants>
+      <Participant1 Name="Portugal" Home_Visiting="Home" />
+      <Participant2 Name="Iceland" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.13" Home_Points="-1" Away_Points="1" Away_Odds="1.68" />
+    <Total Points="2.25" Over="2.03" Under="1.72" />
+  </Event>
+  <Event DateTimeGMT="31/05/2016 17:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway 5th - Indre Ostland 2" LeagueID="38654" ID="14130051" IsOption="0" EventType="0" MEID="5682273">
+    <Participants>
+      <Participant1 Name="Gausdal" Home_Visiting="Home" />
+      <Participant2 Name="NFK Breiskallen" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.51" Draw="6.55" Away="3.1" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 12:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Indonesia Soccer Championship" LeagueID="38369" ID="14230091" IsOption="0" EventType="0" MEID="5715318">
+    <Participants>
+      <Participant1 Name="Persela" Home_Visiting="Home" />
+      <Participant2 Name="Persipura Jayapura" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.75" Draw="3.1" Away="2.35" />
+    <Spread Home_Odds="1.71" Home_Points="0.25" Away_Points="-0.25" Away_Odds="2" />
+    <Total Points="2.25" Over="1.93" Under="1.78" />
+  </Event>
+  <Event DateTimeGMT="24/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden 3rd - Nordostra Gotaland" LeagueID="36860" ID="14218114" IsOption="0" EventType="0" MEID="5711281">
+    <Participants>
+      <Participant1 Name="IK Tord" Home_Visiting="Home" />
+      <Participant2 Name="Assyriska Turab. IK JKP." Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.65" Draw="4.3" Away="2" />
+  </Event>
+  <Event DateTimeGMT="11/06/2016 13:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12305722" IsOption="0" EventType="0" MEID="5084170">
+    <Participants>
+      <Participant1 Name="Albania" Home_Visiting="Home" />
+      <Participant2 Name="Switzerland" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="5.75" Draw="3.5" Away="1.69" />
+    <Spread Home_Odds="1.91" Home_Points="0.75" Away_Points="-0.75" Away_Odds="1.9" />
+    <Total Points="2" Over="1.78" Under="1.99" />
+  </Event>
+  <Event DateTimeGMT="11/06/2016 13:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12305722" IsOption="1" EventType="0" MEID="5084170">
+    <Participants>
+      <Participant1 Name="Albania" Home_Visiting="Home" />
+      <Participant2 Name="Switzerland" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="1.59" Home_Points="1" Away_Points="-1" Away_Odds="2.3" />
+    <Total Points="2.25" Over="2.06" Under="1.7" />
+  </Event>
+  <Event DateTimeGMT="12/06/2016 13:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12305723" IsOption="0" EventType="0" MEID="5084171">
+    <Participants>
+      <Participant1 Name="Turkey" Home_Visiting="Home" />
+      <Participant2 Name="Croatia" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="3.45" Draw="3.2" Away="2.2" />
+    <Spread Home_Odds="1.97" Home_Points="0.25" Away_Points="-0.25" Away_Odds="1.85" />
+    <Total Points="2.25" Over="2.01" Under="1.77" />
+  </Event>
+  <Event DateTimeGMT="12/06/2016 13:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12305723" IsOption="1" EventType="0" MEID="5084171">
+    <Participants>
+      <Participant1 Name="Turkey" Home_Visiting="Home" />
+      <Participant2 Name="Croatia" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="1.71" Home_Points="0.5" Away_Points="-0.5" Away_Odds="2.09" />
+    <Total Points="2" Over="1.72" Under="2.02" />
+  </Event>
+  <Event DateTimeGMT="13/06/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12305724" IsOption="0" EventType="0" MEID="5084172">
+    <Participants>
+      <Participant1 Name="Ireland" Home_Visiting="Home" />
+      <Participant2 Name="Sweden" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="3.1" Draw="3.1" Away="2.45" />
+    <Spread Home_Odds="1.76" Home_Points="0.25" Away_Points="-0.25" Away_Odds="2.06" />
+    <Total Points="2" Over="1.85" Under="1.93" />
+  </Event>
+  <Event DateTimeGMT="13/06/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Euro 2016" LeagueID="9446" ID="12305724" IsOption="1" EventType="0" MEID="5084172">
+    <Participants>
+      <Participant1 Name="Ireland" Home_Visiting="Home" />
+      <Participant2 Name="Sweden" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.12" Home_Points="0" Away_Points="0" Away_Odds="1.69" />
+    <Total Points="2.25" Over="2.11" Under="1.67" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 18:45:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Ireland - Leinster Senior Cup" LeagueID="25295" ID="14230514" IsOption="0" EventType="0" MEID="5715453">
+    <Participants>
+      <Participant1 Name="Uni College Dublin" Home_Visiting="Home" />
+      <Participant2 Name="Bohemians" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="4.35" Draw="3.7" Away="1.71" />
+    <Spread Home_Odds="1.83" Home_Points="0.75" Away_Points="-0.75" Away_Odds="1.95" />
+    <Total Points="2.75" Over="1.88" Under="1.83" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 18:45:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Ireland - Leinster Senior Cup" LeagueID="25295" ID="14230514" IsOption="1" EventType="0" MEID="5715453">
+    <Participants>
+      <Participant1 Name="Uni College Dublin" Home_Visiting="Home" />
+      <Participant2 Name="Bohemians" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.04" Home_Points="0.5" Away_Points="-0.5" Away_Odds="1.71" />
+    <Total Points="2.5" Over="1.64" Under="2.1" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 10:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Korea - K-League Women" LeagueID="35513" ID="14230528" IsOption="0" EventType="0" MEID="5715458">
+    <Participants>
+      <Participant1 Name="Suwon FMC [W]" Home_Visiting="Home" />
+      <Participant2 Name="Seoul Amazones [W]" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.35" Draw="3.3" Away="2.6" />
+    <Spread Home_Odds="1.79" Home_Points="0" Away_Points="0" Away_Odds="1.91" />
+    <Total Points="3" Over="1.86" Under="1.84" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 15:15:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Greece - Super League" LeagueID="24279" ID="14182526" IsOption="0" EventType="0" MEID="5698969">
+    <Participants>
+      <Participant1 Name="Panionios" Home_Visiting="Home" />
+      <Participant2 Name="PAOK Saloniki" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="3.1" Draw="2.95" Away="2.4" />
+    <Spread Home_Odds="1.75" Home_Points="0.25" Away_Points="-0.25" Away_Odds="2.09" />
+    <Total Points="2" Over="1.98" Under="1.81" />
+  </Event>
+  <Event DateTimeGMT="29/05/2016 14:15:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Swiss Cup" LeagueID="24970" ID="14170086" IsOption="0" EventType="0" MEID="5694860">
+    <Participants>
+      <Participant1 Name="Lugano" Home_Visiting="Home" />
+      <Participant2 Name="Zurich" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="4.15" Draw="3.5" Away="1.74" />
+    <Spread Home_Odds="1.94" Home_Points="0.5" Away_Points="-0.5" Away_Odds="1.79" />
+    <Total Points="2.75" Over="1.87" Under="1.83" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 18:15:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Peru - Primera" LeagueID="21970" ID="14205416" IsOption="0" EventType="0" MEID="5707282">
+    <Participants>
+      <Participant1 Name="Alianza Atletico" Home_Visiting="Home" />
+      <Participant2 Name="Cesar Vallejo" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.15" Draw="3.15" Away="3" />
+    <Spread Home_Odds="1.93" Home_Points="-0.25" Away_Points="0.25" Away_Odds="1.81" />
+    <Total Points="2.5" Over="2.02" Under="1.69" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Egypt - Premier" LeagueID="24646" ID="14230817" IsOption="0" EventType="0" MEID="5715564">
+    <Participants>
+      <Participant1 Name="El Daklyeh" Home_Visiting="Home" />
+      <Participant2 Name="Smouha SC" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.55" Draw="2.8" Away="2.7" />
+    <Spread Home_Odds="1.83" Home_Points="0" Away_Points="0" Away_Odds="1.91" />
+    <Total Points="2" Over="1.91" Under="1.78" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 13:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Czech Republic U21" LeagueID="24339" ID="14230877" IsOption="0" EventType="0" MEID="5715603">
+    <Participants>
+      <Participant1 Name="Hradec Kralove U21" Home_Visiting="Home" />
+      <Participant2 Name="Banik Ostrava U21" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.55" Draw="3.95" Away="2.15" />
+    <Spread Home_Odds="1.6" Home_Points="0.5" Away_Points="-0.5" Away_Odds="2.23" />
+    <Total Points="3.5" Over="1.78" Under="1.92" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 12:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Czech Republic U21" LeagueID="24339" ID="14230878" IsOption="0" EventType="0" MEID="5715604">
+    <Participants>
+      <Participant1 Name="SC Znojmo U21" Home_Visiting="Home" />
+      <Participant2 Name="Viktoria Plzen U21" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="3.15" Draw="4.25" Away="1.8" />
+    <Spread Home_Odds="1.67" Home_Points="0.75" Away_Points="-0.75" Away_Odds="2.1" />
+    <Total Points="3.75" Over="1.63" Under="2.13" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Russia - 2nd Div Center" LeagueID="37260" ID="14230879" IsOption="0" EventType="0" MEID="5715605">
+    <Participants>
+      <Participant1 Name="Vityaz Podolsk" Home_Visiting="Home" />
+      <Participant2 Name="FC Energomash" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="3.1" Draw="3.3" Away="2.05" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 15:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Russia - 2nd Div Center" LeagueID="37260" ID="14230880" IsOption="0" EventType="0" MEID="5715606">
+    <Participants>
+      <Participant1 Name="Avangard Kursk" Home_Visiting="Home" />
+      <Participant2 Name="Arsenal Tula 2" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.4" Draw="4.35" Away="6.05" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 15:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Russia - 2nd Div Center" LeagueID="37260" ID="14230881" IsOption="0" EventType="0" MEID="5715607">
+    <Participants>
+      <Participant1 Name="FC Kaluga" Home_Visiting="Home" />
+      <Participant2 Name="Dinamo Bryansk" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2" Draw="3.25" Away="3.3" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 14:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Russia - 2nd Div Center" LeagueID="37260" ID="14230882" IsOption="0" EventType="0" MEID="5715608">
+    <Participants>
+      <Participant1 Name="FK Tambov" Home_Visiting="Home" />
+      <Participant2 Name="Rusichi Oryol" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.24" Draw="5.3" Away="8.5" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 15:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Russia - 2nd Div Center" LeagueID="37260" ID="14230883" IsOption="0" EventType="0" MEID="5715609">
+    <Participants>
+      <Participant1 Name="Zenit Penza" Home_Visiting="Home" />
+      <Participant2 Name="Lokomotiv Liski" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.05" Draw="3.2" Away="3.25" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Denmark - Superligaen" LeagueID="22971" ID="14170342" IsOption="0" EventType="0" MEID="5694979">
+    <Participants>
+      <Participant1 Name="Brondby" Home_Visiting="Home" />
+      <Participant2 Name="Viborg" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.49" Draw="4.25" Away="6.4" />
+    <Spread Home_Odds="1.83" Home_Points="-1" Away_Points="1" Away_Odds="1.98" />
+    <Total Points="2.75" Over="1.97" Under="1.81" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Denmark - Superligaen" LeagueID="22971" ID="14170342" IsOption="1" EventType="0" MEID="5694979">
+    <Participants>
+      <Participant1 Name="Brondby" Home_Visiting="Home" />
+      <Participant2 Name="Viborg" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.07" Home_Points="-1.25" Away_Points="1.25" Away_Odds="1.72" />
+    <Total Points="2.5" Over="1.75" Under="1.99" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 12:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Russia - 2nd Div Center" LeagueID="37260" ID="14230884" IsOption="0" EventType="0" MEID="5715610">
+    <Participants>
+      <Participant1 Name="FC Chertanovo Moscow" Home_Visiting="Home" />
+      <Participant2 Name="Metallurg Lipetsk" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.65" Draw="3.25" Away="2.35" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 15:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Russia - 2nd Div West" LeagueID="37259" ID="14230885" IsOption="0" EventType="0" MEID="5715611">
+    <Participants>
+      <Participant1 Name="Spartak Kostroma" Home_Visiting="Home" />
+      <Participant2 Name="FC Khimki" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="3.25" Draw="3.4" Away="1.95" />
+  </Event>
+  <Event DateTimeGMT="28/07/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway 5th - Indre Ostland 4" LeagueID="38199" ID="14035303" IsOption="0" EventType="0" MEID="5651675">
+    <Participants>
+      <Participant1 Name="Eina" Home_Visiting="Home" />
+      <Participant2 Name="Brandbu" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.7" Draw="6.5" Away="1.63" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Turkey - 1. Lig" LeagueID="24953" ID="14218898" IsOption="0" EventType="0" MEID="5711522">
+    <Participants>
+      <Participant1 Name="Alanyaspor" Home_Visiting="Home" />
+      <Participant2 Name="Balikesirspor" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.87" Draw="3.3" Away="4" />
+    <Spread Home_Odds="1.89" Home_Points="-0.5" Away_Points="0.5" Away_Odds="1.88" />
+    <Total Points="2.25" Over="1.89" Under="1.81" />
+  </Event>
+  <Event DateTimeGMT="29/05/2016 13:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway - Tippeligaen" LeagueID="30456" ID="14212335" IsOption="0" EventType="0" MEID="5709461">
+    <Participants>
+      <Participant1 Name="Odd BK" Home_Visiting="Home" />
+      <Participant2 Name="Stromsgodset" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.71" Draw="3.6" Away="4.4" />
+  </Event>
+  <Event DateTimeGMT="29/05/2016 13:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway - Tippeligaen" LeagueID="30456" ID="14212336" IsOption="0" EventType="0" MEID="5709462">
+    <Participants>
+      <Participant1 Name="Sogndal" Home_Visiting="Home" />
+      <Participant2 Name="Lillestrom" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.25" Draw="3.3" Away="2.95" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 18:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway 4th - Buskerud" LeagueID="36836" ID="14199570" IsOption="0" EventType="0" MEID="5705345">
+    <Participants>
+      <Participant1 Name="Drafn" Home_Visiting="Home" />
+      <Participant2 Name="Solberg" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.4" Draw="5.4" Away="1.95" />
+  </Event>
+  <Event DateTimeGMT="24/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Bulgaria Cup" LeagueID="26174" ID="14231074" IsOption="0" EventType="0" MEID="5715675">
+    <Participants>
+      <Participant1 Name="Montana" Home_Visiting="Home" />
+      <Participant2 Name="CSKA Sofia" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="5.1" Draw="3.85" Away="1.53" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 18:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway 4th - Ostfold" LeagueID="36846" ID="14199589" IsOption="0" EventType="0" MEID="5705364">
+    <Participants>
+      <Participant1 Name="Rade" Home_Visiting="Home" />
+      <Participant2 Name="Selbak" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.3" Draw="7" Away="4.95" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 10:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Korea - K-League Women" LeagueID="35513" ID="14231148" IsOption="0" EventType="0" MEID="5715694">
+    <Participants>
+      <Participant1 Name="Daekyo Kangaroos [W]" Home_Visiting="Home" />
+      <Participant2 Name="Gumi Sportstoto [W]" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.15" Draw="3.15" Away="3.05" />
+    <Spread Home_Odds="1.86" Home_Points="-0.25" Away_Points="0.25" Away_Odds="1.83" />
+    <Total Points="2.5" Over="2.04" Under="1.68" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 15:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Belarus - Premier" LeagueID="23833" ID="14205980" IsOption="0" EventType="0" MEID="5707499">
+    <Participants>
+      <Participant1 Name="FK Gorodeya" Home_Visiting="Home" />
+      <Participant2 Name="FC Minsk" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="3.15" Draw="3" Away="2.15" />
+    <Spread Home_Odds="1.83" Home_Points="0.25" Away_Points="-0.25" Away_Odds="1.86" />
+    <Total Points="2" Over="1.97" Under="1.74" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden 2nd - N. Svealand 2" LeagueID="36881" ID="14199780" IsOption="0" EventType="0" MEID="5705450">
+    <Participants>
+      <Participant1 Name="Syrianska Kerburan" Home_Visiting="Home" />
+      <Participant2 Name="Sundbybergs IK" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.87" Draw="3.45" Away="3.4" />
+    <Spread Home_Odds="1.81" Home_Points="-0.5" Away_Points="0.5" Away_Odds="1.93" />
+    <Total Points="2.75" Over="1.72" Under="1.98" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway 5th - Indre Ostland 5" LeagueID="38200" ID="14188831" IsOption="0" EventType="0" MEID="5701344">
+    <Participants>
+      <Participant1 Name="Vingrom A-lag" Home_Visiting="Home" />
+      <Participant2 Name="Brottum" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.8" Draw="6.75" Away="1.65" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Belarus - Premier" LeagueID="23833" ID="14212759" IsOption="0" EventType="0" MEID="5709654">
+    <Participants>
+      <Participant1 Name="Slutsksakhar Slutsk" Home_Visiting="Home" />
+      <Participant2 Name="Krumkachy Minsk" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.3" Draw="2.95" Away="2.95" />
+    <Spread Home_Odds="1.65" Home_Points="0" Away_Points="0" Away_Odds="2.09" />
+    <Total Points="2.25" Over="2.01" Under="1.7" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden 1st - South" LeagueID="33593" ID="14188914" IsOption="0" EventType="0" MEID="5701414">
+    <Participants>
+      <Participant1 Name="Oddevold" Home_Visiting="Home" />
+      <Participant2 Name="Qviding FIF" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.47" Draw="3.9" Away="5.7" />
+    <Spread Home_Odds="1.91" Home_Points="-1" Away_Points="1" Away_Odds="1.83" />
+    <Total Points="2.75" Over="1.85" Under="1.85" />
+  </Event>
+  <Event DateTimeGMT="25/05/2016 00:45:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Copa Libertadores" LeagueID="33259" ID="14231686" IsOption="0" EventType="0" MEID="5715859">
+    <Participants>
+      <Participant1 Name="Pumas UNAM" Home_Visiting="Home" />
+      <Participant2 Name="Independiente del Valle" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.57" Draw="3.7" Away="6" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway 4th - Akershus" LeagueID="36692" ID="14231761" IsOption="0" EventType="0" MEID="5715881">
+    <Participants>
+      <Participant1 Name="Romskog" Home_Visiting="Home" />
+      <Participant2 Name="Blaker" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.55" Draw="5.55" Away="1.87" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 18:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway 4th - Akershus" LeagueID="36692" ID="14231762" IsOption="0" EventType="0" MEID="5715882">
+    <Participants>
+      <Participant1 Name="Gjerdrum" Home_Visiting="Home" />
+      <Participant2 Name="Raelingen" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.2" Draw="5.25" Away="2.15" />
+  </Event>
+  <Event DateTimeGMT="24/05/2016 18:15:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway 4th - Akershus" LeagueID="36692" ID="14231763" IsOption="0" EventType="0" MEID="5715883">
+    <Participants>
+      <Participant1 Name="Fet" Home_Visiting="Home" />
+      <Participant2 Name="Eidsvold IF" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.65" Draw="5.6" Away="3.1" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway 5th - Buskerud 1" LeagueID="38021" ID="14231764" IsOption="0" EventType="0" MEID="5715884">
+    <Participants>
+      <Participant1 Name="Lier" Home_Visiting="Home" />
+      <Participant2 Name="Adal" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.57" Draw="6" Away="3.25" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway 5th - Buskerud 2" LeagueID="38022" ID="14231765" IsOption="0" EventType="0" MEID="5715885">
+    <Participants>
+      <Participant1 Name="Skrim" Home_Visiting="Home" />
+      <Participant2 Name="Glassverket" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.2" Draw="5.3" Away="2.1" />
+  </Event>
+  <Event DateTimeGMT="24/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway 5th - Buskerud 2" LeagueID="38022" ID="14231767" IsOption="0" EventType="0" MEID="5715887">
+    <Participants>
+      <Participant1 Name="Skiold" Home_Visiting="Home" />
+      <Participant2 Name="Austad" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.3" Draw="5.55" Away="2" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway 4th - Telemark" LeagueID="36852" ID="14231788" IsOption="0" EventType="0" MEID="5715896">
+    <Participants>
+      <Participant1 Name="Skade" Home_Visiting="Home" />
+      <Participant2 Name="Hei" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.6" Draw="5.6" Away="1.83" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway 4th - Telemark" LeagueID="36852" ID="14231789" IsOption="0" EventType="0" MEID="5715897">
+    <Participants>
+      <Participant1 Name="Heddal" Home_Visiting="Home" />
+      <Participant2 Name="Eidanger" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="5.2" Draw="7.25" Away="1.28" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 18:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway 5th - Telemark" LeagueID="38202" ID="14231791" IsOption="0" EventType="0" MEID="5715899">
+    <Participants>
+      <Participant1 Name="Skiens Grane" Home_Visiting="Home" />
+      <Participant2 Name="Klyve" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.41" Draw="6.8" Away="3.9" />
+  </Event>
+  <Event DateTimeGMT="24/05/2016 17:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway 5th - Telemark" LeagueID="38202" ID="14231792" IsOption="0" EventType="0" MEID="5715900">
+    <Participants>
+      <Participant1 Name="Gjerpen" Home_Visiting="Home" />
+      <Participant2 Name="Gulset" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.95" Draw="5.5" Away="2.35" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway 5th - Halogaland 3" LeagueID="38989" ID="14206468" IsOption="0" EventType="0" MEID="5707649">
+    <Participants>
+      <Participant1 Name="Luna" Home_Visiting="Home" />
+      <Participant2 Name="Stokmarknes" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.45" Draw="6" Away="1.87" />
+  </Event>
+  <Event DateTimeGMT="27/05/2016 18:45:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Friendly International" LeagueID="19186" ID="13846229" IsOption="0" EventType="0" MEID="5590080">
+    <Participants>
+      <Participant1 Name="England" Home_Visiting="Home" />
+      <Participant2 Name="Australia" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.24" Draw="5.5" Away="11.25" />
+    <Spread Home_Odds="1.82" Home_Points="-1.5" Away_Points="1.5" Away_Odds="1.96" />
+    <Total Points="2.75" Over="1.85" Under="1.88" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway 5th - Indre Ostland 6" LeagueID="38421" ID="14189186" IsOption="0" EventType="0" MEID="5701490">
+    <Participants>
+      <Participant1 Name="Sorskogbygda" Home_Visiting="Home" />
+      <Participant2 Name="Romedal" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.5" Draw="6.45" Away="1.8" />
+  </Event>
+  <Event DateTimeGMT="01/06/2016 18:45:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Friendly International" LeagueID="19186" ID="14189200" IsOption="0" EventType="0" MEID="5701500">
+    <Participants>
+      <Participant1 Name="Belgium" Home_Visiting="Home" />
+      <Participant2 Name="Finland" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.28" Draw="5.05" Away="9.25" />
+  </Event>
+  <Event DateTimeGMT="05/06/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Friendly International" LeagueID="19186" ID="14189201" IsOption="0" EventType="0" MEID="5701501">
+    <Participants>
+      <Participant1 Name="Belgium" Home_Visiting="Home" />
+      <Participant2 Name="Norway" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.48" Draw="4.1" Away="6" />
+  </Event>
+  <Event DateTimeGMT="28/05/2016 14:15:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Friendly International" LeagueID="19186" ID="14189202" IsOption="0" EventType="0" MEID="5701502">
+    <Participants>
+      <Participant1 Name="Switzerland" Home_Visiting="Home" />
+      <Participant2 Name="Belgium" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.9" Draw="3.25" Away="2.35" />
+  </Event>
+  <Event DateTimeGMT="24/05/2016 01:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Friendly International" LeagueID="19186" ID="14232065" IsOption="0" EventType="0" MEID="5715947">
+    <Participants>
+      <Participant1 Name="Peru" Home_Visiting="Home" />
+      <Participant2 Name="Trinidad" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.38" Draw="4.4" Away="8.75" />
+    <Spread Home_Odds="1.98" Home_Points="-1.25" Away_Points="1.25" Away_Odds="1.83" />
+    <Total Points="2.5" Over="1.98" Under="1.79" />
+  </Event>
+  <Event DateTimeGMT="24/05/2016 01:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Friendly International" LeagueID="19186" ID="14232065" IsOption="1" EventType="0" MEID="5715947">
+    <Participants>
+      <Participant1 Name="Peru" Home_Visiting="Home" />
+      <Participant2 Name="Trinidad" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="1.67" Home_Points="-1" Away_Points="1" Away_Odds="2.16" />
+    <Total Points="2.25" Over="1.72" Under="2.03" />
+  </Event>
+  <Event DateTimeGMT="25/05/2016 01:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Friendly International" LeagueID="19186" ID="14232066" IsOption="0" EventType="0" MEID="5715948">
+    <Participants>
+      <Participant1 Name="Panama" Home_Visiting="Home" />
+      <Participant2 Name="Venezuela" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.2" Draw="3.05" Away="3.5" />
+    <Spread Home_Odds="1.93" Home_Points="-0.25" Away_Points="0.25" Away_Odds="1.88" />
+    <Total Points="2" Over="1.98" Under="1.79" />
+  </Event>
+  <Event DateTimeGMT="25/05/2016 15:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Friendly International" LeagueID="19186" ID="14232067" IsOption="0" EventType="0" MEID="5715949">
+    <Participants>
+      <Participant1 Name="Serbia" Home_Visiting="Home" />
+      <Participant2 Name="Cyprus" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.33" Draw="4.6" Away="10.25" />
+    <Spread Home_Odds="1.88" Home_Points="-1.25" Away_Points="1.25" Away_Odds="1.94" />
+    <Total Points="2.25" Over="1.79" Under="1.98" />
+  </Event>
+  <Event DateTimeGMT="25/05/2016 18:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Friendly International" LeagueID="19186" ID="14232068" IsOption="0" EventType="0" MEID="5715950">
+    <Participants>
+      <Participant1 Name="DR Congo" Home_Visiting="Home" />
+      <Participant2 Name="Romania" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="4.55" Draw="3.1" Away="1.91" />
+    <Spread Home_Odds="1.9" Home_Points="0.5" Away_Points="-0.5" Away_Odds="1.91" />
+    <Total Points="1.75" Over="1.81" Under="1.98" />
+  </Event>
+  <Event DateTimeGMT="26/05/2016 00:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Friendly International" LeagueID="19186" ID="14232069" IsOption="0" EventType="0" MEID="5715951">
+    <Participants>
+      <Participant1 Name="USA" Home_Visiting="Home" />
+      <Participant2 Name="Ecuador" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.15" Draw="3.25" Away="3.4" />
+    <Spread Home_Odds="1.91" Home_Points="-0.25" Away_Points="0.25" Away_Odds="1.91" />
+    <Total Points="2.25" Over="1.88" Under="1.88" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 15:15:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Toulon Tournament - 80 Min" LeagueID="39980" ID="14232245" IsOption="0" EventType="0" MEID="5716017">
+    <Participants>
+      <Participant1 Name="Japan [Y]" Home_Visiting="Home" />
+      <Participant2 Name="Portugal [Y]" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.9" Draw="3.2" Away="2.35" />
+    <Spread Home_Odds="1.75" Home_Points="0.25" Away_Points="-0.25" Away_Odds="2.08" />
+    <Total Points="2.5" Over="2.01" Under="1.77" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 15:15:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Toulon Tournament - 80 Min" LeagueID="39980" ID="14232245" IsOption="1" EventType="0" MEID="5716017">
+    <Participants>
+      <Participant1 Name="Japan [Y]" Home_Visiting="Home" />
+      <Participant2 Name="Portugal [Y]" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.06" Home_Points="0" Away_Points="0" Away_Odds="1.73" />
+    <Total Points="2.25" Over="1.74" Under="2.01" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 13:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Russia - 2nd Div Center" LeagueID="37260" ID="14232247" IsOption="0" EventType="0" MEID="5716019">
+    <Participants>
+      <Participant1 Name="Torpedo Moscow" Home_Visiting="Home" />
+      <Participant2 Name="Ryazan" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.95" Draw="3.2" Away="3.45" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:45:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Toulon Tournament - 80 Min" LeagueID="39980" ID="14232248" IsOption="0" EventType="0" MEID="5716020">
+    <Participants>
+      <Participant1 Name="England [Y]" Home_Visiting="Home" />
+      <Participant2 Name="Guinea [Y]" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.12" Draw="8.25" Away="15.5" />
+    <Spread Home_Odds="1.83" Home_Points="-2.25" Away_Points="2.25" Away_Odds="1.98" />
+    <Total Points="3.25" Over="1.93" Under="1.84" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:45:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Toulon Tournament - 80 Min" LeagueID="39980" ID="14232248" IsOption="1" EventType="0" MEID="5716020">
+    <Participants>
+      <Participant1 Name="England [Y]" Home_Visiting="Home" />
+      <Participant2 Name="Guinea [Y]" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="1.66" Home_Points="-2" Away_Points="2" Away_Odds="2.18" />
+    <Total Points="3" Over="1.68" Under="2.09" />
+  </Event>
+  <Event DateTimeGMT="24/05/2016 15:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Estonia - Meistriliiga" LeagueID="22135" ID="14213256" IsOption="0" EventType="0" MEID="5709831">
+    <Participants>
+      <Participant1 Name="Trans Narva" Home_Visiting="Home" />
+      <Participant2 Name="Flora Tallinn" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="7.25" Draw="5.3" Away="1.27" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Estonia - Meistriliiga" LeagueID="22135" ID="14213297" IsOption="0" EventType="0" MEID="5709848">
+    <Participants>
+      <Participant1 Name="Maag Tammeka Tartu" Home_Visiting="Home" />
+      <Participant2 Name="Tallinna FC Infonet" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="7" Draw="4.55" Away="1.33" />
+    <Spread Home_Odds="1.96" Home_Points="1.25" Away_Points="-1.25" Away_Odds="1.74" />
+    <Total Points="3" Over="1.82" Under="1.88" />
+  </Event>
+  <Event DateTimeGMT="24/05/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Estonia - Meistriliiga" LeagueID="22135" ID="14213298" IsOption="0" EventType="0" MEID="5709849">
+    <Participants>
+      <Participant1 Name="Parnu Linnameeskond" Home_Visiting="Home" />
+      <Participant2 Name="Flora Paide" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="4.75" Draw="3.9" Away="1.54" />
+  </Event>
+  <Event DateTimeGMT="24/05/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Estonia - Meistriliiga" LeagueID="22135" ID="14213299" IsOption="0" EventType="0" MEID="5709850">
+    <Participants>
+      <Participant1 Name="Rakvere Tarvas" Home_Visiting="Home" />
+      <Participant2 Name="JK Sillamae Kalev" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="7.25" Draw="4.65" Away="1.32" />
+  </Event>
+  <Event DateTimeGMT="24/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Estonia - Meistriliiga" LeagueID="22135" ID="14213300" IsOption="0" EventType="0" MEID="5709851">
+    <Participants>
+      <Participant1 Name="Nomme Kalju" Home_Visiting="Home" />
+      <Participant2 Name="Levadia Talin" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.2" Draw="3.3" Away="2.85" />
+  </Event>
+  <Event DateTimeGMT="26/05/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Friendly International" LeagueID="19186" ID="14232344" IsOption="0" EventType="0" MEID="5716062">
+    <Participants>
+      <Participant1 Name="Azerbaijan" Home_Visiting="Home" />
+      <Participant2 Name="Andorra" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.32" Draw="4.45" Away="10.5" />
+    <Spread Home_Odds="1.91" Home_Points="-1.25" Away_Points="1.25" Away_Odds="1.87" />
+    <Total Points="2.25" Over="1.97" Under="1.78" />
+  </Event>
+  <Event DateTimeGMT="27/05/2016 18:45:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Friendly International" LeagueID="19186" ID="14232345" IsOption="0" EventType="0" MEID="5716063">
+    <Participants>
+      <Participant1 Name="Northern Ireland" Home_Visiting="Home" />
+      <Participant2 Name="Belarus" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2" Draw="3.05" Away="4.1" />
+    <Spread Home_Odds="1.97" Home_Points="-0.5" Away_Points="0.5" Away_Odds="1.81" />
+    <Total Points="2" Over="2" Under="1.74" />
+  </Event>
+  <Event DateTimeGMT="27/05/2016 18:45:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Friendly International" LeagueID="19186" ID="14232346" IsOption="0" EventType="0" MEID="5716064">
+    <Participants>
+      <Participant1 Name="Ireland" Home_Visiting="Home" />
+      <Participant2 Name="Netherlands" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="3.25" Draw="3.1" Away="2.25" />
+    <Spread Home_Odds="1.88" Home_Points="0.25" Away_Points="-0.25" Away_Odds="1.89" />
+    <Total Points="2.25" Over="1.97" Under="1.77" />
+  </Event>
+  <Event DateTimeGMT="28/05/2016 18:45:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Champions League" LeagueID="22953" ID="14030912" IsOption="1" EventType="0" MEID="5650097">
+    <Participants>
+      <Participant1 Name="Real Madrid" Home_Visiting="Home" />
+      <Participant2 Name="Atletico Madrid" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.29" Home_Points="-0.5" Away_Points="0.5" Away_Odds="1.6" />
+    <Total Points="1.75" Over="1.56" Under="2.29" />
+  </Event>
+  <Event DateTimeGMT="28/05/2016 18:45:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Champions League" LeagueID="22953" ID="14030912" IsOption="0" EventType="0" MEID="5650097">
+    <Participants>
+      <Participant1 Name="Real Madrid" Home_Visiting="Home" />
+      <Participant2 Name="Atletico Madrid" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.35" Draw="3.15" Away="3.25" />
+    <Spread Home_Odds="1.98" Home_Points="-0.25" Away_Points="0.25" Away_Odds="1.83" />
+    <Total Points="2" Over="1.79" Under="1.98" />
+  </Event>
+  <Event DateTimeGMT="28/05/2016 18:45:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Champions League" LeagueID="22953" ID="14030912" IsOption="1" EventType="0" MEID="5650097">
+    <Participants>
+      <Participant1 Name="Real Madrid" Home_Visiting="Home" />
+      <Participant2 Name="Atletico Madrid" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="1.61" Home_Points="0" Away_Points="0" Away_Odds="2.25" />
+    <Total Points="2.25" Over="2.07" Under="1.69" />
+  </Event>
+  <Event DateTimeGMT="24/05/2016 15:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Russia - Premier Liga" LeagueID="23081" ID="14232526" IsOption="0" EventType="0" MEID="5716130">
+    <Participants>
+      <Participant1 Name="Volgar Gazprom" Home_Visiting="Home" />
+      <Participant2 Name="Anzhi Makhachkala" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="4" Draw="3.2" Away="2" />
+  </Event>
+  <Event DateTimeGMT="24/05/2016 16:45:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Russia - Premier Liga" LeagueID="23081" ID="14232527" IsOption="0" EventType="0" MEID="5716131">
+    <Participants>
+      <Participant1 Name="Kuban Krasnodar" Home_Visiting="Home" />
+      <Participant2 Name="Tom Tomsk" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.74" Draw="3.35" Away="5.2" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 18:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Argentina - Primera C" LeagueID="23020" ID="14232528" IsOption="0" EventType="0" MEID="5716132">
+    <Participants>
+      <Participant1 Name="CA San Miguel" Home_Visiting="Home" />
+      <Participant2 Name="Excursionistas" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="3.95" Draw="3.25" Away="1.83" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 18:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Argentina - Primera C" LeagueID="23020" ID="14232529" IsOption="0" EventType="0" MEID="5716133">
+    <Participants>
+      <Participant1 Name="Defensores De Cambaceres" Home_Visiting="Home" />
+      <Participant2 Name="San Martin Burzaco" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="3.2" Draw="3" Away="2.15" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 18:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Argentina - Primera C" LeagueID="23020" ID="14232530" IsOption="0" EventType="0" MEID="5716134">
+    <Participants>
+      <Participant1 Name="Sportivo Barracas" Home_Visiting="Home" />
+      <Participant2 Name="Argentino de Merlo" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.91" Draw="3" Away="3.85" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 15:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Hungary - NB I W" LeagueID="36152" ID="14232531" IsOption="0" EventType="0" MEID="5716135">
+    <Participants>
+      <Participant1 Name="Budapest MTK [W]" Home_Visiting="Home" />
+      <Participant2 Name="Ferencvaros [W]" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="4" Draw="5" Away="1.51" />
+  </Event>
+  <Event DateTimeGMT="28/05/2016 12:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Czech Republic - Druha" LeagueID="24411" ID="14232540" IsOption="0" EventType="0" MEID="5716143">
+    <Participants>
+      <Participant1 Name="Ceske Budejovice" Home_Visiting="Home" />
+      <Participant2 Name="Graffin Vlasim" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.87" Draw="3.4" Away="3.25" />
+    <Spread Home_Odds="1.9" Home_Points="-0.5" Away_Points="0.5" Away_Odds="1.76" />
+    <Total Points="2.75" Over="1.85" Under="1.77" />
+  </Event>
+  <Event DateTimeGMT="28/05/2016 12:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Czech Republic - Druha" LeagueID="24411" ID="14232541" IsOption="0" EventType="0" MEID="5716144">
+    <Participants>
+      <Participant1 Name="Pardubice" Home_Visiting="Home" />
+      <Participant2 Name="Sokolov" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.25" Draw="3.15" Away="2.65" />
+    <Spread Home_Odds="1.94" Home_Points="-0.25" Away_Points="0.25" Away_Odds="1.72" />
+    <Total Points="2.75" Over="1.9" Under="1.72" />
+  </Event>
+  <Event DateTimeGMT="28/05/2016 12:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Czech Republic - Druha" LeagueID="24411" ID="14232542" IsOption="0" EventType="0" MEID="5716145">
+    <Participants>
+      <Participant1 Name="FC Mas Taborsko" Home_Visiting="Home" />
+      <Participant2 Name="Usti Nad Labem" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.87" Draw="3.3" Away="3.35" />
+    <Spread Home_Odds="1.9" Home_Points="-0.5" Away_Points="0.5" Away_Odds="1.76" />
+    <Total Points="2.75" Over="1.85" Under="1.77" />
+  </Event>
+  <Event DateTimeGMT="28/05/2016 12:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Czech Republic - Druha" LeagueID="24411" ID="14232543" IsOption="0" EventType="0" MEID="5716146">
+    <Participants>
+      <Participant1 Name="Frydek Mistek" Home_Visiting="Home" />
+      <Participant2 Name="Opava" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.05" Draw="3.05" Away="3.05" />
+    <Spread Home_Odds="1.79" Home_Points="-0.25" Away_Points="0.25" Away_Odds="1.86" />
+    <Total Points="2.5" Over="1.68" Under="1.95" />
+  </Event>
+  <Event DateTimeGMT="28/05/2016 12:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Czech Republic - Druha" LeagueID="24411" ID="14232544" IsOption="0" EventType="0" MEID="5716147">
+    <Participants>
+      <Participant1 Name="SC Znojmo" Home_Visiting="Home" />
+      <Participant2 Name="FK Slavoj Vysehrad" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.37" Draw="4.4" Away="5.6" />
+    <Spread Home_Odds="2.08" Home_Points="-1.5" Away_Points="1.5" Away_Odds="1.63" />
+    <Total Points="2.75" Over="1.69" Under="1.94" />
+  </Event>
+  <Event DateTimeGMT="28/05/2016 12:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Czech Republic - Druha" LeagueID="24411" ID="14232545" IsOption="0" EventType="0" MEID="5716148">
+    <Participants>
+      <Participant1 Name="Slovan Varnsdorf" Home_Visiting="Home" />
+      <Participant2 Name="FK Karvina" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.2" Draw="3.3" Away="2.65" />
+    <Spread Home_Odds="1.94" Home_Points="-0.25" Away_Points="0.25" Away_Odds="1.72" />
+    <Total Points="2.75" Over="1.85" Under="1.77" />
+  </Event>
+  <Event DateTimeGMT="28/05/2016 12:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Czech Republic - Druha" LeagueID="24411" ID="14232546" IsOption="0" EventType="0" MEID="5716149">
+    <Participants>
+      <Participant1 Name="Sigma Olomouc B" Home_Visiting="Home" />
+      <Participant2 Name="Trinec" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2" Draw="3.2" Away="3.05" />
+    <Spread Home_Odds="2.03" Home_Points="-0.5" Away_Points="0.5" Away_Odds="1.65" />
+    <Total Points="2.5" Over="1.68" Under="1.96" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 15:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Finland - Ykkonen" LeagueID="30458" ID="14178477" IsOption="0" EventType="0" MEID="5697636">
+    <Participants>
+      <Participant1 Name="EIF Ekenas" Home_Visiting="Home" />
+      <Participant2 Name="GrIFK Grankulla" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.1" Draw="3.3" Away="3.25" />
+    <Spread Home_Odds="1.82" Home_Points="-0.25" Away_Points="0.25" Away_Odds="1.96" />
+    <Total Points="2.5" Over="1.85" Under="1.85" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 15:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Finland - Ykkonen" LeagueID="30458" ID="14178477" IsOption="1" EventType="0" MEID="5697636">
+    <Participants>
+      <Participant1 Name="EIF Ekenas" Home_Visiting="Home" />
+      <Participant2 Name="GrIFK Grankulla" Home_Visiting="Visiting" />
+    </Participants>
+    <Spread Home_Odds="2.03" Home_Points="-0.5" Away_Points="0.5" Away_Odds="1.71" />
+    <Total Points="2.25" Over="1.64" Under="2.1" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway 3rd - Avdeling 10" LeagueID="30436" ID="14232687" IsOption="0" EventType="0" MEID="5716208">
+    <Participants>
+      <Participant1 Name="IL Stjordals-Blink 2" Home_Visiting="Home" />
+      <Participant2 Name="Verdal" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="3.25" Draw="5" Away="1.67" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway 4th - Oslo 1" LeagueID="36693" ID="14232688" IsOption="0" EventType="0" MEID="5716209">
+    <Participants>
+      <Participant1 Name="Nesodden" Home_Visiting="Home" />
+      <Participant2 Name="Romsaas" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.32" Draw="5.85" Away="5.4" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway 5th - Trondelag 1" LeagueID="38244" ID="14232689" IsOption="0" EventType="0" MEID="5716210">
+    <Participants>
+      <Participant1 Name="Vinne" Home_Visiting="Home" />
+      <Participant2 Name="Nessegutten" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.49" Draw="5.7" Away="3.75" />
+  </Event>
+  <Event DateTimeGMT="24/05/2016 10:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="AFC Champions League" LeagueID="20369" ID="14226492" IsOption="0" EventType="0" MEID="5714175">
+    <Participants>
+      <Participant1 Name="Chonbuk H Motors" Home_Visiting="Home" />
+      <Participant2 Name="Melbourne Victory" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.67" Draw="3.65" Away="5.1" />
+  </Event>
+  <Event DateTimeGMT="26/05/2016 17:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Greece - Super League" LeagueID="24279" ID="14226493" IsOption="0" EventType="0" MEID="5714176">
+    <Participants>
+      <Participant1 Name="AEK Athens" Home_Visiting="Home" />
+      <Participant2 Name="Panathinaikos" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="3.35" Draw="3.1" Away="2.1" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden - Damallsvenskan" LeagueID="33598" ID="14190488" IsOption="0" EventType="0" MEID="5701974">
+    <Participants>
+      <Participant1 Name="Eskilstuna United [W]" Home_Visiting="Home" />
+      <Participant2 Name="Kristianstads DFF [W]" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.3" Draw="4.8" Away="7.5" />
+    <Spread Home_Odds="1.88" Home_Points="-1.5" Away_Points="1.5" Away_Odds="1.86" />
+    <Total Points="3" Over="1.85" Under="1.85" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 23:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Brazil - Serie C" LeagueID="23692" ID="14233302" IsOption="0" EventType="0" MEID="5716479">
+    <Participants>
+      <Participant1 Name="Juventude" Home_Visiting="Home" />
+      <Participant2 Name="Ypiranga Erechim" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.8" Draw="3.3" Away="4" />
+    <Spread Home_Odds="1.76" Home_Points="-0.5" Away_Points="0.5" Away_Odds="1.98" />
+    <Total Points="2.25" Over="1.79" Under="1.9" />
+  </Event>
+  <Event DateTimeGMT="25/05/2016 16:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Belarus - Premier" LeagueID="23833" ID="14227177" IsOption="0" EventType="0" MEID="5714423">
+    <Participants>
+      <Participant1 Name="Torpedo Zhodino" Home_Visiting="Home" />
+      <Participant2 Name="Belshina Bobruisk" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.4" Draw="3.1" Away="2.65" />
+  </Event>
+  <Event DateTimeGMT="25/05/2016 18:05:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway Cup" LeagueID="34681" ID="14066565" IsOption="0" EventType="0" MEID="5660828">
+    <Participants>
+      <Participant1 Name="Rosenborg" Home_Visiting="Home" />
+      <Participant2 Name="Nest Sotra" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.02" Draw="11.5" Away="24.75" />
+  </Event>
+  <Event DateTimeGMT="25/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway Cup" LeagueID="34681" ID="14066566" IsOption="0" EventType="0" MEID="5660829">
+    <Participants>
+      <Participant1 Name="Sandefjord Fb" Home_Visiting="Home" />
+      <Participant2 Name="Sandnes Ulf" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.15" Draw="3.35" Away="2.9" />
+  </Event>
+  <Event DateTimeGMT="25/05/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway Cup" LeagueID="34681" ID="14066567" IsOption="0" EventType="0" MEID="5660830">
+    <Participants>
+      <Participant1 Name="Bodo Glimt" Home_Visiting="Home" />
+      <Participant2 Name="Haugesund FK" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.15" Draw="3.25" Away="2.9" />
+  </Event>
+  <Event DateTimeGMT="25/05/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway Cup" LeagueID="34681" ID="14066568" IsOption="0" EventType="0" MEID="5660831">
+    <Participants>
+      <Participant1 Name="Valerenga" Home_Visiting="Home" />
+      <Participant2 Name="Vidar" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.12" Draw="7" Away="12.5" />
+  </Event>
+  <Event DateTimeGMT="25/05/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway Cup" LeagueID="34681" ID="14066569" IsOption="0" EventType="0" MEID="5660832">
+    <Participants>
+      <Participant1 Name="Sarpsborg 08" Home_Visiting="Home" />
+      <Participant2 Name="Stjordals Blink" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.13" Draw="7" Away="12" />
+  </Event>
+  <Event DateTimeGMT="25/05/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway Cup" LeagueID="34681" ID="14066570" IsOption="0" EventType="0" MEID="5660833">
+    <Participants>
+      <Participant1 Name="Tromso" Home_Visiting="Home" />
+      <Participant2 Name="Odd BK" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="3.1" Draw="3.35" Away="2.05" />
+  </Event>
+  <Event DateTimeGMT="25/05/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway Cup" LeagueID="34681" ID="14066571" IsOption="0" EventType="0" MEID="5660834">
+    <Participants>
+      <Participant1 Name="Stromsgodset" Home_Visiting="Home" />
+      <Participant2 Name="Stabaek IF" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.4" Draw="4.35" Away="6" />
+  </Event>
+  <Event DateTimeGMT="25/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway Cup" LeagueID="34681" ID="14066572" IsOption="0" EventType="0" MEID="5660835">
+    <Participants>
+      <Participant1 Name="Kongsvinger" Home_Visiting="Home" />
+      <Participant2 Name="Brattvag" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.33" Draw="4.65" Away="6.95" />
+  </Event>
+  <Event DateTimeGMT="24/05/2016 13:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="AFC Champions League" LeagueID="20369" ID="14227432" IsOption="0" EventType="0" MEID="5714496">
+    <Participants>
+      <Participant1 Name="Lokomotiv Tashkent" Home_Visiting="Home" />
+      <Participant2 Name="Al-Hilal Riyadh [SAU]" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="3.1" Draw="3.4" Away="2.15" />
+  </Event>
+  <Event DateTimeGMT="24/05/2016 15:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="AFC Champions League" LeagueID="20369" ID="14227433" IsOption="0" EventType="0" MEID="5714497">
+    <Participants>
+      <Participant1 Name="Teraktor Sazi" Home_Visiting="Home" />
+      <Participant2 Name="Al-Nasr Dubai [UAE]" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.57" Draw="4" Away="5.35" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Sweden 3rd - Sodra Gotaland" LeagueID="36864" ID="14196370" IsOption="0" EventType="0" MEID="5704182">
+    <Participants>
+      <Participant1 Name="IFK Trelleborg" Home_Visiting="Home" />
+      <Participant2 Name="BK Flagg" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.69" Draw="4.5" Away="3.35" />
+  </Event>
+  <Event DateTimeGMT="24/05/2016 11:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="AFC Champions League" LeagueID="20369" ID="14227434" IsOption="0" EventType="0" MEID="5714498">
+    <Participants>
+      <Participant1 Name="Shanghai Dongya" Home_Visiting="Home" />
+      <Participant2 Name="FC Tokyo" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="1.69" Draw="3.8" Away="4.45" />
+  </Event>
+  <Event DateTimeGMT="24/05/2016 17:45:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Swiss - Challenge League" LeagueID="23996" ID="14235851" IsOption="0" EventType="0" MEID="5717344">
+    <Participants>
+      <Participant1 Name="Winterthur" Home_Visiting="Home" />
+      <Participant2 Name="Xamax" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.7" Draw="3.35" Away="2.35" />
+  </Event>
+  <Event DateTimeGMT="24/05/2016 16:00:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="AFC Cup" LeagueID="28369" ID="14235855" IsOption="0" EventType="0" MEID="5717348">
+    <Participants>
+      <Participant1 Name="Al Quwa Al Jawiya" Home_Visiting="Home" />
+      <Participant2 Name="Al-Wihdat Amman [JOR]" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.35" Draw="3.1" Away="2.75" />
+  </Event>
+  <Event DateTimeGMT="25/05/2016 12:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="AFC Cup" LeagueID="28369" ID="14235856" IsOption="0" EventType="0" MEID="5717349">
+    <Participants>
+      <Participant1 Name="Naft Al-Wasat" Home_Visiting="Home" />
+      <Participant2 Name="Al-Jaish Damascus [SYR]" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="2.05" Draw="3.35" Away="3.05" />
+  </Event>
+  <Event DateTimeGMT="23/05/2016 17:30:00" Branch="Soccer" Sport="Soccer" BranchID="1" League="Norway 4th - Indre Ostland 1" LeagueID="36841" ID="14235863" IsOption="0" EventType="0" MEID="5717356">
+    <Participants>
+      <Participant1 Name="Faaberg 2" Home_Visiting="Home" />
+      <Participant2 Name="Storhamar" Home_Visiting="Visiting" />
+    </Participants>
+    <MoneyLine Home="3.55" Draw="5.65" Away="1.54" />
+  </Event>
+</Events>
