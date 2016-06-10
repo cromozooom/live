@@ -63,29 +63,41 @@
 
                  </div>
                  {* End of Brand dropdown row  *}
+                 <div class="row">
+                    <div class="col-sm-4">
+                      <div class="input-group">
+                        <div class="input-group-btn">
+                          <button type="button" class="btn btn-primary">Sport Type</button>
+                        </div>
+                        <select class="form-control" id="sportType" name="sportType">
+                          {foreach from=$sportType  item=type}
+                              <option value="{$type}">{$type}</option>
+                          {/foreach}
+                        </select>
+
+                      </div>
+
+                    </div>
+                 </div>
              </div>
 
-              <div class="sport-type-row">
-                <div class="row">
-                   <div class="col-sm-4">
-                     <div class="input-group">
-                       <div class="input-group-btn">
-                         <button type="button" class="btn btn-primary">Sport Type</button>
-                       </div>
-                       <select class="form-control" name="language">
-                         {foreach from=$languages item=lang}
-                             <option value="{$lang}">{$lang}</option>
-                         {/foreach}
-                       </select>
-                     </div>
-                   </div>
-                </div>
-              </div>
-              {*  End of Sport type *}
+
            </div>
 
         </form>
+        {* <form action="{path_for name='home'}" method="post" id="match-form-select">
+          <div class="sport-type-row">
 
+          </div> *}
+          {*  End of Sport type *}
+        {* </form> *}
+      {* {if isset($xmlFeeds)}
+        {foreach from=$xmlFeeds  item=match}
+          <h4>{$match.League}</h4>
+          <h4>{$match->Participants->Participant1['Name']}</h4>
+          <h4>{$match->Participants->Participant2['Name']}</h4>
+        {/foreach}
+      {/if} *}
       </div>
     </div>
   </div>
@@ -98,12 +110,15 @@
 <script src="{base_url}/js/bootstrap.min.js"></script>
 
 <script>
-$("#brandName").change(function(){
-          this.form.submit();
-});
-$("#productName").change(function(){
-          this.form.submit();
-});
+  $("#brandName").change(function(){
+            this.form.submit();
+  });
+  $("#productName").change(function(){
+            this.form.submit();
+  });
+  $("#sportType").change(function(){
+            this.form.submit();
+  });
 </script>
 
 {/block}

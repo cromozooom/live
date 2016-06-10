@@ -10,17 +10,14 @@ class HomeController extends Controller
     public function index($request, $response)
     {
         $brand = new brands;
-
+        $odds = new odds;
         $brands = $brand->getAllBrands();
 
-        $xmlFile = 'xmlFeeds/xml-football.xml';
+        $sportType = array_keys($odds->getSportType());
 
-        $xml = simplexml_load_file($xmlFile);
 
-        foreach($brands as $i => $value){
-          $allBrand[] = $i;
-          $products[] = $value;
-        }
+        $products = array_values(($brands));
+        $allBrand = array_keys($brands);
         $language = $brand->getAllLanguages();
 
 
@@ -29,18 +26,24 @@ class HomeController extends Controller
           'products'=>  $products[0],
           'languages'=> $language,
           'brandsWithProducts' => $brands,
-          'xmlFeeds'=> $xml,
+          'sportType' => $sportType
         ]);
     }
 
     public function postIndex($request, $response)
     {
       $brand = new brands;
+      $odds = new odds;
       $brands = $brand->getAllBrands();
 
-      foreach($brands as $i => $value){
-        $allBrand[] = $i;
-      }
+      $sportType = array_keys($odds->getSportType());
+      $sportTypeId = $request->getParam('sportType');
+
+      // FIXME: $sportTypeId has no value if we are not selected it.
+      $xmlFile = $odds->getSportType()[$sportTypeId]['file'];
+      $xml = simplexml_load_file($xmlFile);
+
+      $allBrand = array_keys($brands);
 
       $language = $brand->getAllLanguages();
       return $this->container->view->render($response, 'home.tpl',[
@@ -48,6 +51,8 @@ class HomeController extends Controller
         'products'=>  $brands[$request->getParam('brand')],
         'languages'=> $language,
         'brandsWithProducts' => $brands,
+        'xmlFeeds'=> $xml,
+        'sportType' => $sportType
       ]);
     }
 

@@ -7,7 +7,10 @@ class Odds
     protected $BranchId;
     protected $EventType;
     protected $OddsStyle;
-    protected $sportType = ["Soccer" => 1];
+    protected $sportType = [
+      "Soccer" => ["name"=> "Soccer", "file" => "xmlFeeds/xml-football.xml", "id" => 1],
+      "Tennis" => ["name"=> "Tennis", "file" => "xmlFeeds/xml-football.xml", "id" => 6]
+    ];
 
     public function __construct($BranchId = 0, $EventType = 0, $OddsStyle = 'DECIMAL')
     {
@@ -25,6 +28,9 @@ class Odds
 
     public function getOddsStyle(){
       return $this->OddsStyle;
+    }
+    public function getSportType(){
+      return $this->sportType;
     }
     public function getXmlUrl(){
       // FIXME:0 Make $url display notthing when empty
