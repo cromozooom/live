@@ -17,51 +17,71 @@
       <div class="panel-body">
         <form action="{path_for name='home'}" method="post" id="form-select">
            <div class="selected">
-             <div  class="row">
+             <div class="brand-select-row">
+               <div  class="row">
 
-               <div class="col-sm-4">
-                 <div class="input-group">
-                   <div class="input-group-btn">
+                 <div class="col-sm-4">
+                   <div class="input-group">
+                     <div class="input-group-btn">
 
-                         <button type="button" class="btn btn-primary">Brand</button>
+                           <button type="button" class="btn btn-primary">Brand</button>
+                     </div>
+                     <select class="form-control" id="brandName" name="brand"  >
+                         {foreach from=$brand item=brandName}
+                             <option value="{$brandName}" {if $brandName == $old.brand}selected{/if} >{$brandName}</option>
+                         {/foreach}
+                      <span class="caret"></span>
+                     </select>
                    </div>
-                   <select class="form-control" id="brandName" name="brand"  >
-                       {foreach from=$brand item=brandName}
-                           <option value="{$brandName}" {if $brandName == $old.brand}selected{/if} >{$brandName}</option>
+                 </div>
+                 <div class="col-sm-4">
+                   <div class="input-group">
+                     <div class="input-group-btn">
+                       <button type="button" class="btn btn-primary">Product</button>
+                     </div>
+                     <select class="form-control" id="productName" name="product">
+
+                       {foreach from=$products item=productName}
+                           <option value="{$productName}" {if $productName == $old.product}selected{/if}>{$productName}</option>
                        {/foreach}
-                    <span class="caret"></span>
-                   </select>
-                 </div>
-               </div>
-               <div class="col-sm-4">
-                 <div class="input-group">
-                   <div class="input-group-btn">
-                     <button type="button" class="btn btn-primary">Product</button>
+                     </select>
                    </div>
-                   <select class="form-control" id="productName" name="product">
-
-                     {foreach from=$products item=productName}
-                         <option value="{$productName}" {if $productName == $old.product}selected{/if}>{$productName}</option>
-                     {/foreach}
-                   </select>
                  </div>
-               </div>
 
-               <div class="col-sm-4">
-                 <div class="input-group">
-                   <div class="input-group-btn">
-                     <button type="button" class="btn btn-primary">Language</button>
+                 <div class="col-sm-4">
+                   <div class="input-group">
+                     <div class="input-group-btn">
+                       <button type="button" class="btn btn-primary">Language</button>
+                     </div>
+                     <select class="form-control" name="language">
+                       {foreach from=$languages item=lang}
+                          <option value="{$lang}">{$lang}</option>
+                       {/foreach}
+                     </select>
                    </div>
-                   <select class="form-control" name="language">
-                     {foreach from=$languages item=lang}
-                        <option value="{$lang}">{$lang}</option>
-                     {/foreach}
-                   </select>
                  </div>
-               </div>
 
-               </div>
-               {* End of Brand dropdown button  *}
+                 </div>
+                 {* End of Brand dropdown row  *}
+             </div>
+
+              <div class="sport-type-row">
+                <div class="row">
+                   <div class="col-sm-4">
+                     <div class="input-group">
+                       <div class="input-group-btn">
+                         <button type="button" class="btn btn-primary">Sport Type</button>
+                       </div>
+                       <select class="form-control" name="language">
+                         {foreach from=$languages item=lang}
+                             <option value="{$lang}">{$lang}</option>
+                         {/foreach}
+                       </select>
+                     </div>
+                   </div>
+                </div>
+              </div>
+              {*  End of Sport type *}
            </div>
 
         </form>

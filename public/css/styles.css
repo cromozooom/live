@@ -27,8 +27,11 @@ nav{
   margin:0;
 }
 
+#form-select .selected div .row{
+	margin-top: 20px;
+}
 
-.selected{
+#form-select .selected{
 	margin-bottom: 20px;
 }
 
@@ -36,6 +39,7 @@ nav{
 	border-top-right-radius: 4px !important;
 	border-bottom-right-radius: 4px !important;
 }
+
  /*==========  Non-Mobile First Method  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
