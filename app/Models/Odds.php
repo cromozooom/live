@@ -9,7 +9,7 @@ class Odds
     protected $OddsStyle;
     protected $sportType = [
       "Soccer" => ["name"=> "Soccer", "file" => "xmlFeeds/xml-football.xml", "id" => 1],
-      "Tennis" => ["name"=> "Tennis", "file" => "xmlFeeds/xml-football.xml", "id" => 6]
+      "Tennis" => ["name"=> "Tennis", "file" => "xmlFeeds/xml-tennis.xml", "id" => 6]
     ];
 
     public function __construct($BranchId = 0, $EventType = 0, $OddsStyle = 'DECIMAL')

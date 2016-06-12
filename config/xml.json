@@ -1,0 +1,14 @@
+{
+
+   "Soccer": {
+     "name": "Soccer",
+     "file" : "xmlFeeds/xml-football.xml",
+     "id" : 1
+   },
+   "Tennis" : {
+     "name": "Tennis",
+     "file" : "xmlFeeds/xml-tennis.xml",
+     "id" : 6
+   }
+
+}

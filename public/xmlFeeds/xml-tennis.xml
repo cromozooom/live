@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 0 FT-->
+<Events>
+  <Event DateTimeGMT="10/06/2016 14:45:00" Branch="Tennis" Sport="Tennis" BranchID="6" League="ATP Hertogenbosch" LeagueID="41049" ID="14370334" IsOption="0" EventType="0" MEID="5765453">
+  <Participants>
+  <Participant1 Name="Nicolas Mahut [FRA]" Home_Visiting="Home"/>
+  <Participant2 Name="Bernard Tomic [AUS]" Home_Visiting="Visiting"/>
+  </Participants>
+  <MoneyLine Home="1.87" Away="1.95"/>
+  </Event>
+  <Event DateTimeGMT="10/06/2016 14:00:00" Branch="Tennis" Sport="Tennis" BranchID="6" League="Challenger Caltanissetta" LeagueID="41060" ID="14370873" IsOption="0" EventType="0" MEID="5765654">
+  <Participants>
+  <Participant1 Name="Enrique Lopez-Perez [ESP]" Home_Visiting="Home"/>
+  <Participant2 Name="Guido Andreozzi [ARG]" Home_Visiting="Visiting"/>
+  </Participants>
+  <MoneyLine Home="2.75" Away="1.4"/>
+  </Event>
+  <Event DateTimeGMT="11/06/2016 01:00:00" Branch="Tennis" Sport="Tennis" BranchID="6" League="ITF Women Tokyo" LeagueID="41411" ID="14381256" IsOption="0" EventType="0" MEID="5770004">
+  <Participants>
+  <Participant1 Name="Su Jeong Jang [KOR]" Home_Visiting="Home"/>
+  <Participant2 Name="Junri Namigata [JPN]" Home_Visiting="Visiting"/>
+  </Participants>
+  <MoneyLine Home="1.54" Away="2.25"/>
+  </Event>
+  <Event DateTimeGMT="11/06/2016 01:00:00" Branch="Tennis" Sport="Tennis" BranchID="6" League="ITF Women Tokyo" LeagueID="41411" ID="14381257" IsOption="0" EventType="0" MEID="5770005">
+  <Participants>
+  <Participant1 Name="Akiko Omae [JPN]" Home_Visiting="Home"/>
+  <Participant2 Name="Jing-Jing Lu [CHN]" Home_Visiting="Visiting"/>
+  </Participants>
+  <MoneyLine Home="3.35" Away="1.27"/>
+  </Event>
+  <Event DateTimeGMT="10/06/2016 14:30:00" Branch="Tennis" Sport="Tennis" BranchID="6" League="Challenger Caltanissetta" LeagueID="41060" ID="14371599" IsOption="0" EventType="0" MEID="5765987">
+  <Participants>
+  <Participant1 Name="Matteo Donati [ITA]" Home_Visiting="Home"/>
+  <Participant2 Name="Gianluigi Quinzi [ITA]" Home_Visiting="Visiting"/>
+  </Participants>
+  <MoneyLine Home="1.77" Away="1.95"/>
+  </Event>
+  <Event DateTimeGMT="10/06/2016 15:45:00" Branch="Tennis" Sport="Tennis" BranchID="6" League="Challenger Lyon" LeagueID="41062" ID="14371600" IsOption="0" EventType="0" MEID="5765988">
+  <Participants>
+  <Participant1 Name="Thiago Monteiro [BRA]" Home_Visiting="Home"/>
+  <Participant2 Name="Henri Laaksonen [SUI]" Home_Visiting="Visiting"/>
+  </Participants>
+  <MoneyLine Home="1.43" Away="2.65"/>
+  </Event>
+  <Event DateTimeGMT="10/06/2016 14:00:00" Branch="Tennis" Sport="Tennis" BranchID="6" League="ATP Stuttgart" LeagueID="41050" ID="14377140" IsOption="0" EventType="0" MEID="5768358">
+  <Participants>
+  <Participant1 Name="Philipp Kohlschreiber [GER]" Home_Visiting="Home"/>
+  <Participant2 Name="Radek Stepanek [CZE]" Home_Visiting="Visiting"/>
+  </Participants>
+  <MoneyLine Home="1.48" Away="2.65"/>
+  </Event>
+  <Event DateTimeGMT="10/06/2016 15:30:00" Branch="Tennis" Sport="Tennis" BranchID="6" League="ATP Stuttgart" LeagueID="41050" ID="14377360" IsOption="0" EventType="0" MEID="5768458">
+  <Participants>
+  <Participant1 Name="Juan Martin Del Potro [ARG]" Home_Visiting="Home"/>
+  <Participant2 Name="Gilles Simon [FRA]" Home_Visiting="Visiting"/>
+  </Participants>
+  <MoneyLine Home="1.43" Away="2.85"/>
+  </Event>
+  <Event DateTimeGMT="10/06/2016 15:30:00" Branch="Tennis" Sport="Tennis" BranchID="6" League="WTA Nottingham" LeagueID="41045" ID="14377388" IsOption="0" EventType="0" MEID="5768470">
+  <Participants>
+  <Participant1 Name="Monica Puig [PUE]" Home_Visiting="Home"/>
+  <Participant2 Name="Tamira Paszek [AUT]" Home_Visiting="Visiting"/>
+  </Participants>
+  <MoneyLine Home="1.39" Away="3"/>
+  </Event>
+  <Event DateTimeGMT="10/06/2016 15:30:00" Branch="Tennis" Sport="Tennis" BranchID="6" League="ATP Stuttgart, Doubles" LeagueID="41051" ID="14377680" IsOption="0" EventType="0" MEID="5768604">
+  <Participants>
+  <Participant1 Name="B. Bryan / M. Bryan" Home_Visiting="Home"/>
+  <Participant2 Name="Marach / Martin" Home_Visiting="Visiting"/>
+  </Participants>
+  <MoneyLine Home="1.22" Away="4.05"/>
+  </Event>
+  <Event DateTimeGMT="10/06/2016 14:00:00" Branch="Tennis" Sport="Tennis" BranchID="6" League="ATP Hertogenbosch, Doubles" LeagueID="41052" ID="14377682" IsOption="0" EventType="0" MEID="5768606">
+  <Participants>
+  <Participant1 Name="Muller / Nielsen" Home_Visiting="Home"/>
+  <Participant2 Name="Inglot / Klaasen" Home_Visiting="Visiting"/>
+  </Participants>
+  <MoneyLine Home="2.3" Away="1.59"/>
+  </Event>
+  <Event DateTimeGMT="10/06/2016 14:00:00" Branch="Tennis" Sport="Tennis" BranchID="6" League="WTA Nottingham" LeagueID="41045" ID="14377767" IsOption="0" EventType="0" MEID="5768632">
+  <Participants>
+  <Participant1 Name="Tara Moore [GBR]" Home_Visiting="Home"/>
+  <Participant2 Name="Saisai Zheng [CHN]" Home_Visiting="Visiting"/>
+  </Participants>
+  <MoneyLine Home="1.71" Away="2.1"/>
+  </Event>
+  <Event DateTimeGMT="10/06/2016 14:00:00" Branch="Tennis" Sport="Tennis" BranchID="6" League="ITF Women Essen" LeagueID="41412" ID="14377878" IsOption="0" EventType="0" MEID="5768690">
+  <Participants>
+  <Participant1 Name="Jana Cepelova [SVK]" Home_Visiting="Home"/>
+  <Participant2 Name="Karolina Muchova [CZE]" Home_Visiting="Visiting"/>
+  </Participants>
+  <MoneyLine Home="1.43" Away="2.6"/>
+  </Event>
+  <Event DateTimeGMT="10/06/2016 14:15:00" Branch="Tennis" Sport="Tennis" BranchID="6" League="Challenger Lyon" LeagueID="41062" ID="14378214" IsOption="0" EventType="0" MEID="5768816">
+  <Participants>
+  <Participant1 Name="Carlos Berlocq [ARG]" Home_Visiting="Home"/>
+  <Participant2 Name="Joao Souza [BRA]" Home_Visiting="Visiting"/>
+  </Participants>
+  <MoneyLine Home="1.27" Away="3.5"/>
+  </Event>
+  <Event DateTimeGMT="10/06/2016 17:00:00" Branch="Tennis" Sport="Tennis" BranchID="6" League="Challenger Caltanissetta" LeagueID="41060" ID="14378239" IsOption="0" EventType="0" MEID="5768832">
+  <Participants>
+  <Participant1 Name="Paolo Lorenzi [ITA]" Home_Visiting="Home"/>
+  <Participant2 Name="Gonzalo Lama [CHI]" Home_Visiting="Visiting"/>
+  </Participants>
+  <MoneyLine Home="1.34" Away="3.05"/>
+  </Event>
+  <Event DateTimeGMT="11/06/2016 09:00:00" Branch="Tennis" Sport="Tennis" BranchID="6" League="WTA Nottingham, Doubles" LeagueID="41054" ID="14378339" IsOption="0" EventType="0" MEID="5768899">
+  <Participants>
+  <Participant1 Name="Dabrowski / Z. Yang" Home_Visiting="Home"/>
+  <Participant2 Name="Broady / Sevastova" Home_Visiting="Visiting"/>
+  </Participants>
+  <MoneyLine Home="1.59" Away="2.25"/>
+  </Event>
+  <Event DateTimeGMT="11/06/2016 09:00:00" Branch="Tennis" Sport="Tennis" BranchID="6" League="WTA Nottingham, Doubles" LeagueID="41054" ID="14378340" IsOption="0" EventType="0" MEID="5768900">
+  <Participants>
+  <Participant1 Name="Hlavackova / Peng" Home_Visiting="Home"/>
+  <Participant2 Name="Pliskova / Pliskova" Home_Visiting="Visiting"/>
+  </Participants>
+  <MoneyLine Home="1.59" Away="2.25"/>
+  </Event>
+</Events>

@@ -14,8 +14,6 @@ use App\Models\Brands as brands;
 
         if (!empty($_SESSION['old'])) {
           $smarty->assign('old', $_SESSION['old']);
-        }else {
-          $smarty->assign('old',  ['brand' =>'' , 'product' => '' ]);
         }
 
 

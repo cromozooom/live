@@ -16,6 +16,7 @@ class HomeController extends Controller
         $sportType = array_keys($odds->getSportType());
 
 
+    
         $products = array_values(($brands));
         $allBrand = array_keys($brands);
         $language = $brand->getAllLanguages();
@@ -44,6 +45,7 @@ class HomeController extends Controller
       $xml = simplexml_load_file($xmlFile);
 
       $allBrand = array_keys($brands);
+
 
       $language = $brand->getAllLanguages();
       return $this->container->view->render($response, 'home.tpl',[

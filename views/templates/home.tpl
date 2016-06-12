@@ -3,11 +3,7 @@
   <link rel="stylesheet" href="{base_url}/css/styles.css" media="screen" title="no title" charset="utf-8">
 {/block}
 {block name=body}
-<nav class="navbar">
-  <div class="container">
-      {include file="layout/partial/nav/nav.tpl"}
-  </div>
-</nav>
+
 <section class="form">
   <div class="container">
     <div class="panel panel-default">
@@ -28,7 +24,7 @@
                      </div>
                      <select class="form-control" id="brandName" name="brand"  >
                          {foreach from=$brand item=brandName}
-                             <option value="{$brandName}" {if $brandName == $old.brand}selected{/if} >{$brandName}</option>
+                             <option value="{$brandName}" {if isset($old.brand) && $brandName == $old.brand}selected{/if} >{$brandName}</option>
                          {/foreach}
                       <span class="caret"></span>
                      </select>
@@ -42,7 +38,7 @@
                      <select class="form-control" id="productName" name="product">
 
                        {foreach from=$products item=productName}
-                           <option value="{$productName}" {if $productName == $old.product}selected{/if}>{$productName}</option>
+                           <option value="{$productName}" {if isset($old.product) && $productName == $old.product}selected{/if}>{$productName}</option>
                        {/foreach}
                      </select>
                    </div>
@@ -71,7 +67,7 @@
                         </div>
                         <select class="form-control" id="sportType" name="sportType">
                           {foreach from=$sportType  item=type}
-                              <option value="{$type}">{$type}</option>
+                              <option value="{$type}" {if isset($old.sportType) && $type == $old.sportType}selected{/if}>{$type}</option>
                           {/foreach}
                         </select>
 
@@ -100,7 +96,32 @@
       {/if} *}
       </div>
     </div>
+    {* End of panel *}
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        Select {if isset($old.sportType)}{$old.sportType}{/if} Matches
+      </div>
+      <div class="panel-body">
+        <form class="matches-select" action="index.html" method="post">
+            {if isset($xmlFeeds)}
+              {foreach from=$xmlFeeds  item=match}
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox" value="{$match.League}">
+                      <p>
+                        {$match.League} :: {$match->Participants->Participant1['Name']} VS {$match->Participants->Participant2['Name']} {$match['DateTimeGMT']}
+                      </p>
+                    </label>
+                  </div>
+              {/foreach}
+            {/if}
+        </form>
+      </div>
+    </div>
+    {* end of match select *}
   </div>
+  {* End of container *}
 </section>
 
 
