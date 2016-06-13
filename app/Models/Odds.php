@@ -32,6 +32,9 @@ class Odds
     public function getSportType(){
       return $this->sportType;
     }
+    public function getSportTypeFile($sportType){
+      return $this->sportType[$sportType]['file'];
+    }
     public function getXmlUrl(){
       // FIXME:0 Make $url display notthing when empty
         $BranchIdText = "&BranchID=".$this->BranchId;

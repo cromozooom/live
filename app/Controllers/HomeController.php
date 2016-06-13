@@ -16,7 +16,7 @@ class HomeController extends Controller
         $sportType = array_keys($odds->getSportType());
 
 
-    
+
         $products = array_values(($brands));
         $allBrand = array_keys($brands);
         $language = $brand->getAllLanguages();
@@ -41,13 +41,13 @@ class HomeController extends Controller
       $sportTypeId = $request->getParam('sportType');
 
       // FIXME: $sportTypeId has no value if we are not selected it.
-      $xmlFile = $odds->getSportType()[$sportTypeId]['file'];
+      $xmlFile = $odds->getSportTypeFile($sportTypeId);
       $xml = simplexml_load_file($xmlFile);
 
       $allBrand = array_keys($brands);
-
-
+      
       $language = $brand->getAllLanguages();
+
       return $this->container->view->render($response, 'home.tpl',[
         'brand' => $allBrand,
         'products'=>  $brands[$request->getParam('brand')],
