@@ -33,6 +33,9 @@ $app->add(new \App\Middleware\OldInputMiddleware($container));
 $container['HomeController'] = function ($container) {
     return new \App\Controllers\HomeController($container);
 };
+$container['LiveOddsController'] = function ($container) {
+    return new \App\Controllers\LiveOddsController($container);
+};
 
 
 
