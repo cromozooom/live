@@ -10,13 +10,7 @@
 </nav>
 
 <section class="odds-section">
-  {if isset($xmlFeeds)}
-    {foreach from=$xmlFeeds  item=match}
-      <tr>
-        <td>{$match.League}</td>
-        <td>{$match->Participants->Participant1['Name']} VS {$match->Participants->Participant2['Name']}</td>
-        <td>{$match['DateTimeGMT']}</td>
-      </tr>
+
   <div class="container-fluid">
       	<div class="row">
       		<div class="col-xs-12 text-center odd">
@@ -24,8 +18,8 @@
 
           		<div class="col-xs-6 col-xs-offset-3">
           			<div class="odd-name">
-          				<h2>Euro 2016, Groupe A (FRA)</h2>
-          				<h3>2016-06-15 21:00:00</h3>
+          				<h2></h2>
+          				<h3></h3>
           			</div>
           		</div>
           	</div>
@@ -36,9 +30,9 @@
           	<div class="row ">
           		<div class="col-xs-10 col-xs-offset-1 odd-match">
           			<div>
-          				<div id="home-name" class="col-xs-4 text-left"><h2>France</h2></div>
+          				<div id="home-name" class="col-xs-4 text-left"><h2></h2></div>
           				<div class="col-xs-4"><h2><span>V</span></h2></div>
-          				<div id="away-name" class="col-xs-4 text-right"><h2>Albanie</h2></div>
+          				<div id="away-name" class="col-xs-4 text-right"><h2></h2></div>
           			</div>
           		</div>
 
@@ -68,18 +62,46 @@
 
       	</div>
       	<!-- odd row -->
-    
-
-
       </div>
-      {/foreach}
-  {/if}
 </section>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="{base_url}/js/bootstrap.min.js"></script>
+<script>
 
+    var messages = [],
+    index = 0;
+    {if isset($xmlFeeds)}
+      {foreach from=$xmlFeeds  item=match}
+        messages.push(["{$match->Participants->Participant1['Name']}","{$match->Participants->Participant2['Name']}","{$match->MoneyLine['Home']}","{$match->MoneyLine['Draw']}","{$match->MoneyLine['Away']}","{$match['DateTimeGMT']}","{$match.League}"]);
+
+
+      {/foreach}
+    {/if}
+    function cycle() {
+
+      $('#home-name h2').text(messages[index][0]);
+        $('#away-name h2').text(messages[index][1]);
+        $('.home h3').text(messages[index][2]);
+        $('.draw h3').text(messages[index][3]);
+        $('.away h3').text(messages[index][4]);
+        $('.odd-name h3').text(messages[index][5]);
+        $('.odd-name h2').text(messages[index][6]);
+        index++;
+
+        if (index === messages.length) {
+            index = 0;
+        }
+
+        setTimeout(cycle, 5000);
+
+
+    }
+
+    cycle();
+
+</script>
 
 
 {/block}
