@@ -82,10 +82,11 @@
                  </div>
              </div>
            </div>
+         </form>
       </div>
     </div>
     {* End of panel *}
-
+  <form action="{path_for name='liveodds' data=["brand" => "netbet", "sportType" => "{$old.sportType}"]}" method="get" id="match-select">
     <div class="panel panel-default">
       <div class="panel-heading">
         <div class="row">
@@ -99,7 +100,7 @@
       </div>
 
       <div class="panel-body">
-        <form class="matches-select" action="index.html" method="post">
+
           <div >
             <table class="table table-condensed">
                 <thead>
@@ -125,7 +126,7 @@
               </table>
           </div>
 
-        </form>
+
       </div>
       {* End if panel body *}
       <div class="panel-footer">
@@ -139,6 +140,7 @@
 
       </div>
     </div>
+      </form>
     {* end of match select *}
   </div>
   {* End of container *}
