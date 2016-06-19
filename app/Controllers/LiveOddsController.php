@@ -17,22 +17,26 @@ class LiveOddsController extends Controller
       $xmlFile = $odds->getSportTypeFile($sportType);
       $xml = simplexml_load_file($xmlFile);
       $matchId = $request->getParams('MEID');
-      // FIXME: fix here 
-      // foreach ($xml as $key => $value) {
-      //   echo $value;
-      //   // foreach ($matchId as  $match) {
-      //   //
-      //   // }
-      //   // $displayOdds =
-      // }
-      // die();
+
+      foreach ($xml as $value) {
+        foreach ($matchId['MEID'] as $meId) {
+          if ($value['MEID'] == $meId ) {
+              $xmlFeeds[] = $value;
+          }
+        }
+      }
+      if (empty($xmlFeeds)) {
+        $xmlFeeds = $xml;
+      }
+
+
       $brand = $request->getAttribute('brand');
       $sportType = $request->getAttribute('sportType');
 
 
       $template = 'brand/'.$brand.'/template.tpl';
       return $this->container->view->render($response, $template,[
-        'xmlFeeds'=> $xml
+        'xmlFeeds'=> $xmlFeeds
       ]);
     }
 

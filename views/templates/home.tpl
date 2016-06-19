@@ -118,7 +118,7 @@
                         <td>{$match.League}</td>
                         <td>{$match->Participants->Participant1['Name']} VS {$match->Participants->Participant2['Name']}</td>
                         <td>{$match['DateTimeGMT']}</td>
-                        <td><input type="checkbox" name="MEID[]" value="{$match.ID}"></td>
+                        <td><input type="checkbox" name="MEID[]" value="{$match['MEID']}"></td>
                       </tr>
                     {/foreach}
                   {/if}

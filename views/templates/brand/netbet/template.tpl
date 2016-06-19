@@ -75,8 +75,6 @@
     {if isset($xmlFeeds)}
       {foreach from=$xmlFeeds  item=match}
         messages.push(["{$match->Participants->Participant1['Name']}","{$match->Participants->Participant2['Name']}","{$match->MoneyLine['Home']}","{$match->MoneyLine['Draw']}","{$match->MoneyLine['Away']}","{$match['DateTimeGMT']}","{$match.League}"]);
-
-
       {/foreach}
     {/if}
     function cycle() {
