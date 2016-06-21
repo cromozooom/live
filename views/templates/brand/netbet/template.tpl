@@ -10,7 +10,6 @@
 </nav>
 
 <section class="odds-section">
-
   <div class="container-fluid">
       	<div class="row">
       		<div class="col-xs-12 text-center odd">
@@ -52,7 +51,6 @@
           		</div>
           	</div>
           	<!-- end of numver -->
-
 			<div class="row">
 
 
@@ -62,7 +60,7 @@
 
       	</div>
       	<!-- odd row -->
-      </div>
+  </div>
 </section>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
