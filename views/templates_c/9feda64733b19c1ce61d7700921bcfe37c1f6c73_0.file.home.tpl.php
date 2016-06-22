@@ -1,33 +1,32 @@
 <?php
-/* Smarty version 3.1.29, created on 2016-04-26 10:48:34
+/* Smarty version 3.1.29, created on 2016-06-22 13:51:10
   from "C:\xampp\htdocs\slim\live\views\templates\home.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_571f2b62eadd98_20618793',
+  'unifunc' => 'content_576a7baee68d72_18400524',
   'file_dependency' => 
   array (
     '9feda64733b19c1ce61d7700921bcfe37c1f6c73' => 
     array (
       0 => 'C:\\xampp\\htdocs\\slim\\live\\views\\templates\\home.tpl',
-      1 => 1461660456,
+      1 => 1466596264,
       2 => 'file',
     ),
   ),
   'includes' => 
   array (
     'file:layout/base.tpl' => 1,
-    'file:layout/partial/nav/nav.tpl' => 1,
   ),
 ),false)) {
-function content_571f2b62eadd98_20618793 ($_smarty_tpl) {
+function content_576a7baee68d72_18400524 ($_smarty_tpl) {
 $_smarty_tpl->ext->_inheritance->init($_smarty_tpl, true);
 ?>
 
 <?php 
 $_smarty_tpl->ext->_inheritance->processBlock($_smarty_tpl, 0, 'head', array (
-  0 => 'block_31506571f2b62d65b91_86225645',
+  0 => 'block_14735576a7bae1d9ff9_03450885',
   1 => false,
   3 => 0,
   2 => 0,
@@ -36,7 +35,7 @@ $_smarty_tpl->ext->_inheritance->processBlock($_smarty_tpl, 0, 'head', array (
 
 <?php 
 $_smarty_tpl->ext->_inheritance->processBlock($_smarty_tpl, 0, 'body', array (
-  0 => 'block_3015767af855ffbb1_81251003',
+  0 => 'block_17436576a7bae26a873_34469595',
   1 => false,
   3 => 0,
   2 => 0,
@@ -47,7 +46,7 @@ $_smarty_tpl->ext->_inheritance->processBlock($_smarty_tpl, 0, 'body', array (
 $_smarty_tpl->smarty->ext->_subtemplate->render($_smarty_tpl, "file:layout/base.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 2, false);
 }
 /* {block 'head'}  file:home.tpl */
-function block_31506571f2b62d65b91_86225645($_smarty_tpl, $_blockParentStack) {
+function block_14735576a7bae1d9ff9_03450885($_smarty_tpl, $_blockParentStack) {
 ?>
 
   <link rel="stylesheet" href="<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['base_url'][0][0]->baseUrl(array(),$_smarty_tpl);?>
@@ -56,7 +55,7 @@ function block_31506571f2b62d65b91_86225645($_smarty_tpl, $_blockParentStack) {
 }
 /* {/block 'head'} */
 /* {block 'body'}  file:home.tpl */
-function block_3015767af855ffbb1_81251003($_smarty_tpl, $_blockParentStack) {
+function block_17436576a7bae26a873_34469595($_smarty_tpl, $_blockParentStack) {
 ?>
 
 
@@ -170,6 +169,7 @@ $_smarty_tpl->tpl_vars['lang'] = $__foreach_lang_2_saved_item;
                      </select>
                    </div>
                  </div>
+                 
 
                  </div>
                  
@@ -207,6 +207,22 @@ $_smarty_tpl->tpl_vars['type'] = $__foreach_type_3_saved_item;
                       </div>
 
                     </div>
+                    
+
+                    <div class="col-sm-4">
+                      <div class="input-group">
+                        <div class="input-group-btn">
+                          <button type="button" class="btn btn-primary">Display as</button>
+                        </div>
+                        <select class="form-control" name="display" >
+
+                             <option value="League"selected>League</option>
+                             <option value="Matchs">Matchs</option>
+
+
+                        </select>
+                      </div>
+                    </div>
                  </div>
                  <div class="row">
                    <div class="col-sm-4">
@@ -219,6 +235,7 @@ $_smarty_tpl->tpl_vars['type'] = $__foreach_type_3_saved_item;
       </div>
     </div>
     
+  <?php if (isset($_smarty_tpl->tpl_vars['old']->value['sportType'])) {?>
   <form action="<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['path_for'][0][0]->pathFor(array('name'=>'liveodds','data'=>array("brand"=>"netbet","sportType"=>((string)$_smarty_tpl->tpl_vars['old']->value['sportType']))),$_smarty_tpl);?>
 " method="get" id="match-select">
     <div class="panel panel-default">
@@ -298,7 +315,8 @@ $_smarty_tpl->tpl_vars['match'] = $__foreach_match_4_saved_item;
 
       </div>
     </div>
-      </form>
+  </form>
+  <?php }?>
     
   </div>
   

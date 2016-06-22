@@ -18,13 +18,16 @@ class LiveOddsController extends Controller
       $xml = simplexml_load_file($xmlFile);
       $matchId = $request->getParams('MEID');
 
-      foreach ($xml as $value) {
-        foreach ($matchId['MEID'] as $meId) {
-          if ($value['MEID'] == $meId ) {
-              $xmlFeeds[] = $value;
+      if (isset($matchId['MEID'])) {
+        foreach ($xml as $value) {
+          foreach ($matchId['MEID'] as $meId) {
+            if ($value['MEID'] == $meId ) {
+                $xmlFeeds[] = $value;
+            }
           }
         }
       }
+
       if (empty($xmlFeeds)) {
         $xmlFeeds = $xml;
       }

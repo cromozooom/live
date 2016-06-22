@@ -56,6 +56,7 @@
                      </select>
                    </div>
                  </div>
+                 {* End of languages selection *}
 
                  </div>
                  {* End of Brand dropdown row  *}
@@ -74,6 +75,21 @@
                       </div>
 
                     </div>
+                    {* End of Sport Type selection *}
+
+                    <div class="col-sm-4">
+                      <div class="input-group">
+                        <div class="input-group-btn">
+                          <button type="button" class="btn btn-primary">Display</button>
+                        </div>
+                        <select class="form-control" name="display" >
+
+                             <option value="League"selected>League</option>
+                             <option value="Matchs">Matchs</option>
+
+                        </select>
+                      </div>
+                    </div>
                  </div>
                  <div class="row">
                    <div class="col-sm-4">
@@ -86,61 +102,62 @@
       </div>
     </div>
     {* End of panel *}
-  <form action="{path_for name='liveodds' data=["brand" => "netbet", "sportType" => "{$old.sportType}"]}" method="get" id="match-select">
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <div class="row">
-          <div class="col-xs-6">
-            <h4>Select {if isset($old.sportType)}{$old.sportType}{/if} Matches</h4>
-          </div>
-          <div class="col-xs-6">
-            <button type="submit" class="btn btn-success pull-right">GENERATE LANDING PAGE</button>
+  {if isset($old.sportType) }
+    <form action="{path_for name='liveodds' data=["brand" => "netbet", "sportType" => "{$old.sportType}"]}" method="get" id="match-select">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <div class="row">
+            <div class="col-xs-6">
+              <h4>Select {if isset($old.sportType)}{$old.sportType}{/if} Matches</h4>
+            </div>
+            <div class="col-xs-6">
+              <button type="submit" class="btn btn-success pull-right">GENERATE LANDING PAGE</button>
+            </div>
           </div>
         </div>
+        <div class="panel-body">
+
+            <div >
+              <table class="table table-condensed">
+                  <thead>
+                    <tr>
+                      <th>League</th>
+                      <th>Match</th>
+                      <th>Time</th>
+                      <th>Select</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {if isset($xmlFeeds)}
+                      {foreach from=$xmlFeeds  item=match}
+                        <tr>
+                          <td>{$match.League}</td>
+                          <td>{$match->Participants->Participant1['Name']} VS {$match->Participants->Participant2['Name']}</td>
+                          <td>{$match['DateTimeGMT']}</td>
+                          <td><input type="checkbox" name="MEID[]" value="{$match['MEID']}"></td>
+                        </tr>
+                      {/foreach}
+                    {/if}
+                  </tbody>
+                </table>
+            </div>
+
+
+        </div>
+        {* End if panel body *}
+        <div class="panel-footer">
+            <ul class="pagination pagination-sm" style="margin: 0;">
+              <li class="active"><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+            </ul>
+
+        </div>
       </div>
-
-      <div class="panel-body">
-
-          <div >
-            <table class="table table-condensed">
-                <thead>
-                  <tr>
-                    <th>League</th>
-                    <th>Match</th>
-                    <th>Time</th>
-                    <th>Select</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {if isset($xmlFeeds)}
-                    {foreach from=$xmlFeeds  item=match}
-                      <tr>
-                        <td>{$match.League}</td>
-                        <td>{$match->Participants->Participant1['Name']} VS {$match->Participants->Participant2['Name']}</td>
-                        <td>{$match['DateTimeGMT']}</td>
-                        <td><input type="checkbox" name="MEID[]" value="{$match['MEID']}"></td>
-                      </tr>
-                    {/foreach}
-                  {/if}
-                </tbody>
-              </table>
-          </div>
-
-
-      </div>
-      {* End if panel body *}
-      <div class="panel-footer">
-          <ul class="pagination pagination-sm" style="margin: 0;">
-            <li class="active"><a href="#">1</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-            <li><a href="#">5</a></li>
-          </ul>
-
-      </div>
-    </div>
-      </form>
+    </form>
+  {/if}
     {* end of match select *}
   </div>
   {* End of container *}
