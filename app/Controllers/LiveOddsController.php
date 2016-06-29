@@ -17,11 +17,22 @@ class LiveOddsController extends Controller
       $xmlFile = $odds->getSportTypeFile($sportType);
       $xml = simplexml_load_file($xmlFile);
       $matchId = $request->getParams('MEID');
+      $league_id = $request->getParams('LeagueID');
 
       if (isset($matchId['MEID'])) {
         foreach ($xml as $value) {
           foreach ($matchId['MEID'] as $meId) {
             if ($value['MEID'] == $meId ) {
+                $xmlFeeds[] = $value;
+            }
+          }
+        }
+      }
+      elseif (isset($league_id['LeagueID'])) {
+        foreach ($xml as $value) {
+          foreach ($league_id['LeagueID'] as $key => $league) {
+            
+            if ($value['LeagueID'] == $league ) {
                 $xmlFeeds[] = $value;
             }
           }

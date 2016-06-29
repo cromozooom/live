@@ -41,6 +41,20 @@ class HomeController extends Controller
       $xml = simplexml_load_file($xmlFile);
 
       $allBrand = array_keys($brands);
+      $displayType = $request->getParam('display');
+      if ($displayType == 'League') {
+
+        foreach ($xml as $value) {
+          $leagues[(string)$value['LeagueID']] =   $value;
+        }
+        $xml = $leagues;
+      }
+      else{
+        foreach ($xml as $value) {
+          $matches[(string)$value['ID']] =   $value;
+        }
+        $xml = $matches;
+      }
 
       $language = $brand->getAllLanguages();
 

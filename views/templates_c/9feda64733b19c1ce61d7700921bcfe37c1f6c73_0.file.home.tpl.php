@@ -1,32 +1,34 @@
 <?php
-/* Smarty version 3.1.29, created on 2016-06-22 17:02:11
+/* Smarty version 3.1.29, created on 2016-06-29 13:43:26
   from "C:\xampp\htdocs\slim\live\views\templates\home.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_576aa8734858f1_63877121',
+  'unifunc' => 'content_5773b45e3b8520_39407638',
   'file_dependency' => 
   array (
     '9feda64733b19c1ce61d7700921bcfe37c1f6c73' => 
     array (
       0 => 'C:\\xampp\\htdocs\\slim\\live\\views\\templates\\home.tpl',
-      1 => 1466602312,
+      1 => 1467200430,
       2 => 'file',
     ),
   ),
   'includes' => 
   array (
     'file:layout/base.tpl' => 1,
+    'file:admin/select-match.tpl' => 1,
+    'file:admin/select-league.tpl' => 1,
   ),
 ),false)) {
-function content_576aa8734858f1_63877121 ($_smarty_tpl) {
+function content_5773b45e3b8520_39407638 ($_smarty_tpl) {
 $_smarty_tpl->ext->_inheritance->init($_smarty_tpl, true);
 ?>
 
 <?php 
 $_smarty_tpl->ext->_inheritance->processBlock($_smarty_tpl, 0, 'head', array (
-  0 => 'block_24058576aa86f6fa771_30411580',
+  0 => 'block_152195773b45d7a43a9_11533423',
   1 => false,
   3 => 0,
   2 => 0,
@@ -35,7 +37,7 @@ $_smarty_tpl->ext->_inheritance->processBlock($_smarty_tpl, 0, 'head', array (
 
 <?php 
 $_smarty_tpl->ext->_inheritance->processBlock($_smarty_tpl, 0, 'body', array (
-  0 => 'block_24491576aa86fc076f4_47072485',
+  0 => 'block_26085773b45d8407a9_36756429',
   1 => false,
   3 => 0,
   2 => 0,
@@ -46,7 +48,7 @@ $_smarty_tpl->ext->_inheritance->processBlock($_smarty_tpl, 0, 'body', array (
 $_smarty_tpl->smarty->ext->_subtemplate->render($_smarty_tpl, "file:layout/base.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 2, false);
 }
 /* {block 'head'}  file:home.tpl */
-function block_24058576aa86f6fa771_30411580($_smarty_tpl, $_blockParentStack) {
+function block_152195773b45d7a43a9_11533423($_smarty_tpl, $_blockParentStack) {
 ?>
 
   <link rel="stylesheet" href="<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['base_url'][0][0]->baseUrl(array(),$_smarty_tpl);?>
@@ -55,7 +57,7 @@ function block_24058576aa86f6fa771_30411580($_smarty_tpl, $_blockParentStack) {
 }
 /* {/block 'head'} */
 /* {block 'body'}  file:home.tpl */
-function block_24491576aa86fc076f4_47072485($_smarty_tpl, $_blockParentStack) {
+function block_26085773b45d8407a9_36756429($_smarty_tpl, $_blockParentStack) {
 ?>
 
 
@@ -212,13 +214,11 @@ $_smarty_tpl->tpl_vars['type'] = $__foreach_type_3_saved_item;
                     <div class="col-sm-4">
                       <div class="input-group">
                         <div class="input-group-btn">
-                          <button type="button" class="btn btn-primary">Display</button>
+                          <button type="button" class="btn btn-primary">Display by</button>
                         </div>
                         <select class="form-control" name="display" >
-
-                             <option value="League"selected>League</option>
-                             <option value="Matchs">Matchs</option>
-
+                             <option value="League" <?php if (isset($_smarty_tpl->tpl_vars['old']->value['display']) && 'League' == $_smarty_tpl->tpl_vars['old']->value['display']) {?>selected<?php }?>>League</option>
+                             <option value="Match" <?php if (isset($_smarty_tpl->tpl_vars['old']->value['display']) && 'Match' == $_smarty_tpl->tpl_vars['old']->value['display']) {?>selected<?php }?>>Match</option>
                         </select>
                       </div>
                     </div>
@@ -234,86 +234,14 @@ $_smarty_tpl->tpl_vars['type'] = $__foreach_type_3_saved_item;
       </div>
     </div>
     
-  <?php if (isset($_smarty_tpl->tpl_vars['old']->value['sportType'])) {?>
-    <form action="<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['path_for'][0][0]->pathFor(array('name'=>'liveodds','data'=>array("brand"=>"netbet","sportType"=>((string)$_smarty_tpl->tpl_vars['old']->value['sportType']))),$_smarty_tpl);?>
-" method="get" id="match-select">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <div class="row">
-            <div class="col-xs-6">
-              <h4>Select <?php if (isset($_smarty_tpl->tpl_vars['old']->value['sportType'])) {
-echo $_smarty_tpl->tpl_vars['old']->value['sportType'];
-}?> Matches</h4>
-            </div>
-            <div class="col-xs-6">
-              <button type="submit" class="btn btn-success pull-right">GENERATE LANDING PAGE</button>
-            </div>
-          </div>
-        </div>
-        <div class="panel-body">
-
-            <div >
-              <table class="table table-condensed">
-                  <thead>
-                    <tr>
-                      <th>League</th>
-                      <th>Match</th>
-                      <th>Time</th>
-                      <th>Select</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <?php if (isset($_smarty_tpl->tpl_vars['xmlFeeds']->value)) {?>
-                      <?php
-$_from = $_smarty_tpl->tpl_vars['xmlFeeds']->value;
-if (!is_array($_from) && !is_object($_from)) {
-settype($_from, 'array');
-}
-$__foreach_match_4_saved_item = isset($_smarty_tpl->tpl_vars['match']) ? $_smarty_tpl->tpl_vars['match'] : false;
-$_smarty_tpl->tpl_vars['match'] = new Smarty_Variable();
-$_smarty_tpl->tpl_vars['match']->_loop = false;
-foreach ($_from as $_smarty_tpl->tpl_vars['match']->value) {
-$_smarty_tpl->tpl_vars['match']->_loop = true;
-$__foreach_match_4_saved_local_item = $_smarty_tpl->tpl_vars['match'];
+  <?php if (isset($_smarty_tpl->tpl_vars['old']->value['display']) && 'Match' == $_smarty_tpl->tpl_vars['old']->value['display']) {?>
+    <?php $_smarty_tpl->smarty->ext->_subtemplate->render($_smarty_tpl, "file:admin/select-match.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
-                        <tr>
-                          <td><?php echo $_smarty_tpl->tpl_vars['match']->value['League'];?>
-</td>
-                          <td><?php echo $_smarty_tpl->tpl_vars['match']->value->Participants->Participant1['Name'];?>
- VS <?php echo $_smarty_tpl->tpl_vars['match']->value->Participants->Participant2['Name'];?>
-</td>
-                          <td><?php echo $_smarty_tpl->tpl_vars['match']->value['DateTimeGMT'];?>
-</td>
-                          <td><input type="checkbox" name="MEID[]" value="<?php echo $_smarty_tpl->tpl_vars['match']->value['MEID'];?>
-"></td>
-                        </tr>
-                      <?php
-$_smarty_tpl->tpl_vars['match'] = $__foreach_match_4_saved_local_item;
-}
-if ($__foreach_match_4_saved_item) {
-$_smarty_tpl->tpl_vars['match'] = $__foreach_match_4_saved_item;
-}
+
+  <?php } elseif (isset($_smarty_tpl->tpl_vars['old']->value['display']) && 'League' == $_smarty_tpl->tpl_vars['old']->value['display']) {?>
+    <?php $_smarty_tpl->smarty->ext->_subtemplate->render($_smarty_tpl, "file:admin/select-league.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
-                    <?php }?>
-                  </tbody>
-                </table>
-            </div>
 
-
-        </div>
-        
-        <div class="panel-footer">
-            <ul class="pagination pagination-sm" style="margin: 0;">
-              <li class="active"><a href="#">1</a></li>
-              <li><a href="#">2</a></li>
-              <li><a href="#">3</a></li>
-              <li><a href="#">4</a></li>
-              <li><a href="#">5</a></li>
-            </ul>
-
-        </div>
-      </div>
-    </form>
   <?php }?>
     
   </div>
