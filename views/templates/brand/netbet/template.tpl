@@ -1,6 +1,6 @@
 {extends 'layout/base.tpl'}
 {block name=head}
-  <link rel="stylesheet" href="{base_url}/css/styles.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="{base_url}/css/live-odds.css" media="screen" title="no title" charset="utf-8">
 {/block}
 {block name=body}
 <nav>
