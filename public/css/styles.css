@@ -5,6 +5,46 @@ nav{
 	background-color: black;
 	color: white;
 }
+.checkbox, .radio {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.checkbox input[type="checkbox"] {
+    cursor: pointer;
+    z-index: 1;
+    outline: none !important;
+}
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+    position: absolute;
+}
+.panel-border {
+    border-radius: 3px;
+}
+.panel-border.panel-primary .panel-heading {
+		border-color: #6cbbff !important;
+		color: #484848 !important;
+}
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.panel-border .panel-heading {
+    background-color: #ffffff;
+    border-top: 3px solid #3bafda !important;
+    border-radius: 3px;
+		border-bottom: 0;
+
+}
+
+
+.panel-border.panel-primary {
+    border-color: rgba(174, 180, 185, 0.25);
+}
+
+
+
 #logo{
 	margin: 10px 0 ;
 }

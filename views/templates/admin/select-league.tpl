@@ -13,7 +13,29 @@
     <div class="panel-body">
 
         <div >
-          <table class="table table-condensed">
+          {if isset($xmlFeeds)}
+            {foreach from=$xmlFeeds  item=match}
+              <div class="col-xs-4">
+                <div class="panel panel-border panel-primary">
+                  <div class="panel-heading">
+                        <div class="row">
+                          <div class="col-xs-10">
+                            <h3 class="panel-title">
+                            {$match.League}
+                            </h3>
+                          </div>
+                          <div class="col-xs-2">
+                            <div class="panel-title">
+                                <input  type="checkbox" name="LeagueID[]" value="{$match['LeagueID']}">
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            {/foreach}
+          {/if}
+          {* <table class="table table-condensed">
               <thead>
                 <tr>
                   <th>League</th>
@@ -31,7 +53,7 @@
                   {/foreach}
                 {/if}
               </tbody>
-            </table>
+            </table> *}
         </div>
 
 
