@@ -1,6 +1,12 @@
 {extends 'layout/base.tpl'}
 {block name=head}
   <link rel="stylesheet" href="{base_url}/css/styles.css" media="screen" title="no title" charset="utf-8">
+  <!-- DataTables CSS -->
+  <link href="{base_url}/css/dataTables.bootstrap.css" rel="stylesheet">
+  <!-- DataTables Responsive CSS -->
+
+  <!-- Custom Fonts -->
+  <link href="{base_url}/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 {/block}
 {block name=body}
 
@@ -19,7 +25,6 @@
                  <div class="col-sm-4">
                    <div class="input-group">
                      <div class="input-group-btn">
-
                            <button type="button" class="btn btn-primary">Brand</button>
                      </div>
                      <select class="form-control" id="brandName" name="brand"  >
@@ -115,5 +120,12 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="{base_url}/js/bootstrap.min.js"></script>
-
+<!-- DataTables JavaScript -->
+<script src="{base_url}/js/jquery.dataTables.min.js"></script>
+<script src="{base_url}/js/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript">
+    $(document).ready( function () {
+      $('#matchs-table').DataTable();
+    } );
+</script>
 {/block}

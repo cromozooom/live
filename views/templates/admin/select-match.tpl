@@ -5,15 +5,28 @@
         <div class="col-xs-6">
           <h4>Select {if isset($old.sportType)}{$old.sportType}{/if} Matches</h4>
         </div>
-        <div class="col-xs-6">
-          <button type="submit" class="btn btn-success pull-right">GENERATE LANDING PAGE</button>
+        <div class="col-xs-3 pull-right">
+          <div class="dropup">
+            <button class="btn btn-default btn-success dropdown-toggle pull-right" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              Landing Page Action
+              <span class="caret"></span>
+            </button>
+
+            <ul class="dropdown-menu pull-right" aria-labelledby="dropdownMenu1">
+              <li><a href="{base_url}/live-odds/netbet/{$old.sportType}"   target="_blank">Go to Landing Page</a></li>
+              <li><a href="#">Copy Landing Page link</a></li>
+              <li><a href="#">Preview</a></li>
+
+
+            </ul>
+          </div>
+
         </div>
       </div>
     </div>
     <div class="panel-body">
-
         <div >
-          <table class="table table-condensed">
+          <table class="table table-bordered table-hover" id="matchs-table">
               <thead>
                 <tr>
                   <th>League</th>
@@ -36,19 +49,7 @@
               </tbody>
             </table>
         </div>
-
-
     </div>
     {* End if panel body *}
-    <div class="panel-footer">
-        <ul class="pagination pagination-sm" style="margin: 0;">
-          <li class="active"><a href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#">4</a></li>
-          <li><a href="#">5</a></li>
-        </ul>
-
-    </div>
   </div>
 </form>

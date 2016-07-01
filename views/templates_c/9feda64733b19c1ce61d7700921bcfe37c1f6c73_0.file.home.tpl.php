@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2016-06-29 13:43:26
+/* Smarty version 3.1.29, created on 2016-07-01 15:40:41
   from "C:\xampp\htdocs\slim\live\views\templates\home.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5773b45e3b8520_39407638',
+  'unifunc' => 'content_577672d9aae5e9_95854614',
   'file_dependency' => 
   array (
     '9feda64733b19c1ce61d7700921bcfe37c1f6c73' => 
     array (
       0 => 'C:\\xampp\\htdocs\\slim\\live\\views\\templates\\home.tpl',
-      1 => 1467200430,
+      1 => 1467380439,
       2 => 'file',
     ),
   ),
@@ -22,13 +22,13 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
     'file:admin/select-league.tpl' => 1,
   ),
 ),false)) {
-function content_5773b45e3b8520_39407638 ($_smarty_tpl) {
+function content_577672d9aae5e9_95854614 ($_smarty_tpl) {
 $_smarty_tpl->ext->_inheritance->init($_smarty_tpl, true);
 ?>
 
 <?php 
 $_smarty_tpl->ext->_inheritance->processBlock($_smarty_tpl, 0, 'head', array (
-  0 => 'block_152195773b45d7a43a9_11533423',
+  0 => 'block_10581577672d8e8e8e3_72294992',
   1 => false,
   3 => 0,
   2 => 0,
@@ -37,7 +37,7 @@ $_smarty_tpl->ext->_inheritance->processBlock($_smarty_tpl, 0, 'head', array (
 
 <?php 
 $_smarty_tpl->ext->_inheritance->processBlock($_smarty_tpl, 0, 'body', array (
-  0 => 'block_26085773b45d8407a9_36756429',
+  0 => 'block_12138577672d90176e6_83875300',
   1 => false,
   3 => 0,
   2 => 0,
@@ -48,16 +48,24 @@ $_smarty_tpl->ext->_inheritance->processBlock($_smarty_tpl, 0, 'body', array (
 $_smarty_tpl->smarty->ext->_subtemplate->render($_smarty_tpl, "file:layout/base.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 2, false);
 }
 /* {block 'head'}  file:home.tpl */
-function block_152195773b45d7a43a9_11533423($_smarty_tpl, $_blockParentStack) {
+function block_10581577672d8e8e8e3_72294992($_smarty_tpl, $_blockParentStack) {
 ?>
 
   <link rel="stylesheet" href="<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['base_url'][0][0]->baseUrl(array(),$_smarty_tpl);?>
 /css/styles.css" media="screen" title="no title" charset="utf-8">
+  <!-- DataTables CSS -->
+  <link href="<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['base_url'][0][0]->baseUrl(array(),$_smarty_tpl);?>
+/css/dataTables.bootstrap.css" rel="stylesheet">
+  <!-- DataTables Responsive CSS -->
+
+  <!-- Custom Fonts -->
+  <link href="<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['base_url'][0][0]->baseUrl(array(),$_smarty_tpl);?>
+/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <?php
 }
 /* {/block 'head'} */
 /* {block 'body'}  file:home.tpl */
-function block_26085773b45d8407a9_36756429($_smarty_tpl, $_blockParentStack) {
+function block_12138577672d90176e6_83875300($_smarty_tpl, $_blockParentStack) {
 ?>
 
 
@@ -77,7 +85,6 @@ function block_26085773b45d8407a9_36756429($_smarty_tpl, $_blockParentStack) {
                  <div class="col-sm-4">
                    <div class="input-group">
                      <div class="input-group-btn">
-
                            <button type="button" class="btn btn-primary">Brand</button>
                      </div>
                      <select class="form-control" id="brandName" name="brand"  >
@@ -258,7 +265,22 @@ $_smarty_tpl->tpl_vars['type'] = $__foreach_type_3_saved_item;
  src="<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['base_url'][0][0]->baseUrl(array(),$_smarty_tpl);?>
 /js/bootstrap.min.js"><?php echo '</script'; ?>
 >
-
+<!-- DataTables JavaScript -->
+<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['base_url'][0][0]->baseUrl(array(),$_smarty_tpl);?>
+/js/jquery.dataTables.min.js"><?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['base_url'][0][0]->baseUrl(array(),$_smarty_tpl);?>
+/js/dataTables.bootstrap.min.js"><?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
+ type="text/javascript">
+    $(document).ready( function () {
+      $('#matchs-table').DataTable();
+    } );
+<?php echo '</script'; ?>
+>
 <?php
 }
 /* {/block 'body'} */
