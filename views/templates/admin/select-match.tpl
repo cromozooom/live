@@ -5,7 +5,7 @@
         <div class="col-xs-6">
           <h4>Select {if isset($old.sportType)}{$old.sportType}{/if} Matches</h4>
         </div>
-        <div class="col-xs-3 pull-right">
+        <div class="col-xs-4 pull-right">
           <div class="dropup">
             <button class="btn btn-default btn-success dropdown-toggle pull-right" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
               Landing Page Action
@@ -13,9 +13,28 @@
             </button>
 
             <ul class="dropdown-menu pull-right" aria-labelledby="dropdownMenu1">
-              <li><a href="{base_url}/live-odds/netbet/{$old.sportType}"   target="_blank">Go to Landing Page</a></li>
-              <li><a href="#">Copy Landing Page link</a></li>
-              <li><a href="#">Preview</a></li>
+
+              <li class="dropdown-header">Landing Page link</li>
+              <li>
+                    <div class="input-group" style="padding:1% 5%;">
+                      <input type="text" class="form-control" value="{base_url}/live-odds/netbet/{$old.sportType}">
+                      <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">copy!</button>
+                      </span>
+                    </div><!-- /input-group -->
+              </li>
+              <li role="separator" class="divider"></li>
+              <li class="dropdown-header">Display</li>
+              <li>
+
+                  <div class="btn-group center-block" role="group" aria-label="..." style="padding:1% 5%;">
+                    <button type="button" class="btn btn-default">On selection</button>
+                    <button type="button" class="btn btn-default">All match</button>
+                    <button type="button" class="btn btn-primary">Other...</button>
+                  </div>
+
+              </li>
+
 
 
             </ul>
