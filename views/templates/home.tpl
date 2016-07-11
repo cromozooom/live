@@ -120,6 +120,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="{base_url}/js/bootstrap.min.js"></script>
+<script src="{base_url}/js/clipboard.min.js"></script>
 <!-- DataTables JavaScript -->
 <script src="{base_url}/js/jquery.dataTables.min.js"></script>
 <script src="{base_url}/js/dataTables.bootstrap.min.js"></script>
@@ -127,5 +128,14 @@
     $(document).ready( function () {
       $('#matchs-table').DataTable();
     } );
+    $('#matchs-table input[type="checkbox"]').change(function(e){
+      if (this.checked) {
+        $current_url =  '{base_url}/live-odds/netbet/{$old.sportType}';
+        $('#landng-url').val().replace("placeholder", $current_url+ $(this).val());
+      }
+    });
+    range = document.createRange();
+    range.selectNode($('#copy-url'));
+    window.getSelection().addrange(range);
 </script>
 {/block}

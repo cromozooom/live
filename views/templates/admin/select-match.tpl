@@ -17,9 +17,9 @@
               <li class="dropdown-header">Landing Page link</li>
               <li>
                     <div class="input-group" style="padding:1% 5%;">
-                      <input type="text" class="form-control" value="{base_url}/live-odds/netbet/{$old.sportType}">
+                      <input id="landng-url"type="text" class="form-control" value="{base_url}/live-odds/netbet/{$old.sportType}">
                       <span class="input-group-btn">
-                        <button class="btn btn-default" type="button">copy!</button>
+                        <button id="copy-url" class="btn btn-default" type="button">copy!</button>
                       </span>
                     </div><!-- /input-group -->
               </li>
