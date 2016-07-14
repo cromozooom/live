@@ -2,3 +2,4 @@ composer.lock
 #Unit Test Compile Dir
 views/templates_c
 .imdone
+.idea
