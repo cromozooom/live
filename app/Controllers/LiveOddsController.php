@@ -9,25 +9,27 @@ class LiveOddsController extends Controller
 {
     public function index($request, $response)
     {
-      $brand = new brands;
-      $odds = new odds;
-      $brands = $brand->getAllBrands();
+        $brand = new brands;
+        $odds = new odds;
+        $brands = $brand->getAllBrands();
 
-      $sportType = $request->getAttribute('sportType');
-      $xmlFile = $odds->getSportTypeFile($sportType);
-      $xml = simplexml_load_file($xmlFile);
-      $matchId = $request->getParams('MEID');
-      $league_id = $request->getParams('LeagueID');
+        $sportType = $request->getAttribute('sportType');
+        $xmlFile = $odds->getSportTypeFile($sportType);
+        $xml = simplexml_load_file($xmlFile);
+        $matchId = $request->getParams('MEID');
+        $league_id = $request->getParams('LeagueID');
+        $lang = $request->getAttribute('lang');
+        $template = $request->getAttribute('template');
 
-      if (isset($matchId['MEID'])) {
-        foreach ($xml as $value) {
-          foreach ($matchId['MEID'] as $meId) {
-            if ($value['MEID'] == $meId ) {
-                $xmlFeeds[] = $value;
+        if (isset($matchId['MEID'])) {
+            foreach ($xml as $value) {
+                foreach ($matchId['MEID'] as $meId) {
+                    if ($value['MEID'] == $meId ) {
+                        $xmlFeeds[] = $value;
+                    }
+                }
             }
-          }
         }
-      }
       elseif (isset($league_id['LeagueID'])) {
         foreach ($xml as $value) {
           foreach ($league_id['LeagueID'] as $key => $league) {
@@ -48,7 +50,7 @@ class LiveOddsController extends Controller
       $sportType = $request->getAttribute('sportType');
 
 
-      $template = 'brand/'.$brand.'/template.tpl';
+      $template = 'brand/'.$brand.'/'.$sportType.'/'.$lang.'/'.$template.'/template.tpl';
       return $this->container->view->render($response, $template,[
         'xmlFeeds'=> $xmlFeeds
       ]);

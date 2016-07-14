@@ -20,7 +20,8 @@
         <form action="{path_for name='home'}" method="post" id="form-select">
            <div class="selected">
              <div class="brand-select-row">
-               <div  class="row">
+              <div class="row">
+               <div  class="col-sm-9">
 
                  <div class="col-sm-4">
                    <div class="input-group">
@@ -65,12 +66,12 @@
 
                  </div>
                  {* End of Brand dropdown row  *}
-                 <div class="row">
-                    <div class="col-sm-4">
-                      <div class="input-group">
-                        <div class="input-group-btn">
-                          <button type="button" class="btn btn-primary">Sport Type</button>
-                        </div>
+                 <div class="col-sm-3">
+                    <div class="col-sm-12">
+                      <div class="form-group">
+                        
+                            <label for="sportType">Sport</label>
+                       
                         <select class="form-control" id="sportType" name="sportType">
                           {foreach from=$sportType  item=type}
                               <option value="{$type}" {if isset($old.sportType) && $type == $old.sportType}selected{/if}>{$type}</option>
@@ -82,17 +83,30 @@
                     </div>
                     {* End of Sport Type selection *}
 
-                    <div class="col-sm-4">
-                      <div class="input-group">
-                        <div class="input-group-btn">
-                          <button type="button" class="btn btn-primary">Display by</button>
-                        </div>
+                    <div class="col-sm-12">
+                      <div class="form-group">
+                       
+                          <label for="display">Display</label>
+                        
                         <select class="form-control" name="display" >
                              <option value="League" {if isset($old.display) && 'League' == $old.display}selected{/if}>League</option>
                              <option value="Match" {if isset($old.display) && 'Match' == $old.display}selected{/if}>Match</option>
                         </select>
                       </div>
                     </div>
+                    
+                    <div class="col-sm-12">
+                      <div class="form-group">
+                        <label for="option">Option </label>
+                        <select class="form-control" name="option" >
+                             <option value="decimal" {if isset($old.option) && 'decimal' == $old.option}selected{/if}>Decimal</option>
+                             <option value="fractional" {if isset($old.option) && 'fractional' == $old.option}selected{/if}>Fractional</option>
+                        </select>
+                      </div>
+                     
+                    </div>
+                 </div>
+                 
                  </div>
                  <div class="row">
                    <div class="col-sm-4">

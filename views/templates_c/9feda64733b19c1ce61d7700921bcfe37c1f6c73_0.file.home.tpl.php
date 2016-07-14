@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2016-07-01 15:40:41
+/* Smarty version 3.1.29, created on 2016-07-14 18:22:51
   from "C:\xampp\htdocs\slim\live\views\templates\home.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_577672d9aae5e9_95854614',
+  'unifunc' => 'content_5787bc5b5c4268_45509876',
   'file_dependency' => 
   array (
     '9feda64733b19c1ce61d7700921bcfe37c1f6c73' => 
     array (
       0 => 'C:\\xampp\\htdocs\\slim\\live\\views\\templates\\home.tpl',
-      1 => 1467380439,
+      1 => 1468513298,
       2 => 'file',
     ),
   ),
@@ -22,13 +22,13 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
     'file:admin/select-league.tpl' => 1,
   ),
 ),false)) {
-function content_577672d9aae5e9_95854614 ($_smarty_tpl) {
+function content_5787bc5b5c4268_45509876 ($_smarty_tpl) {
 $_smarty_tpl->ext->_inheritance->init($_smarty_tpl, true);
 ?>
 
 <?php 
 $_smarty_tpl->ext->_inheritance->processBlock($_smarty_tpl, 0, 'head', array (
-  0 => 'block_10581577672d8e8e8e3_72294992',
+  0 => 'block_113755787bc5a6162e1_95922744',
   1 => false,
   3 => 0,
   2 => 0,
@@ -37,7 +37,7 @@ $_smarty_tpl->ext->_inheritance->processBlock($_smarty_tpl, 0, 'head', array (
 
 <?php 
 $_smarty_tpl->ext->_inheritance->processBlock($_smarty_tpl, 0, 'body', array (
-  0 => 'block_12138577672d90176e6_83875300',
+  0 => 'block_280285787bc5a6f4d69_36644514',
   1 => false,
   3 => 0,
   2 => 0,
@@ -48,7 +48,7 @@ $_smarty_tpl->ext->_inheritance->processBlock($_smarty_tpl, 0, 'body', array (
 $_smarty_tpl->smarty->ext->_subtemplate->render($_smarty_tpl, "file:layout/base.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 2, false);
 }
 /* {block 'head'}  file:home.tpl */
-function block_10581577672d8e8e8e3_72294992($_smarty_tpl, $_blockParentStack) {
+function block_113755787bc5a6162e1_95922744($_smarty_tpl, $_blockParentStack) {
 ?>
 
   <link rel="stylesheet" href="<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['base_url'][0][0]->baseUrl(array(),$_smarty_tpl);?>
@@ -65,7 +65,7 @@ function block_10581577672d8e8e8e3_72294992($_smarty_tpl, $_blockParentStack) {
 }
 /* {/block 'head'} */
 /* {block 'body'}  file:home.tpl */
-function block_12138577672d90176e6_83875300($_smarty_tpl, $_blockParentStack) {
+function block_280285787bc5a6f4d69_36644514($_smarty_tpl, $_blockParentStack) {
 ?>
 
 
@@ -80,7 +80,8 @@ function block_12138577672d90176e6_83875300($_smarty_tpl, $_blockParentStack) {
 " method="post" id="form-select">
            <div class="selected">
              <div class="brand-select-row">
-               <div  class="row">
+              <div class="row">
+               <div  class="col-sm-9">
 
                  <div class="col-sm-4">
                    <div class="input-group">
@@ -182,12 +183,12 @@ $_smarty_tpl->tpl_vars['lang'] = $__foreach_lang_2_saved_item;
 
                  </div>
                  
-                 <div class="row">
-                    <div class="col-sm-4">
-                      <div class="input-group">
-                        <div class="input-group-btn">
-                          <button type="button" class="btn btn-primary">Sport Type</button>
-                        </div>
+                 <div class="col-sm-3">
+                    <div class="col-sm-12">
+                      <div class="form-group">
+                        
+                            <label for="sportType">Sport</label>
+                       
                         <select class="form-control" id="sportType" name="sportType">
                           <?php
 $_from = $_smarty_tpl->tpl_vars['sportType']->value;
@@ -218,17 +219,30 @@ $_smarty_tpl->tpl_vars['type'] = $__foreach_type_3_saved_item;
                     </div>
                     
 
-                    <div class="col-sm-4">
-                      <div class="input-group">
-                        <div class="input-group-btn">
-                          <button type="button" class="btn btn-primary">Display by</button>
-                        </div>
+                    <div class="col-sm-12">
+                      <div class="form-group">
+                       
+                          <label for="display">Display</label>
+                        
                         <select class="form-control" name="display" >
                              <option value="League" <?php if (isset($_smarty_tpl->tpl_vars['old']->value['display']) && 'League' == $_smarty_tpl->tpl_vars['old']->value['display']) {?>selected<?php }?>>League</option>
                              <option value="Match" <?php if (isset($_smarty_tpl->tpl_vars['old']->value['display']) && 'Match' == $_smarty_tpl->tpl_vars['old']->value['display']) {?>selected<?php }?>>Match</option>
                         </select>
                       </div>
                     </div>
+                    
+                    <div class="col-sm-12">
+                      <div class="form-group">
+                        <label for="option">Option </label>
+                        <select class="form-control" name="option" >
+                             <option value="decimal" <?php if (isset($_smarty_tpl->tpl_vars['old']->value['option']) && 'decimal' == $_smarty_tpl->tpl_vars['old']->value['option']) {?>selected<?php }?>>Decimal</option>
+                             <option value="fractional" <?php if (isset($_smarty_tpl->tpl_vars['old']->value['option']) && 'fractional' == $_smarty_tpl->tpl_vars['old']->value['option']) {?>selected<?php }?>>Fractional</option>
+                        </select>
+                      </div>
+                     
+                    </div>
+                 </div>
+                 
                  </div>
                  <div class="row">
                    <div class="col-sm-4">
@@ -242,10 +256,12 @@ $_smarty_tpl->tpl_vars['type'] = $__foreach_type_3_saved_item;
     </div>
     
   <?php if (isset($_smarty_tpl->tpl_vars['old']->value['display']) && 'Match' == $_smarty_tpl->tpl_vars['old']->value['display']) {?>
+  
     <?php $_smarty_tpl->smarty->ext->_subtemplate->render($_smarty_tpl, "file:admin/select-match.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 
   <?php } elseif (isset($_smarty_tpl->tpl_vars['old']->value['display']) && 'League' == $_smarty_tpl->tpl_vars['old']->value['display']) {?>
+
     <?php $_smarty_tpl->smarty->ext->_subtemplate->render($_smarty_tpl, "file:admin/select-league.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 
@@ -265,6 +281,10 @@ $_smarty_tpl->tpl_vars['type'] = $__foreach_type_3_saved_item;
  src="<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['base_url'][0][0]->baseUrl(array(),$_smarty_tpl);?>
 /js/bootstrap.min.js"><?php echo '</script'; ?>
 >
+<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['base_url'][0][0]->baseUrl(array(),$_smarty_tpl);?>
+/js/clipboard.min.js"><?php echo '</script'; ?>
+>
 <!-- DataTables JavaScript -->
 <?php echo '<script'; ?>
  src="<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['base_url'][0][0]->baseUrl(array(),$_smarty_tpl);?>
@@ -279,6 +299,17 @@ $_smarty_tpl->tpl_vars['type'] = $__foreach_type_3_saved_item;
     $(document).ready( function () {
       $('#matchs-table').DataTable();
     } );
+    $('#matchs-table input[type="checkbox"]').change(function(e){
+      if (this.checked) {
+        $current_url =  '<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['base_url'][0][0]->baseUrl(array(),$_smarty_tpl);?>
+/live-odds/netbet/<?php echo $_smarty_tpl->tpl_vars['old']->value['sportType'];?>
+';
+        $('#landng-url').val().replace("placeholder", $current_url+ $(this).val());
+      }
+    });
+    range = document.createRange();
+    range.selectNode($('#copy-url'));
+    window.getSelection().addrange(range);
 <?php echo '</script'; ?>
 >
 <?php
