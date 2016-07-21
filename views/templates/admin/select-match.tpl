@@ -1,4 +1,10 @@
-<form action="{path_for name='liveodds' data=["brand" => "netbet", "sportType" => "{$old.sportType}"]}" method="get" id="match-select">
+<form action="{path_for name='liveodds' data=[
+                    "brand" => "netbet", 
+                    "sportType" => "{$old.sportType}", 
+                    "lang" => "it", 
+                    "template" => "1",
+                    "option" => "{$old.option}"
+]}" method="get" id="match-select">
   <div class="panel panel-default">
     <div class="panel-heading">
       <div class="row">

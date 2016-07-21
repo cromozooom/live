@@ -30,12 +30,12 @@ class LiveOddsController extends Controller
                 }
             }
         }
-      elseif (isset($league_id['LeagueID'])) {
-        foreach ($xml as $value) {
-          foreach ($league_id['LeagueID'] as $key => $league) {
+        elseif (isset($league_id['LeagueID'])) {
+            foreach ($xml as $value) {
+                foreach ($league_id['LeagueID'] as $key => $league) {
             
-            if ($value['LeagueID'] == $league ) {
-                $xmlFeeds[] = $value;
+                    if ($value['LeagueID'] == $league ) {
+                    $xmlFeeds[] = $value;
             }
           }
         }
@@ -68,9 +68,16 @@ class LiveOddsController extends Controller
         $template = $request->getAttribute('template');
         $brand = $request->getAttribute('brand');
         
-        var_dump($request->getParams());
-     
-        
+        foreach ($xml as $value) {
+            foreach($request->getParams() as $ma_id => $ma_date){
+                if($ma_id == $value['MEID']){
+                    var_dump($ma_id);
+                    die;
+                }
+            }
+            
+        }
+       
         if (empty($xmlFeeds)) {
             $xmlFeeds = $xml;
         }
