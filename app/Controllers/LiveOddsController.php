@@ -67,12 +67,23 @@ class LiveOddsController extends Controller
         $lang = $request->getAttribute('lang');
         $template = $request->getAttribute('template');
         $brand = $request->getAttribute('brand');
+        $today = time(); 
+        
         
         foreach ($xml as $value) {
             foreach($request->getParams() as $ma_id => $ma_date){
+            
                 if($ma_id == $value['MEID']){
-                    var_dump($ma_id);
-                    die;
+                        
+                    $start_end = explode("end", $ma_date);
+                    $end_date = $start_end[1];
+                    $start_date = $start_end[0];
+                    
+                    if($today >= $start_date && $today <= $end_date){
+                        $xmlFeeds[] = $value;
+                        
+                    }
+                    
                 }
             }
             
