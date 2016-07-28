@@ -7,6 +7,9 @@
 
   <!-- Custom Fonts -->
   <link href="{base_url}/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="{base_url}/css/bootstrap-datetimepicker.min.css" rel="stylesheet" type="text/css">
+  <link href="{base_url}/css/bootstrap-datetimepicker-standalone.css" rel="stylesheet" type="text/css">
+
 {/block}
 {block name=body}
 
@@ -69,9 +72,9 @@
                  <div class="col-sm-3">
                     <div class="col-sm-12">
                       <div class="form-group">
-                        
+
                             <label for="sportType">Sport</label>
-                       
+
                         <select class="form-control" id="sportType" name="sportType">
                           {foreach from=$sportType  item=type}
                               <option value="{$type}" {if isset($old.sportType) && $type == $old.sportType}selected{/if}>{$type}</option>
@@ -85,16 +88,17 @@
 
                     <div class="col-sm-12">
                       <div class="form-group">
-                       
+
                           <label for="display">Display</label>
-                        
+
                         <select class="form-control" name="display" >
                              <option value="League" {if isset($old.display) && 'League' == $old.display}selected{/if}>League</option>
                              <option value="Match" {if isset($old.display) && 'Match' == $old.display}selected{/if}>Match</option>
+                            <option value="Date" {if isset($old.display) && 'Date' == $old.display}selected{/if}>Date</option>
                         </select>
                       </div>
                     </div>
-                    
+
                     <div class="col-sm-12">
                       <div class="form-group">
                         <label for="option">Option </label>
@@ -103,10 +107,10 @@
                              <option value="fractional" {if isset($old.option) && 'fractional' == $old.option}selected{/if}>Fractional</option>
                         </select>
                       </div>
-                     
+
                     </div>
                  </div>
-                 
+
                  </div>
                  <div class="row">
                    <div class="col-sm-4">
@@ -123,6 +127,8 @@
     {include file="admin/select-match.tpl"}
   {elseif isset($old.display) && 'League' == $old.display}
     {include file="admin/select-league.tpl"}
+  {elseif isset($old.display) && 'Date' == $old.display}
+    {include file="admin/select-date.tpl"}
   {/if}
     {* end of match select *}
   </div>
@@ -131,13 +137,17 @@
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="{base_url}/js/bootstrap.min.js"></script>
 <script src="{base_url}/js/clipboard.min.js"></script>
 <!-- DataTables JavaScript -->
 <script src="{base_url}/js/jquery.dataTables.min.js"></script>
 <script src="{base_url}/js/dataTables.bootstrap.min.js"></script>
+<script src="{base_url}/js/moment.js"></script>
+<script src="{base_url}/js/bootstrap-datetimepicker.min.js"></script>
+
 <script type="text/javascript">
     $(document).ready( function () {
       $('#matchs-table').DataTable();
@@ -148,8 +158,8 @@
         $('#landng-url').val().replace("placeholder", $current_url+ $(this).val());
       }
     });
-    range = document.createRange();
-    range.selectNode($('#copy-url'));
-    window.getSelection().addrange(range);
-</script>
+
+
+    $('.datetimepicker2').datetimepicker();
+  </script>
 {/block}
