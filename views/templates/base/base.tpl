@@ -18,7 +18,7 @@
     {block name=head}
     {* Head content here *}
     {/block}
-    {include file="layout/include/analytics.tpl" }
+    {include file="base/include/analytics.tpl" }
     </head>
   </head>
   <body>

@@ -79,7 +79,25 @@ nav{
 	border-top-right-radius: 4px !important;
 	border-bottom-right-radius: 4px !important;
 }
+input[type=radio]:checked {
+    content: "\2022";
+    color: #f3f3f3;
+    font-size: 30px;
+    text-align: center;
+    line-height: 18px;
+}
 
+input[type=checkbox] {
+	padding-left: 35px;
+	height: 30px;
+	display: inline-block;
+	line-height: 30px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	font-size: 30px;
+	vertical-align: middle;
+	cursor: pointer;
+}
  /*==========  Non-Mobile First Method  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {

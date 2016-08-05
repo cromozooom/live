@@ -19,7 +19,7 @@ class HomeController extends Controller
         $allBrand = array_keys($brands);
         $language = $brand->getAllLanguages();
 
-        return $this->container->view->render($response, 'home.tpl',[
+        return $this->container->view->render($response, 'pages/admin/home.tpl',[
           'brand' => $allBrand,
           'products'=>  $products[0],
           'languages'=> $language,
@@ -58,7 +58,7 @@ class HomeController extends Controller
 
       $language = $brand->getAllLanguages();
 
-      return $this->container->view->render($response, 'home.tpl',[
+      return $this->container->view->render($response, 'pages/admin/home.tpl',[
         'brand' => $allBrand,
         'products'=>  $brands[$request->getParam('brand')],
         'languages'=> $language,
