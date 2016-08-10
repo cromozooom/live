@@ -120,7 +120,7 @@
               <div class="col-xs-6">
                 <label class="control-label">Start:</label>
                 <div class="form-group">
-                  <div class='input-group date datetimepicker2'>
+                  <div class='input-group date datetimepickerstart'>
                       <input type='text' class="form-control" />
                       <span class="input-group-addon">
                           <span class="glyphicon glyphicon-calendar"></span>
@@ -131,7 +131,7 @@
               <div class="col-xs-6">
                 <label class="control-label">End:</label>
                 <div class="form-group">
-                  <div class='input-group date datetimepicker2'>
+                  <div class='input-group date datetimepickerend'>
                       <input type='text' class="form-control" />
                       <span class="input-group-addon">
                           <span class="glyphicon glyphicon-calendar"></span>

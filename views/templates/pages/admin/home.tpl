@@ -180,9 +180,21 @@
       $('#matchs-table tbody').on('click', '.btn', function () {
 
           var data = table.row( this ).data();
-          $('#myModalLabel').text('Start and End date');
+          $('#myModalLabel').text('Start and End date to display on Landing page');
       } );
 
-    $('.datetimepicker2').datetimepicker();
+
+    $('.datetimepickerstart').datetimepicker({
+        minDate: moment()
+    });
+    $('.datetimepickerend').datetimepicker({
+            useCurrent: false //Important! See issue #1075
+    });
+    $(".datetimepickerstart").on("dp.change", function (e) {
+      $('.datetimepickerend').data("DateTimePicker").minDate(e.date);
+    });
+    $(".datetimepickerend").on("dp.change", function (e) {
+        $('.datetimepickerstart').data("DateTimePicker").maxDate(e.date);
+    });
   </script>
 {/block}
