@@ -1,7 +1,7 @@
 <form action="{path_for name='liveodds' data=[
-                    "brand" => "netbet", 
-                    "sportType" => "{$old.sportType}", 
-                    "lang" => "it", 
+                    "brand" => "netbet",
+                    "sportType" => "{$old.sportType}",
+                    "lang" => "it",
                     "template" => "1",
                     "option" => "{$old.option}"
 ]}" method="get" id="match-select">
@@ -50,7 +50,7 @@
       </div>
     </div>
     <div class="panel-body">
-        <div >
+        <div>
           <table class="table table-bordered table-hover" id="matchs-table">
               <thead>
                 <tr>

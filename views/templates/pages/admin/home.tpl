@@ -196,5 +196,9 @@
     $(".datetimepickerend").on("dp.change", function (e) {
         $('.datetimepickerstart').data("DateTimePicker").maxDate(e.date);
     });
+
+    $("[btn-*]").click( function(){
+      $(this).removeClass("btn-primary");
+    });
   </script>
 {/block}

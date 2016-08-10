@@ -93,7 +93,7 @@
                       <td>{$match->Participants->Participant1['Name']} VS {$match->Participants->Participant2['Name']}</td>
                       <td>{$match['DateTimeGMT']}</td>
                       <td>
-                        <button type="button" data-toggle="modal" class="center-block btn btn-primary" data-target="#myModal">Select Date and Time</button>
+                        <button id="btn-{$match['MEID']}" type="button" data-toggle="modal" class="center-block btn btn-primary" data-target="#myModal">Select Date and Time</button>
                       </td>
                     </tr>
                   {/foreach}

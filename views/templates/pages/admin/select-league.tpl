@@ -17,9 +17,7 @@
       </div>
     </div>
     <div class="panel-body">
-
         <div >
-
           <table class="table table-bordered table-hover" id="matchs-table">
               <thead>
                 <tr>
@@ -42,6 +40,5 @@
         </div>
     </div>
     {* End if panel body *}
-
   </div>
 </form>
