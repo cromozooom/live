@@ -1,6 +1,6 @@
 {extends 'base/base.tpl'}
 {block name=head}
-  <link rel="stylesheet" href="{base_url}/css/live-odds.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="{base_url}/css/app.css" media="screen" title="no title" charset="utf-8">
 {/block}
 {block name=body}
 <nav>
@@ -10,7 +10,7 @@
 </nav>
 
 <section class="odds-section">
-  <div class="container-fluid">
+  <div class="container-fluid wrapper">
       	<div class="row">
       		<div class="col-xs-12 text-center odd">
         	<div class="row">

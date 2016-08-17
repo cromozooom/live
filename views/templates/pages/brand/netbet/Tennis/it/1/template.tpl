@@ -5,7 +5,7 @@
 {block name=body}
 <nav>
   <div class="container">
-    {include file="base/partial/nav/nav.tpl"}
+    {include file="base/partial/nav/nav.tpl" }
   </div>
 </nav>
 

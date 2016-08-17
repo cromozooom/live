@@ -1,13 +1,13 @@
 {extends 'base/base.tpl'}
 {block name=head}
-  <link rel="stylesheet" href="{base_url}/css/styles.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="{base_url}/css/app.css" media="screen" title="no title" charset="utf-8">
   <!-- DataTables CSS -->
-  <link href="{base_url}/css/dataTables.bootstrap.css" rel="stylesheet">
+  {* <link href="{base_url}/css/dataTables.bootstrap.css" rel="stylesheet"> *}
   <!-- DataTables Responsive CSS -->
 
   <!-- Custom Fonts -->
-  <link href="{base_url}/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="{base_url}/css/bootstrap-datetimepicker.min.css" rel="stylesheet" type="text/css">
+  {* <link href="{base_url}/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="{base_url}/css/bootstrap-datetimepicker.min.css" rel="stylesheet" type="text/css"> *}
 
 
 {/block}

@@ -37,6 +37,10 @@ $container['LiveOddsController'] = function ($container) {
     return new \App\Controllers\LiveOddsController($container);
 };
 
+//Style Guide
+$container['StyleGuideController'] = function ($container) {
+    return new \App\Controllers\StyleGuideController($container);
+};
 
 
 require __DIR__.'/../app/routes.php';
